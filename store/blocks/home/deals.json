@@ -1,13 +1,12 @@
 {
   "flex-layout.row#deals": {
     "children": [
-      "flex-layout.col#deals1",
       "flex-layout.col#deals2",
       "flex-layout.col#deals3",
       "flex-layout.col#deals4"
     ],
     "props": {
-      "blockClass": "deals"
+      "blockClass": "deals-container"
     }
   },
 
@@ -15,12 +14,15 @@
     "children": [
       "image#deal1",
       "rich-text#deal1"
-    ]
+    ],
+    "props": {
+      "blockClass": "deals--red"
+    }
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
+      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/dee2b74a-d85b-4267-8f71-3903404b8a45___d3bfb3096ee5ee4bac4e7154b8fad73f.png",
+      "blockClass": "deals-image"
     }
   },
   "rich-text#deal1": {
@@ -33,17 +35,20 @@
     "children": [
       "image#deal2",
       "rich-text#deal2"
-    ]
+    ],
+    "props": {
+      "blockClass": "deals--red"
+    }
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/dee2b74a-d85b-4267-8f71-3903404b8a45___d3bfb3096ee5ee4bac4e7154b8fad73f.png",
+      "blockClass": "deals-image"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "DUIZEND EN ÉÉN CADEAUTIPS\nSmaakvolle biercadeaus!",
       "blockClass": "deals"
     }
   },
@@ -51,17 +56,20 @@
     "children": [
       "image#deal3",
       "rich-text#deal3"
-    ]
+    ],
+    "props": {
+      "blockClass": "deals--red"
+    }
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-      "maxHeight": "24px"
+      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/094a1531-44dd-483b-8a66-3312ea45cb40___ec26d4cfe6210355123db8d09b7e1c67.png",
+      "blockClass": "deals-image"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "TAPVAATJES RETOURNEREN\nRetourneer bij de supermarkt & krijg € 5,- statiegeld",
       "blockClass": "deals"
     }
   },
@@ -69,17 +77,20 @@
     "children": [
       "image#deal4",
       "rich-text#deal4"
-    ]
+    ],
+    "props": {
+      "blockClass": "deals--red"
+    }
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/8889baeb-51b0-47ed-b9ed-521b1c83fa22___dd6ba6842464baa6541d9f8de1ef883a.png",
+      "blockClass": "deals-image"
     }
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "THUISBEZORGD\nBinnen 3-5 werkdagen in huis*",
       "blockClass": "deals"
     }
   }

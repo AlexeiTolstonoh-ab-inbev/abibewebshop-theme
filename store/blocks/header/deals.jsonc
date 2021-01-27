@@ -1,0 +1,131 @@
+{
+"menu-item#deals": {
+    "props": {
+      "id": "menu-item-deals",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Deals",
+        "text": "Deals"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#deals"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#deals": {
+    "props": {
+      "blockClass": "submenu-top",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#deals"
+    ]
+  },
+  "vtex.menu@2.x:menu#deals": {
+    "props": {
+      "blockClass": "submenu-top-wrapper",
+      "orientation": "vertical"
+    },
+    "children": [
+"menu-item#promotions","menu-item#special-packs",
+"menu-item#others", "menu-item#exclusivities",
+"menu-item#last-chance","menu-item#beer-subscription"
+    ]
+  },
+    "menu-item#promotions": {
+      "props": {
+        "id": "menu-item-promotions",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Promotions",
+          "text": "Promotions"
+        }
+      }
+    },
+       "menu-item#special-packs": {
+         "props": {
+           "id": "menu-item-special-packs",
+           "type": "custom",
+           "iconId": null,
+           "highlight": false,
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Special Packs",
+             "text": "Special Packs"
+           }
+         }
+       },
+        "menu-item#others": {
+          "props": {
+            "id": "menu-item-others",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Others",
+              "text": "Others"
+            }
+          }
+        },
+            "menu-item#exclusivities": {
+              "props": {
+                "id": "menu-item-exclusivities",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Exclusivities",
+                  "text": "Exclusivities"
+                }
+              }
+            },
+            "menu-item#last-chance": {
+              "props": {
+                "id": "menu-item-last-chance",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "Last Chance",
+                  "text": "Last Chance"
+                }
+              }
+            },
+       "menu-item#beer-subscription": {
+                  "props": {
+                    "id": "menu-item-beer-subscription",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "BEER SUBSCRIPTION",
+                      "text": "BEER SUBSCRIPTION"
+                    }
+                  }
+                }
+}

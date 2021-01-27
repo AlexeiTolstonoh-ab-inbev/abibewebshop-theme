@@ -1,6 +1,34 @@
+:global(.vtex-store__template){
+  max-width: 1520px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--deals-container){
+  background-color: #262424;
+}
+:global(.vtex-flex-layout-0-x-flexCol--deals--red) {
+  display: flex;
+  justify-content: center;
+  background-color: #262424;
+  align-items: center;
+  padding: 10px;
+}
+.flexColChild--deals--red{
+  background-color: #262424;
+  display: flex;
+  justify-content: center;
+}
+.flexRow--deals-container{
+  background: #262424;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent){
+  background: none;
 }
 
 @media screen and (min-width: 40em) {
@@ -9,21 +37,21 @@
     padding: 0 1rem;
   }
 }
+
 @media screen and (min-width: 80rem) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 0.25rem;
   }
-}
+
 
 .flexRowContent--menu-link {
   background-color: #03044e;
   color: #fff;
 }
-
-.flexRowContent--main-header {
-  background-color: #f0f0f0;
-}
+  .flexRowContent--main-header {
+    background-color: #f0f0f0;
+  }
 
 .flexRowContent--main-header-mobile {
   align-items: center;
@@ -39,9 +67,9 @@
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
   font-size: 14px;
-}
+  }
 .flexRow--deals {
-  background-color: #a7afbd;
+  background-color: #b12025;
   padding: 14px 0px;
 }
 
@@ -51,6 +79,9 @@
 
 .flexRow--deals .flexCol {
   align-items: center;
+}
+.col--deals4{
+  background: #b12025;
 }
 
 .flexCol--filterCol {
@@ -95,4 +126,29 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+.flexRow--collage-collumText{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.flexRowContent--collage-container{
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flexColChild--collage-colWrapper{
+  background: #b12025;
+  text-align: center;
+  width: 50%;
+}
+
+.flexColChild--collage-collumText{
+  padding: 0 57px;
+}
 }

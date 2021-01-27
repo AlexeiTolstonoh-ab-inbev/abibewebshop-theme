@@ -3,9 +3,30 @@
   text-align: center;
   justify-content: center;
 }
+.paragraph--copyrightFooter,.paragraph--copyrightResponse{
+  font-size: 13px;
+}
+.container--title {
+  color: #b12025;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 60%;
+}
 
+.heading--shelfTitle{
+  color: #b12025;
+}
+
+.container--title .paragraph {
+  line-height: 1.3em;
+}
+.paragraph--brandTitle{
+  color: firebrick;
+  font-size: 2.14em;
+  font-weight: bold;
+}
 .container--shelfTitle {
-  color: #727273;
+  color: #b12025;
   justify-content: center;
   text-align: center;
 }
@@ -76,15 +97,10 @@
   .container--about {
     max-width: 85%;
   }
-
-  .container--title {
-    color: #03034E;
-    font-size: 40px;
-    font-weight: 700;
-    max-width: 60%;
+  .heading--shelfTitle{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
   }
 
-  .container--title .paragraph {
-    line-height: 1.3em;
-  }
 }

@@ -7,39 +7,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [4.2.1] - 2020-12-14
-### Fixed
-- Unnecessary `max-width` style in the input of `search-bar` block which causes the style to break when the `search-bar` needs to be bigger`.
-
-## [4.2.0] - 2020-11-30
-### Added
-- Example of [vtex.store-video](https://github.com/vtex-apps/store-video) usage.
-
-## [4.1.0] - 2020-11-16
-### Changed
-- Update `vtex.order-placed@1.x` to `vtex.order-placed@2.x`.
-
-## [4.0.0] - 2020-10-30
-### Added
-- Example of [vtex.product-specifications](https://github.com/vtex-apps/product-specifications) usage.
-
-### Changed
-- Use new major of [vtex.reviews-and-ratings](https://github.com/vtex-apps/reviews-and-ratings).
-
-## [3.41.0] - 2020-10-08
-### Added
-- Example of [vtex.product-highlight](https://github.com/vtex-apps/product-highlights) usage.
-
-### Changed
-- Change files and folder structure so it's easier to find the blocks.
-
-### Removed
-- Unused blocks.
-
-## [3.40.0] - 2020-10-07
-### Added
-- "Contact us" page as example of [vtex.store-form](https://github.com/vtex-apps/store-form) usage.
-
 ## [3.39.2] - 2020-10-06
 ### Fixed
 - `minicart.v2` opening itself on **all** `addToCart` events, including the ones triggered by quantity changes in the checkout cart.

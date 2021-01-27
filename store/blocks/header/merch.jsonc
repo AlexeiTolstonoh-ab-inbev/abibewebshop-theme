@@ -1,0 +1,319 @@
+  {
+  "menu-item#merch":{
+    "props": {
+      "id": "menu-item-merch",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Merch",
+        "text": "Merch"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#merch"
+    ]
+  },
+   "vtex.menu@2.x:submenu#merch": {
+      "props": {
+        "blockClass": "submenu-top",
+        "width": "auto"
+      },
+      "children": [
+        "flex-layout.row#merch"
+      ]
+    },
+    "flex-layout.row#merch": {
+    "props":{
+      "blockClass": "submenu-top-wrapper"
+      },
+        "children": [
+          "flex-layout.col#menu-merch-brands-1",
+          "flex-layout.col#menu-merch-type-2"
+        ]
+      },
+      "flex-layout.col#menu-merch-brands-1": {
+        "children": [
+          "vtex.menu@2.x:menu#merch-brands"
+        ]
+      },
+      "flex-layout.col#menu-merch-type-2": {
+        "children": [
+          "vtex.menu@2.x:menu#merch-types"
+        ]
+      },
+  "vtex.menu@2.x:menu#merch-brands": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+     "menu-item#per-brand",
+      "menu-item#jupiler",
+      "menu-item#stella-artois",
+      "menu-item#leffe",
+      "menu-item#tripel-karmeliet",
+      "menu-item#corona",
+      "menu-item#victoria"
+    ]
+  },
+
+    "menu-item#per-brand": {
+      "props": {
+      "blockClass":"head-of-category",
+        "id": "menu-item-per-brand",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Per brand",
+          "text": "Per brand"
+        }
+      }
+    },
+      "menu-item#jupiler": {
+        "props": {
+          "id": "menu-item-jupiler",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Jupiler",
+            "text": "Jupiler"
+          }
+        }
+      },
+        "menu-item#stella-artois": {
+          "props": {
+            "id": "menu-item-stella-artois",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": true,
+              "tagTitle": "Stella Artois",
+              "text": "Stella Artois"
+            }
+          }
+        },
+          "menu-item#leffe": {
+            "props": {
+              "id": "menu-item-leffe",
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Leffe",
+                "text": "Leffe"
+              }
+            }
+          },
+            "menu-item#tripel-karmeliet": {
+              "props": {
+                "id": "menu-item-tripel-karmeliet",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": true,
+                  "tagTitle": "Tripel Karmeliet",
+                  "text": "Tripel Karmeliet"
+                }
+              }
+            },
+ "menu-item#corona": {
+              "props": {
+                "id": "menu-item-corona",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": true,
+                  "tagTitle": "Corona",
+                  "text": "Corona"
+                }
+              }
+            },
+  "menu-item#victoria": {
+               "props": {
+                 "id": "menu-item-victoria",
+                 "type": "custom",
+                 "iconId": null,
+                 "highlight": false,
+                 "itemProps": {
+                   "type": "internal",
+                   "href": "#",
+                   "noFollow": true,
+                   "tagTitle": "Victoria",
+                   "text": "Victoria"
+                 }
+               }
+             },
+   "menu-item#spirits": {
+                "props": {
+                  "id": "menu-item-spirits",
+                  "type": "custom",
+                  "iconId": null,
+                  "highlight": false,
+                  "itemProps": {
+                    "type": "internal",
+                    "href": "#",
+                    "noFollow": true,
+                    "tagTitle": "Spirits",
+                    "text": "Spirits"
+                  }
+                }
+              },
+       "vtex.menu@2.x:menu#merch-types": {
+         "props": {
+           "orientation": "vertical"
+         },
+         "children": [
+         "menu-item#per-type",
+         "menu-item#glasses",
+         "menu-item#clothes",
+         "menu-item#gifts",
+          "menu-item#organize-your-party",
+           "menu-item#eurocup",
+           "menu-item#festivals",
+           "menu-item#brewery-visits"
+         ]
+       },"menu-item#per-type": {
+                                "props": {
+                                    "blockClass":"head-of-category",
+                                  "id": "menu-item-per-type",
+                                  "type": "custom",
+                                  "iconId": null,
+                                  "highlight": false,
+                                  "itemProps": {
+                                    "type": "internal",
+                                    "href": "#",
+                                    "noFollow": true,
+                                    "tagTitle": "Per Type",
+                                    "text": "Per Type"
+                                  }
+                                }
+                              },
+          "menu-item#glasses": {
+                       "props": {
+                         "id": "menu-item-glasses",
+                         "type": "custom",
+                         "iconId": null,
+                         "highlight": false,
+                         "itemProps": {
+                           "type": "internal",
+                           "href": "#",
+                           "noFollow": true,
+                           "tagTitle": "Glasses",
+                           "text": "Glasses"
+                         }
+                       }
+                     },
+          "menu-item#clothes": {
+                       "props": {
+                         "id": "menu-item-clothes",
+                         "type": "custom",
+                         "iconId": null,
+                         "highlight": false,
+                         "itemProps": {
+                           "type": "internal",
+                           "href": "#",
+                           "noFollow": true,
+                           "tagTitle": "Clothes",
+                           "text": "Clothes"
+                         }
+                       }
+                     },
+                   "menu-item#gifts": {
+                                "props": {
+                                  "id": "menu-item-gifts",
+                                  "type": "custom",
+                                  "iconId": null,
+                                  "highlight": false,
+                                  "itemProps": {
+                                    "type": "internal",
+                                    "href": "#",
+                                    "noFollow": true,
+                                    "tagTitle": "Gifts",
+                                    "text": "Gifts"
+                                  }
+                                }
+                              },
+       "menu-item#organize-your-party": {
+         "props": {
+           "id": "menu-item-organize-your-party",
+           "type": "custom",
+           "iconId": null,
+           "highlight": false,
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": true,
+             "tagTitle": "Organize your party",
+             "text": "Organize your party"
+           }
+         }
+       },
+              "menu-item#eurocup": {
+                "props": {
+                  "id": "menu-item-eurocup",
+                  "type": "custom",
+                  "iconId": null,
+                  "highlight": false,
+                  "itemProps": {
+                    "type": "internal",
+                    "href": "#",
+                    "noFollow": true,
+                    "tagTitle": "Eurocup",
+                    "text": "Eurocup"
+                  }
+                }
+              },
+         "menu-item#festivals": {
+           "props": {
+             "id": "menu-item-festivals",
+             "type": "custom",
+             "iconId": null,
+             "highlight": false,
+             "itemProps": {
+               "type": "internal",
+               "href": "#",
+               "noFollow": true,
+               "tagTitle": "Festivals",
+               "text": "Festivals"
+             }
+           }
+         },
+            "menu-item#brewery-visits": {
+              "props": {
+                "id": "menu-item-brewery-visits",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": true,
+                  "tagTitle": "Brewery Visits",
+                  "text": "Brewery Visits"
+                }
+              }
+            }
+   }

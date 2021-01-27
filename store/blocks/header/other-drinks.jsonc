@@ -1,0 +1,254 @@
+  {
+  "menu-item#other-drinks":{
+    "props": {
+      "id": "menu-item-beer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Other drinks",
+        "text": "Other drinks"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#other-drinks"
+    ]
+  },
+   "vtex.menu@2.x:submenu#other-drinks": {
+      "props": {
+        "blockClass": "submenu-top",
+        "width": "auto"
+      },
+      "children": [
+        "flex-layout.row#other-drinks"
+      ]
+    },
+    "flex-layout.row#other-drinks": {
+    "props":{
+      "blockClass": "submenu-top-wrapper"
+      },
+        "children": [
+          "flex-layout.col#menu-other-drinks-1",
+          "flex-layout.col#menu-other-drinks-2"
+        ]
+      },
+      "flex-layout.col#menu-other-drinks-1": {
+        "children": [
+          "vtex.menu@2.x:menu#other-drinks-types"
+        ]
+      },
+      "flex-layout.col#menu-other-drinks-2": {
+        "children": [
+          "vtex.menu@2.x:menu#other-drinks-brands"
+        ]
+      },
+  "vtex.menu@2.x:menu#other-drinks-types": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+     "menu-item#water",
+      "menu-item#wine",
+      "menu-item#soft-drinks",
+      "menu-item#juices",
+      "menu-item#wine-and-more",
+      "menu-item#spirits",
+    "menu-item#seltzers"
+    ]
+  },
+
+    "menu-item#water": {
+      "props": {
+        "id": "menu-item-water",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Water",
+          "text": "Water"
+        }
+      }
+    },
+      "menu-item#wine": {
+        "props": {
+          "id": "menu-item-wine",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "Wine",
+            "text": "Wine"
+          }
+        }
+      },
+        "menu-item#soft-drinks": {
+          "props": {
+            "id": "menu-item-soft-drinks",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": true,
+              "tagTitle": "Soft Drinks",
+              "text": "Soft Drinks"
+            }
+          }
+        },
+          "menu-item#juices": {
+            "props": {
+              "id": "menu-item-juices",
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+                "tagTitle": "Juices",
+                "text": "Juices"
+              }
+            }
+          },
+            "menu-item#wine-and-more": {
+              "props": {
+                "id": "menu-item-wine-and-more",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": true,
+                  "tagTitle": "Wine and More",
+                  "text": "Wine and More"
+                }
+              }
+            },
+ "menu-item#spirits": {
+              "props": {
+                "id": "menu-item-spirits",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": true,
+                  "tagTitle": "Spirits",
+                  "text": "Spirits"
+                }
+              }
+            },
+  "menu-item#seltzers": {
+               "props": {
+                 "id": "menu-item-seltzers",
+                 "type": "custom",
+                 "iconId": null,
+                 "highlight": false,
+                 "itemProps": {
+                   "type": "internal",
+                   "href": "#",
+                   "noFollow": true,
+                   "tagTitle": "Seltzers",
+                   "text": "Seltzers"
+                 }
+               }
+             },
+   "menu-item#spirits": {
+                "props": {
+                  "id": "menu-item-spirits",
+                  "type": "custom",
+                  "iconId": null,
+                  "highlight": false,
+                  "itemProps": {
+                    "type": "internal",
+                    "href": "#",
+                    "noFollow": true,
+                    "tagTitle": "Spirits",
+                    "text": "Spirits"
+                  }
+                }
+              },
+       "vtex.menu@2.x:menu#other-drinks-brands": {
+         "props": {
+           "orientation": "vertical"
+         },
+         "children": [
+         "menu-item#other-drinks-brands",
+         "menu-item#mike's-hard-seltzer",
+     "menu-item#bathtub-gin",
+"menu-item#rumbullion"
+         ]
+       },"menu-item#other-drinks-brands": {
+                                "props": {
+                                    "blockClass":"head-of-category",
+                                  "id": "menu-item-drinks-brands",
+                                  "type": "custom",
+                                  "iconId": null,
+                                  "highlight": false,
+                                  "itemProps": {
+                                    "type": "internal",
+                                    "href": "#",
+                                    "noFollow": true,
+                                    "tagTitle": "Brands",
+                                    "text": "Brands"
+                                  }
+                                }
+                              },
+          "menu-item#mike's-hard-seltzer": {
+                       "props": {
+                         "id": "menu-item-mike's-hard-seltzer",
+                         "type": "custom",
+                         "iconId": null,
+                         "highlight": false,
+                         "itemProps": {
+                           "type": "internal",
+                           "href": "#",
+                           "noFollow": true,
+                           "tagTitle": "Mike's Hard Seltzer",
+                           "text": "Mike's Hard Seltzer"
+                         }
+                       }
+                     },
+          "menu-item#bathtub-gin": {
+                       "props": {
+                         "id": "menu-item-bathtub-gin",
+                         "type": "custom",
+                         "iconId": null,
+                         "highlight": false,
+                         "itemProps": {
+                           "type": "internal",
+                           "href": "#",
+                           "noFollow": true,
+                           "tagTitle": "Bathtub Gin",
+                           "text": "Bathtub Gin"
+                         }
+                       }
+                     },
+                   "menu-item#rumbullion": {
+                                "props": {
+                                  "id": "menu-item-rumbullion",
+                                  "type": "custom",
+                                  "iconId": null,
+                                  "highlight": false,
+                                  "itemProps": {
+                                    "type": "internal",
+                                    "href": "#",
+                                    "noFollow": true,
+                                    "tagTitle": "Rumbullion!",
+                                    "text": "Rumbullion!"
+                                  }
+                                }
+                              }
+   }

@@ -48,7 +48,7 @@
       "product-separator",
       "product-quantity",
       "product-identifier.product",
-      "sku-selector",
+      //"sku-selector",
       "flex-layout.row#buy-button",
    //   "availability-subscriber",
       "shipping-simulator",

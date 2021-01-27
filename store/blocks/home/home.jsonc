@@ -8,9 +8,9 @@
 
       //"flex-layout.row#collage-rowText",
       "flex-layout.row#collage-row1",
-      "rich-text#deal1",
+     // "rich-text#deal1",
       "flex-layout.row#puerbm-container",
-            "rich-text#shelf-title",
+           // "rich-text#shelf-title",
             "flex-layout.row#shelf"
 
     ]

@@ -4,5 +4,8 @@
   },
   "store.custom#terms-and-conditions": {
     "path": "/terms-and-conditions"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
   }
 }

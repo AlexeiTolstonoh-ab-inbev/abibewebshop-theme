@@ -42,7 +42,7 @@
       "stack-layout#prodsum",
       "product-summary-name",
       //"product-summary-description",
-     "product-summary-sku-selector#shelf",
+    // "product-summary-sku-selector#shelf",
      "product-summary-quantity#shelf",
 "product-selling-price#product-shelf-inc-vat",
 "product-selling-price#product-shelf-exc-vat",
@@ -117,5 +117,9 @@
       "blocks": [
         "flex-layout.row#privacy-policy"
       ]
-    }
+    },
+    "store.custom#faq":{
+    "blocks":[
+    "flex-layout.row#faq"
+    ]}
 }

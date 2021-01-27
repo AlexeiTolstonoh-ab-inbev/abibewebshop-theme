@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#faq": {
+    "props": {
+    "fullWidth":true,
+      "blockClass": "faq-wrapper"
+    },
+    "children":["flex-layout.col#faq-wrapper-container"]
+    },
+
+    "flex-layout.col#faq-wrapper-container":{
+    "children": [
+      "flex-layout.row#puerbm-container"
+    ]
+  }
+}

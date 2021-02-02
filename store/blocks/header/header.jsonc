@@ -88,8 +88,11 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#brand-zone",
-      "menu-item#beer"
+      "menu-item#brand-zones-mobile-header",
+      "menu-item#beer-mobile-header",
+        "menu-item#other-drinks-mobile-header",
+        "menu-item#deals-mobile-header",
+        "menu-item#merch-mobile-header"
     ],
     "props": {
       "orientation": "vertical"
@@ -100,7 +103,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f606c6cf-dbd3-4a01-93ca-e63fd4305266___a410449bd1002aa3deaf1780368ce7b2.png",
       "width": "70"
     }
   }

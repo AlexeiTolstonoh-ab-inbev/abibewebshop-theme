@@ -2,14 +2,182 @@
   "flex-layout.row#faq": {
     "props": {
     "fullWidth":true,
+      "paddingBottom": 5,
+      "paddingTop": 5,
       "blockClass": "faq-wrapper"
     },
     "children":["flex-layout.col#faq-wrapper-container"]
     },
 
     "flex-layout.col#faq-wrapper-container":{
+      "props": {
+        "paddingRight": 5,
+        "paddingLeft": 5,
+        "marginLeft": 5,
+        "marginRight": 5
+      },
     "children": [
-      "flex-layout.row#puerbm-container"
+     "rich-text#category-header1",
+     "disclosure-layout#question1.1",
+     "disclosure-layout#question1.2",
+     "disclosure-layout#question1.3",
+     "rich-text#category-header2",
+     "disclosure-layout#question2.1",
+      "rich-text#category-header3",
+      "disclosure-layout#question3.1",
+      "rich-text#faq-header",
+      "rich-text#faq-text"
     ]
-  }
+  },
+    "rich-text#faq-header": {
+      "props": {
+        "text": "FAQ'S",
+        "blockClass": "faq-header",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-1"
+      }
+},
+     "rich-text#faq-text": {
+        "props": {
+          "text": "Quand est-ce que je reçois mes Jupiler Masques?\n\nLes masques et les combo deals sont arrivés dans nos centres de distribution et seront livrés à votre domicile dès que possible.\nJ'ai commandé des bières Jupiler et des masques - quand est-ce qu'ils arrivent?\n\nLes masques et les combo deals sont arrivés dans nos centres de distribution et seront livrés à votre domicile dès que possible. Si vous voulez vraiment vos bières plus tôt, passez une commande séparée pour vos bières et vos masques!\n\nCombien de temps dure la livraison ?\n\nEn raison de la demande actuelle sur notre site web et la situation COVID-19, il peut y avoir quelques retards mais généralement nos commandes arrivent dans 24heures.\n\nQuels sont les frais d'expédition et où livrez-vous ?\n\n1.Nous livrons dans toute la Belgique.\n2.Tarifs de livraison:\n\nMoins de 24 canettes = 5 euros de frais de livraison\n24 canettes ou plus = livraison gratuite\n1 bac = 3 euros de livraison\n2 bacs ou plus = livraison gratuite\n\nQuand il manque quelque chose de ma commande ?\n\nIl se peut que votre commande arrive dans deux colis distincts à des moments différents.\n\nSi vous n'avez toujours pas reçu votre commande dans les délais prévus, veuillez nous contacter [ici](mailto:jupilershop.be@ab-inbev.com)",
+          "blockClass": "faq-text",
+          "textAlignment": "LEFT",
+          "textPosition": "CENTER"
+        }
+},
+"rich-text#category-header1":{
+      "props": {
+        "text": "Order & Receive",
+        "blockClass": "faq-category-header",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "t-heading-3"
+      }
+},
+
+"disclosure-layout#question1.1": {
+"props":{
+"blockClass": "question-wrapper"
+},
+    "children": ["disclosure-trigger#simple1.1", "disclosure-content#simple1.1"]
+  },
+  "disclosure-trigger#simple1.1": {
+    "children": ["rich-text#question1.1"]
+  },
+  "disclosure-content#simple1.1": {
+    "children": [  "rich-text#answer1.1"]
+  },
+  "rich-text#question1.1": {
+    "props": {
+      "text": "When do I receive my order?",
+      "blockClass": "question-text"
+    }
+  },
+  "rich-text#answer1.1": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234"
+    }
+  },
+
+
+  "disclosure-layout#question1.2": {
+      "children": ["disclosure-trigger#simple1.2", "disclosure-content#simple1.2"]
+    },
+    "disclosure-trigger#simple1.2": {
+      "children": ["rich-text#question1.2"]
+    },
+    "disclosure-content#simple1.2": {
+      "children": [  "rich-text#answer1.2"]
+    },
+    "rich-text#question1.2": {
+      "props": {
+        "text": "What should I do when the product is out of stock?",
+        "blockClass": "question-text"
+      }
+    },
+    "rich-text#answer1.2": {
+      "props": {
+        "text": "Call us at the number (212) 1234-1234"
+      }
+    },
+
+    "disclosure-layout#question1.3": {
+          "children": ["disclosure-trigger#simple1.3", "disclosure-content#simple1.3"]
+        },
+        "disclosure-trigger#simple1.3": {
+          "children": ["rich-text#question1.3"]
+        },
+        "disclosure-content#simple1.3": {
+          "children": [  "rich-text#answer1.3"]
+        },
+        "rich-text#question1.3": {
+          "props": {
+            "text": "Who will deliver my parcel?",
+            "blockClass": "question-text"
+          }
+        },
+        "rich-text#answer1.3": {
+          "props": {
+            "text": "Call us at the number (212) 1234-1234"
+          }
+        },
+        "rich-text#category-header2":{
+              "props": {
+                "text": "Return",
+                "blockClass": "faq-category-header",
+                "textAlignment": "LEFT",
+                "textPosition": "LEFT",
+                "font": "t-heading-3"
+              }
+        },
+       "disclosure-layout#question2.1": {
+              "children": ["disclosure-trigger#simple2.1", "disclosure-content#simple2.1"]
+            },
+            "disclosure-trigger#simple2.1": {
+              "children": ["rich-text#question2.1"]
+            },
+            "disclosure-content#simple2.1": {
+              "children": [  "rich-text#answer2.1"]
+            },
+            "rich-text#question2.1": {
+              "props": {
+                "text": "Who will deliver my parcel?",
+                "blockClass": "question-text"
+              }
+            },
+            "rich-text#answer2.1": {
+              "props": {
+                "text": "Call us at the number (212) 1234-1234"
+              }
+            },
+             "rich-text#category-header3":{
+                          "props": {
+                            "text": "Payment Methodes",
+                            "blockClass": "faq-category-header",
+                            "textAlignment": "LEFT",
+                            "textPosition": "LEFT",
+                            "font": "t-heading-3"
+                          }
+                    },
+                   "disclosure-layout#question3.1": {
+                          "children": ["disclosure-trigger#simple3.1", "disclosure-content#simple3.1"]
+                        },
+                        "disclosure-trigger#simple3.1": {
+                          "children": ["rich-text#question3.1"]
+                        },
+                        "disclosure-content#simple3.1": {
+                          "children": [  "rich-text#answer3.1"]
+                        },
+                        "rich-text#question3.1": {
+                          "props": {
+                            "text": "Who will deliver my parcel?",
+                            "blockClass": "question-text"
+                          }
+                        },
+                        "rich-text#answer3.1": {
+                          "props": {
+                            "text": "Call us at the number (212) 1234-1234"
+                          }
+                        }
 }

@@ -1,26 +1,50 @@
 {
 "flex-layout.row#puerbm-container":{
 "props":{
-"blockClass": "puerbm-container"
+"blockClass": "puerbm-container",
+"horizontalAlign":"center"
 },
-"children":["image#puerbm-image1","image#puerbm-image2"]
+"children":["flex-layout.col#left-img","flex-layout.col#right-img"]
 },
+  "flex-layout.col#left-img":{
+  "children":[
+    "image#puerbm-image1"
+  ],
+  "props":{
+  "horizontalAlign":"center",
+          "paddingRight": 1,
+          "paddingLeft": 1
+  }
+  },
+  "flex-layout.col#right-img":{
+  "children":[
+  "image#puerbm-image2"
+  ],
+    "props":{
+    "horizontalAlign":"center",
+            "paddingRight": 1,
+            "paddingLeft": 1
+    }
+  },
+
   "image#puerbm-image1": {
     "props": {
       "title":"First image",
       "min-height": "200",
-      "min-width": "400",
+      "min-width": "320",
       "blockClass": "puerbm-image",
       "link": "/bud",
+      "maxWidth": "100%",
       "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/399f6a2a-d09f-4a40-ad2b-bff0ccd86e30___2719885766aeea20d23e4b5ee3b38470.jpg"
     }
   },  "image#puerbm-image2": {
         "props": {
           "title":"First image",
           "min-height": "200",
-          "min-width": "400",
+          "min-width": "320",
           "blockClass": "puerbm-image",
           "link": "/bud",
+          "maxWidth": "100%",
           "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b7b2e2af-dbdb-41da-a960-faf866ced35c___2a5d0ef9d4e017959f8e77faa0de6ce5.jpg"
         }
       }

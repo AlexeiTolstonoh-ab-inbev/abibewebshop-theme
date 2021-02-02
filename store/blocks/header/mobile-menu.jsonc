@@ -1,3 +1,330 @@
 {
+"menu-item#brand-zones-mobile-header": {
+    "props": {
+      "id": "menu-item-brand-zones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Brand Zones",
+        "text": "Brand Zones"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#brand-zones"]
+  },
+  "vtex.menu@2.x:submenu.accordion#brand-zones": {
+    "children": ["vtex.menu@2.x:menu#brand-zones-accordion"]
+  },
 
+  "vtex.menu@2.x:menu#brand-zones-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#brand-jupiler",
+      "menu-item#brand-stella-artois",
+      "menu-item#brand-Leffe",
+      "menu-item#brand-tripel-karmeliet",
+      "menu-item#brand-corona",
+      "menu-item#brand-victoria",
+      "menu-item#brand-mike's",
+      "menu-item#brand-atom-brands"
+    ]
+  },
+  "menu-item#beer-mobile-header": {
+      "props": {
+        "itemProps": {
+          "tagTitle": "Beer",
+          "text": "Beer"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#beer"]
+    },
+    "vtex.menu@2.x:submenu.accordion#beer": {
+      "children": ["vtex.menu@2.x:menu#beer-mobile"]
+    },
+
+    "vtex.menu@2.x:menu#beer-mobile": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+      "menu-item#pack-type-mobile-header",
+      "menu-item#beer-type-mobile-header",
+      "menu-item#beer-brand-mobile-header"
+      ]
+    },
+
+
+    "menu-item#pack-type-mobile-header": {
+          "props": {
+            "itemProps": {
+              "tagTitle": "Pack Type",
+              "text": "Pack Type"
+            }
+          },
+          "blocks": ["vtex.menu@2.x:submenu.accordion#pack-type"]
+        },
+        "vtex.menu@2.x:submenu.accordion#pack-type": {
+          "children": ["vtex.menu@2.x:menu#pack-type-mobile"]
+        },
+
+        "vtex.menu@2.x:menu#pack-type-mobile": {
+          "props": {
+            "orientation": "vertical"
+          },
+          "children": [
+                "menu-item#cans",
+                "menu-item#bottles",
+                "menu-item#perfect-draft",
+                "menu-item#gift-packs"
+          ]
+        },
+
+            "menu-item#beer-type-mobile-header": {
+                  "props": {
+                    "itemProps": {
+                      "tagTitle": "Beer type",
+                      "text": "Beer type"
+                    }
+                  },
+                  "blocks": ["vtex.menu@2.x:submenu.accordion#beer-type"]
+                },
+                "vtex.menu@2.x:submenu.accordion#beer-type": {
+                  "children": ["vtex.menu@2.x:menu#beer-type-mobile"]
+                },
+
+                "vtex.menu@2.x:menu#beer-type-mobile": {
+                  "props": {
+                    "orientation": "vertical"
+                  },
+                  "children": [
+                       "menu-item#type-pils","menu-item#type-abbey",
+                             "menu-item#type-alcoholfree","menu-item#type-strong-blonde",
+                             "menu-item#type-crafts", "menu-item#type-international",
+                             "menu-item#type-wheat-beer", "menu-item#type-fruit-beer",
+                             "menu-item#type-flavoured-lager", "menu-item#type-amber-ale",
+                             "menu-item#type-amber-lager",   "menu-item#type-barrel-aged",
+                             "menu-item#type-season-beer",   "menu-item#type-brown-ale",
+                             "menu-item#type-dark-lager",  "menu-item#type-ipa",
+                             "menu-item#type-lambic",   "menu-item#type-pale-ale",
+                             "menu-item#type-pale-lager",  "menu-item#type-stout",
+                             "menu-item#type-tripel",   "menu-item#type-strong-ale"
+                  ]
+                },
+
+
+              "menu-item#beer-brand-mobile-header": {
+                    "props": {
+                      "itemProps": {
+                        "tagTitle": "Beer Brand",
+                        "text": "Beer Brand"
+                      }
+                    },
+                    "blocks": ["vtex.menu@2.x:submenu.accordion#beer-brand"]
+                  },
+                  "vtex.menu@2.x:submenu.accordion#beer-brand": {
+                    "children": ["vtex.menu@2.x:menu#beer-brand-mobile"]
+                  },
+
+                  "vtex.menu@2.x:menu#beer-brand-mobile": {
+                    "props": {
+                      "orientation": "vertical"
+                    },
+                    "children": [
+                  "menu-item#beer-brand-jupiler",
+                  "menu-item#beer-brand-stella-artois",
+                  "menu-item#beer-brand-Leffe",
+                  "menu-item#beer-brand-tripel-karmeliet",
+                  "menu-item#beer-brand-corona",
+                  "menu-item#beer-brand-victoria",
+                  "menu-item#beer-brand-hoegarden",
+                  "menu-item#beer-brand-cubanisto",
+                  "menu-item#beer-brand-belle-vue",
+                  "menu-item#beer-brand-kwak"
+                    ]
+                  },
+
+
+  "menu-item#other-drinks-mobile-header": {
+      "props": {
+        "itemProps": {
+          "tagTitle": "Other Drinks",
+          "text": "Other Drinks"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu.accordion#other-drinks"]
+    },
+    "vtex.menu@2.x:submenu.accordion#other-drinks": {
+      "children": ["vtex.menu@2.x:menu#other-drinks-mobile"]
+    },
+
+    "vtex.menu@2.x:menu#other-drinks-mobile": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+   "menu-item#other-drinks-products-mobile-header",
+   "menu-item#other-drinks-brand-mobile-header"
+      ]
+    },
+  "menu-item#other-drinks-products-mobile-header": {
+                    "props": {
+                      "itemProps": {
+                        "tagTitle": "Product type",
+                        "text": "Product type"
+                      }
+                    },
+                    "blocks": ["vtex.menu@2.x:submenu.accordion#other-drinks-products"]
+                  },
+                  "vtex.menu@2.x:submenu.accordion#other-drinks-products": {
+                    "children": ["vtex.menu@2.x:menu#other-drinks-products-mobile"]
+                  },
+
+                  "vtex.menu@2.x:menu#other-drinks-products-mobile": {
+                    "props": {
+                      "orientation": "vertical"
+                    },
+                    "children": [
+               "menu-item#water",
+                "menu-item#wine",
+                "menu-item#soft-drinks",
+                "menu-item#juices",
+                "menu-item#wine-and-more",
+                "menu-item#spirits",
+              "menu-item#seltzers"
+                    ]
+                  },
+
+
+                "menu-item#other-drinks-brand-mobile-header": {
+                      "props": {
+                        "itemProps": {
+                          "tagTitle": "Brands",
+                          "text": "Brands"
+                        }
+                      },
+                      "blocks": ["vtex.menu@2.x:submenu.accordion#other-drinks-brand"]
+                    },
+                    "vtex.menu@2.x:submenu.accordion#other-drinks-brand": {
+                      "children": ["vtex.menu@2.x:menu#other-drinks-brand-mobile"]
+                    },
+
+                    "vtex.menu@2.x:menu#other-drinks-brand-mobile": {
+                      "props": {
+                        "orientation": "vertical"
+                      },
+                      "children": [
+                         "menu-item#mike's-hard-seltzer",
+                     "menu-item#bathtub-gin",
+                "menu-item#rumbullion"
+                      ]
+                    },
+
+                  "menu-item#deals-mobile-header": {
+                        "props": {
+                          "itemProps": {
+                            "tagTitle": "Deals",
+                            "text": "Deals"
+                          }
+                        },
+                        "blocks": ["vtex.menu@2.x:submenu.accordion#deals-brand"]
+                      },
+                      "vtex.menu@2.x:submenu.accordion#deals-brand": {
+                        "children": ["vtex.menu@2.x:menu#deals-mobile"]
+                      },
+
+                      "vtex.menu@2.x:menu#deals-mobile": {
+                        "props": {
+                          "orientation": "vertical"
+                        },
+                        "children": [
+                          "menu-item#promotions","menu-item#special-packs",
+                          "menu-item#others", "menu-item#exclusivities",
+                          "menu-item#last-chance","menu-item#beer-subscription"
+                        ]
+                      },
+
+
+
+ "menu-item#merch-mobile-header": {
+       "props": {
+         "itemProps": {
+           "tagTitle": "Merch",
+           "text": "Merch"
+         }
+       },
+       "blocks": ["vtex.menu@2.x:submenu.accordion#merch"]
+     },
+     "vtex.menu@2.x:submenu.accordion#merch": {
+       "children": ["vtex.menu@2.x:menu#merch-mobile"]
+     },
+
+     "vtex.menu@2.x:menu#merch-mobile": {
+       "props": {
+         "orientation": "vertical"
+       },
+       "children": [
+    "menu-item#merch-perbrand-mobile-header",
+    "menu-item#merch-type-mobile-header"
+       ]
+     },
+   "menu-item#merch-perbrand-mobile-header": {
+                     "props": {
+                       "itemProps": {
+                         "tagTitle": "Per brand",
+                         "text": "Per Brand"
+                       }
+                     },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#merch-perbrand"]
+                   },
+                   "vtex.menu@2.x:submenu.accordion#merch-perbrand": {
+                     "children": ["vtex.menu@2.x:menu#accordion#merch-perbrand-mobile"]
+                   },
+
+                   "vtex.menu@2.x:menu#accordion#merch-perbrand-mobile": {
+                     "props": {
+                       "orientation": "vertical"
+                     },
+                     "children": [
+                    "menu-item#jupiler",
+                    "menu-item#stella-artois",
+                    "menu-item#leffe",
+                    "menu-item#tripel-karmeliet",
+                    "menu-item#corona",
+                    "menu-item#victoria"
+                     ]
+                   },
+
+
+                 "menu-item#merch-type-mobile-header": {
+                       "props": {
+                         "itemProps": {
+                           "tagTitle": "Per type",
+                           "text": "Per type"
+                         }
+                       },
+                       "blocks": ["vtex.menu@2.x:submenu.accordion#merch-type"]
+                     },
+                     "vtex.menu@2.x:submenu.accordion#merch-type": {
+                       "children": ["vtex.menu@2.x:menu#merch-type-mobile"]
+                     },
+
+                     "vtex.menu@2.x:menu#merch-type-mobile": {
+                       "props": {
+                         "orientation": "vertical"
+                       },
+                       "children": [
+                              "menu-item#glasses",
+                              "menu-item#clothes",
+                              "menu-item#gifts",
+                               "menu-item#organize-your-party",
+                                "menu-item#eurocup",
+                                "menu-item#festivals",
+                                "menu-item#brewery-visits"
+                       ]
+                     }
   }

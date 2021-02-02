@@ -30,7 +30,9 @@
   "flex-layout.row#collage-row1": {
     "props": {
       "blockClass": "collage-rowImagesBlock",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "paddingTop": 6,
+      "paddingBottom": 6
     },
     "children": [
       "image#collage-image1", "image#collage-image2",

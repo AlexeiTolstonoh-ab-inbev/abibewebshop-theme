@@ -1,9 +1,4 @@
 {
-
-
-
-
-
   "vtex.menu@2.x:menu#footer-bags": {
     "props": {
       "orientation": "vertical"
@@ -81,7 +76,8 @@
     },
     "children": [
       "menu-item#website-Privacy-policy",
-      "menu-item#terms-conditions"
+      "menu-item#terms-conditions",
+      "menu-item#item-faq"
     ]
   },
   "menu-item#website-Privacy-policy": {
@@ -111,6 +107,21 @@
         "noFollow": false,
         "tagTitle": "Terms & Conditions Website and Sale",
         "text": "Terms & Conditions"
+      }
+    }
+  },
+  "menu-item#item-faq": {
+    "props": {
+      "id": "item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": false,
+        "tagTitle": "FAQ`S",
+        "text": "FAQ`S"
       }
     }
   }

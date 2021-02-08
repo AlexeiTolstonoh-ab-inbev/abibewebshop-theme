@@ -1,32 +1,14 @@
 .styledLinkContent{
   font-size: 16px;
   text-transform: capitalize;
+  color: white;
 }
-.styledLinkContent:hover{
-
-}
-.menuItem :focus{
-  background: #b12025;
-  font-weight: bold;
-}
-
 
 .submenuWrapper--submenu-top--isOpen{
   border:2px solid #efefef;
+  background: rgb(251,249,240);
 }
 
-.submenuWrapper--submenu-top--isOpen ::before {
-  background: #fff;
-  border-left: 2px solid #efefef;
-  border-top: 2px solid #efefef;
-  content: "";
-  height: 1rem;
-  position: absolute;
-  left: 1.5rem;
-  top: -.6rem;
-  transform: rotate(45deg);
-  width: 1rem;
-}
 .submenu--submenu-top{
   justify-content: center;
   flex-direction: column;
@@ -49,12 +31,12 @@
 
 
 :global(.vtex-menu-2-x-menuContainer--submenu-top-wrapper) {
-  max-width: 300px;
   min-height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
+
 }
 
 .menuContainer{
@@ -63,4 +45,9 @@
 .styledLinkContent--head-of-category{
   font-weight: bold;
 }
-
+.submenuWrapper--submenu-top--isOpen .styledLinkContent{
+  color: black;
+}
+.styledLinkContent:hover{
+  color: black;
+}

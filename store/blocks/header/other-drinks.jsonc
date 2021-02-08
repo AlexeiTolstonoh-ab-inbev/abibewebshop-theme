@@ -20,7 +20,7 @@
    "vtex.menu@2.x:submenu#other-drinks": {
       "props": {
         "blockClass": "submenu-top",
-        "width": "auto"
+        "width": "100%"
       },
       "children": [
         "flex-layout.row#other-drinks"

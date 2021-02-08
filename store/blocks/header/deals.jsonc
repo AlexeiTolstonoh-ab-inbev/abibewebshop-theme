@@ -21,7 +21,7 @@
   "vtex.menu@2.x:submenu#deals": {
     "props": {
       "blockClass": "submenu-top",
-      "width": "auto"
+      "width": "100%"
     },
     "children": [
       "vtex.menu@2.x:menu#deals"
@@ -29,8 +29,8 @@
   },
   "vtex.menu@2.x:menu#deals": {
     "props": {
-      "blockClass": "submenu-top-wrapper",
-      "orientation": "vertical"
+      "blockClass": "submenu-top-wrapper-deals",
+      "orientation": "horizontal"
     },
     "children": [
 "menu-item#promotions","menu-item#special-packs",

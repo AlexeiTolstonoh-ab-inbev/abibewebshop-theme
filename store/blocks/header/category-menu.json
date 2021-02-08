@@ -1,7 +1,8 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "width": "100%"
     },
     "children": [
       "menu-item#brand-zone",
@@ -33,7 +34,7 @@
   "vtex.menu@2.x:submenu#brand-zone": {
     "props": {
       "blockClass": "submenu-top",
-      "width": "auto"
+      "width": "100%"
     },
     "children": [
       "vtex.menu@2.x:menu#brand-zone"
@@ -41,8 +42,8 @@
   },
   "vtex.menu@2.x:menu#brand-zone": {
     "props": {
-      "blockClass": "submenu-top-wrapper",
-      "orientation": "vertical"
+      "blockClass": "submenu-top-wrapper-brands",
+      "orientation": "horizontal"
     },
     "children": [
       "menu-item#brand-jupiler",
@@ -196,7 +197,7 @@
   "vtex.menu@2.x:submenu#beer": {
     "props": {
       "blockClass": "submenu-top",
-      "width": "auto"
+      "width": "100%"
     },
     "children": [
       "flex-layout.row#beer"

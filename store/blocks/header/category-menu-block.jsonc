@@ -1,0 +1,16 @@
+{
+"header-row#2-desktop":{
+    "props": {
+      "blockClass": "main-header-category",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+"children":[
+"flex-layout.row#category-menu"
+ ]
+}
+
+}

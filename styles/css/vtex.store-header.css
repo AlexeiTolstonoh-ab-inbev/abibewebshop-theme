@@ -82,3 +82,9 @@
     transition: none;
   }
 }
+.headerRowContainer--main-header{
+  background: rgb(249,78,50);
+}
+.headerRowContainer--main-header-category{
+  background: rgb(249,198,19);
+}

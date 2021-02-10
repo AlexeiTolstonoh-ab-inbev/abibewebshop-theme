@@ -41,11 +41,7 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
-      //"product-summary-description",
-    // "product-summary-sku-selector#shelf",
-     "product-summary-quantity#shelf",
 "product-selling-price#product-shelf-inc-vat",
-"product-selling-price#product-shelf-exc-vat",
 "add-to-cart-button#product"
     ]
   },
@@ -75,11 +71,7 @@
     ]
   },
 
-  "product-summary-image": {
-    "props": {
-      "height": 220
-    }
-  },
+
 
   "product-summary-specification-badges": {
     "props": {

@@ -1,5 +1,5 @@
 .imageElement--puerbm-image{
-  margin: auto;
+  margin: 0 auto;
 }
 
 .productImageTag--main{
@@ -127,6 +127,8 @@
 .imageElement--deals-image{
   width: 70px;
   height: 70px;
+  margin: 0 auto;
+  align-self: center;
 }
 
 

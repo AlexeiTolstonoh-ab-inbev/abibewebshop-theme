@@ -24,28 +24,9 @@
      "rich-text#category-header2",
      "disclosure-layout#question2.1",
       "rich-text#category-header3",
-      "disclosure-layout#question3.1",
-      "rich-text#faq-header",
-      "rich-text#faq-text"
+      "disclosure-layout#question3.1"
     ]
   },
-    "rich-text#faq-header": {
-      "props": {
-        "text": "FAQ'S",
-        "blockClass": "faq-header",
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "font": "t-heading-1"
-      }
-},
-     "rich-text#faq-text": {
-        "props": {
-          "text": "Quand est-ce que je reçois mes Jupiler Masques?\n\nLes masques et les combo deals sont arrivés dans nos centres de distribution et seront livrés à votre domicile dès que possible.\nJ'ai commandé des bières Jupiler et des masques - quand est-ce qu'ils arrivent?\n\nLes masques et les combo deals sont arrivés dans nos centres de distribution et seront livrés à votre domicile dès que possible. Si vous voulez vraiment vos bières plus tôt, passez une commande séparée pour vos bières et vos masques!\n\nCombien de temps dure la livraison ?\n\nEn raison de la demande actuelle sur notre site web et la situation COVID-19, il peut y avoir quelques retards mais généralement nos commandes arrivent dans 24heures.\n\nQuels sont les frais d'expédition et où livrez-vous ?\n\n1.Nous livrons dans toute la Belgique.\n2.Tarifs de livraison:\n\nMoins de 24 canettes = 5 euros de frais de livraison\n24 canettes ou plus = livraison gratuite\n1 bac = 3 euros de livraison\n2 bacs ou plus = livraison gratuite\n\nQuand il manque quelque chose de ma commande ?\n\nIl se peut que votre commande arrive dans deux colis distincts à des moments différents.\n\nSi vous n'avez toujours pas reçu votre commande dans les délais prévus, veuillez nous contacter [ici](mailto:jupilershop.be@ab-inbev.com)",
-          "blockClass": "faq-text",
-          "textAlignment": "LEFT",
-          "textPosition": "CENTER"
-        }
-},
 "rich-text#category-header1":{
       "props": {
         "text": "Order & Receive",

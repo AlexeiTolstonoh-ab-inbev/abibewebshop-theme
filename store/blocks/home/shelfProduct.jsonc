@@ -1,0 +1,72 @@
+{
+ "flex-layout.row#shelfProduct":{
+ "props":{
+ "fullWidth": true
+ },
+ "children": ["list-context.product-list#shelfProduct"]
+
+ },
+  "list-context.product-list#shelfProduct": {
+    "blocks": ["product-summary.shelf#shelfProduct"],
+    "children": ["slider-layout#shelfProduct"],
+    "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+  },
+
+     "slider-layout#shelfProduct": {
+       "props": {
+         "itemsPerPage": {
+           "desktop": 2,
+           "tablet": 2,
+           "phone": 1
+         },
+         "infinite": true,
+         "showNavigationArrows": "newer",
+         "showPaginationDots": "newer",
+         "fullWidth": false,
+         "blockClass": "shelfProduct-container"
+       }
+     },
+
+  "product-summary.shelf#shelfProduct": {
+  "props":{
+  "blockClass": "shelfProduct",
+  "Number": 2
+  },
+    "children": [
+      "product-summary-image#shelfProduct",
+      "product-summary-name#shelfProduct",
+      "product-selling-price#shelfProduct",
+      "product-summary-buy-button#shelfProduct"
+    ]
+  },
+  "product-summary-image#shelfProduct": {
+      "props": {
+            "showBadge": false,
+            "blockClass": "shelfProduct-image"
+          }
+    },
+
+    "product-summary-name#shelfProduct":{
+"props":{
+"tag": "h2",
+"blockClass": "shelfProduct-name"
+}
+    },
+            "product-selling-price#shelfProduct":{
+                "props": {
+                  "showInstallments": true,
+                  "showSavings": true,
+                   "message": "{sellingPriceWithTax} (inc.VAT)",
+                   "blockClass": "shelfProduct-price"
+                }
+            },
+     "product-summary-buy-button#shelfProduct":{
+        "props": {
+           "isOneClickBuy": false,
+           "buyButtonText": "Buy now",
+           "blockClass": "shelfProduct-button"
+         }
+     }
+ }

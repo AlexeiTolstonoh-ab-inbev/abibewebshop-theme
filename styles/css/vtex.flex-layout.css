@@ -9,25 +9,45 @@
   padding: 0 0.5rem;
 }
 
-
+:global(.vtex-flex-layout-0-x-flexRow--deals-container){
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(251,249,240);
+}
 :global(.vtex-flex-layout-0-x-flexCol--deals--red) {
   display: flex;
   justify-content: center;
-  background-color: #262424;
+  background-color: rgb(251,249,240);
   align-items: center;
   padding: 10px;
 }
-.flexColChild--deals--red{
-  background-color: #262424;
+.flexRow--deals--red{
+  background-color: rgb(251,249,240);
   display: flex;
   justify-content: center;
 }
+.flexRow--puerbm-container{
+  background-color: rgb(251,249,240);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+:global(.vtex-store-footer-2-x-footerLayout--footer-container){
+  background: rgb(58,3,45);
+}
+/*.flexRow--deals--red .stretchChildrenWidth{*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  align-self: center;*/
+/*}*/
 .flexRowContent
 .flexRowContent--deals-container{
-  background: #262424;
+  background: rgb(251,249,240);
+  margin-top: 10px;
 }
 .flexRowContent--deals-container{
-  background: #262424;
+  background: rgb(251,249,240);
 }
 :global(.vtex-flex-layout-0-x-flexRowContent){
   background: transparent !important;

@@ -106,7 +106,7 @@
           "muted-5": "#f2f4f5"
         },
         "text": {
-          "action-primary": "#f59122",
+          "action-primary": "#3A032D",
           "action-secondary": "#eef3f7",
           "link": "#0F3E99",
           "emphasis": "#b12025",
@@ -249,7 +249,7 @@
     "measure": [30, 34, 20],
     "styles": {
       "heading-1": {
-        "fontFamily": "Arial",
+        "fontFamily": "Boing Regular",
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
@@ -291,7 +291,7 @@
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "Arial",
+        "fontFamily": "Boing Regular",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "letterSpacing": "0"

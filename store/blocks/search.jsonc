@@ -252,16 +252,32 @@
   },
   "product-summary.shelf#search-page":{
   "props":{
-  "blockClass":"search-page-container"},
+  "blockClass":"search-page-containe"},
       "children": [
-        "stack-layout#prodsum",
-        "product-summary-name",
-        //"product-summary-description",
-       //"product-summary-sku-selector#shelf",
-       "product-summary-quantity#shelf",
-  "product-selling-price#product-shelf-inc-vat",
-  "product-selling-price#product-shelf-exc-vat"
-        ,"add-to-cart-button#product"
+       "product-summary-image#searchProduct","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton"
       ]
-  }
+  },
+    "product-summary-image#searchProduct": {
+        "props": {
+              "showBadge": false,
+              "blockClass": "searchProduct-image"
+            }
+      },
+
+       "add-to-cart-button#searchBuyButton":{
+          "props": {
+             "isOneClickBuy": false,
+             "buyButtonText": "",
+             "blockClass": "searchBuyButton",
+             "isOneClickBuy": false
+           }
+       },
+               "product-selling-price#searchPrice":{
+                   "props": {
+                     "showInstallments": true,
+                     "showSavings": true,
+                      "message": "{sellingPriceWithTax}",
+                      "blockClass": "searchPrice"
+                   }
+               }
 }

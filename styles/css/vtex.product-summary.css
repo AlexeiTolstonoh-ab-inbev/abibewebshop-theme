@@ -56,3 +56,36 @@
 .image {
   border-radius: 0.25rem;
 }
+.element--shelfProduct-summary{
+  max-width: 600px;
+}
+:global(.vtex-product-summary-2-x-imageNormal) :global(.vtex-product-summary-2-x-image) :global(.vtex-product-summary-2-x-image--shelfProduct-image){
+  width: 400px;
+}
+.buyButton--shelfProduct-button{
+  width: 100px;
+  height: 50px;
+  font-size: 14px;
+  padding: 0;
+}
+.buyButton--shelfProduct-button :global(.vtex-button__label){
+  padding: 0;
+  text-transform: lowercase;
+}
+:global(.vtex-product-summary-2-x-containerNormal--shelfProduct){
+  max-width: 600px;
+  min-width: 100%;
+}
+.imageWrapper--shelfProduct-image {
+  background: rgb(251,249,240);
+}
+.image--shelfProduct-image{
+  background: rgb(251,249,240);
+}
+.containerNormal--search-page-containe{
+  background: red;
+}
+.buyButton
+.buyButton--searchBuyButton{
+  background: red;
+}

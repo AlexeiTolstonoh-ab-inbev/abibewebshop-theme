@@ -77,12 +77,37 @@
 :global(.vtex-search-result-3-x-galleryItem){
   border-radius: 8px;
   padding: 6px;
-  min-height: 387px;
+  max-height: 300px;
 }
+.galleryItem--normal{
+  background: white;
+
+}
+
 .galleryItem :global(.vtex-product-summary-2-x-container) {
-  background: #ffffff;
+  background: rgb(251,249,240);
   padding: 10px;
+  position: relative;
 }
+.galleryItem :global(.vtex-product-summary-2-x-image--searchProduct-image){
+  background: rgb(251,249,240);
+  position: relative;
+}
+:global(.vtex-product-summary-2-x-imageWrapper--searchProduct-image){
+  background: rgb(251,249,240);
+}
+:global(.vtex-product-summary-2-x-hoverEffect){
+  background: rgb(251,249,240);
+}
+:global(.vtex-product-summary-2-x-imageContainer){
+  background: rgb(251,249,240);
+  position: relative;
+  width: 100%;
+}
+.imageWrapper--searchProduct-image{
+  background: red;
+}
+
 
 .searchResultContainer {
   margin: 0;
@@ -90,13 +115,28 @@
   max-width: 100%;
 }
 
-:global(.vtex-product-summary-2-x-element) :global(.vtex-button) {
-  border: none;
-  background:#f59122;
-}
+
 .galleryItem :global(.vtex-button) {
-  outline-color: red;
+  background: transparent;
+  position: absolute;
+  border: none;
+  width: 20px;
+  height: 10px;
+  top: 10px;
+  right: 10px;
 }
+.galleryItem :global(.vtex-button)::after{
+  content:"\276F";
+  color:rgb(255,63,32);
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  width: 10px;
+  height: 10px;
+  font-size: 25px;
+}
+
+
 .galleryItem :global(.vtex-button__label) {
   font-size: 16px;
   font-weight: bold;
@@ -431,6 +471,7 @@
 @media screen and (min-width: 1201px) {
   .gallery{
     max-width: 1520px;
+    margin-top: 10px;
   }
   .galleryItem {
     flex-basis: 25% !important;
@@ -442,7 +483,6 @@
     justify-content: flex-start;
   }
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .gallery{
-    width: 80%;
+    width: 100%;
   }
-
 }

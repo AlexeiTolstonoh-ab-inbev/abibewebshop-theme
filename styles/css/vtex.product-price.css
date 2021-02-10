@@ -92,3 +92,20 @@ display: none;
   font-size: 25px;
   font-weight: 600;
 }
+.sellingPrice--searchPrice{
+  margin-top: 10px;
+  color:rgb(255,63,32);
+  font-size: 1.75em;
+  margin-left: 10px;
+  position: relative;
+}
+.sellingPrice--searchPrice ::after{
+  content:"\276F";
+  color:rgb(255,63,32);
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  font-size: 25px;
+}

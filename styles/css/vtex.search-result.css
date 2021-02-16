@@ -13,7 +13,7 @@
   height: auto;
 }
 .filtersWrapper{
-  background: #F7F7F7;
+  background: rgb(251,249,240);
   padding: 10px;
   border-radius: 5px;
 }
@@ -120,27 +120,35 @@
   background: transparent;
   position: absolute;
   border: none;
-  width: 20px;
-  height: 10px;
+  width: 48px;
+  height: 31px;
   top: 10px;
   right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: transparent;
+  background-image: url("https://muji.vtexassets.com/assets/vtex/assets-builder/muji.store-theme/2.0.69/icon-cart-outline___c5bb1bf30b1f2cf60a2de8b228abcade.png");
 }
-.galleryItem :global(.vtex-button)::after{
-  content:"\276F";
-  color:rgb(255,63,32);
-  position: absolute;
-  right: 10px;
-  top: 0px;
-  width: 10px;
-  height: 10px;
-  font-size: 25px;
+
+:global(.vtex-search-result-3-x-galleryItem) :global(.vtex-button__label) {
+  color: transparent;
 }
+/*.galleryItem :global(.vtex-button)::after{*/
+/*  !*content:url("https://muji.vtexassets.com/assets/vtex/assets-builder/muji.store-theme/2.0.69/icon-cart-outline___c5bb1bf30b1f2cf60a2de8b228abcade.png");*!*/
+/*  color:rgb(255,63,32);*/
+/*  position: absolute;*/
+/*  right: 10px;*/
+/*  top: 0px;*/
+/*  width: 10px;*/
+/*  height: 10px;*/
+/*  font-size: 25px;*/
+/*}*/
 
 
 .galleryItem :global(.vtex-button__label) {
   font-size: 16px;
   font-weight: bold;
-  color: #ffffff;
+  color: transparent;
   text-transform: capitalize;
 }
 .buttonShowMore :global(.vtex-button) {

@@ -1,0 +1,15 @@
+.cartIcon{
+  color: white;
+}
+.minicartContainer :hover{
+  background-color: #F94E32;
+}
+.minicartQuantityBadge{
+  background-color: #F94E32;
+}
+.minicartCheckoutButton{
+  background-color: rgb(255,198,0);
+}
+:global(.vtex-minicart-2-x-overlay--visible){
+  background-color: #FFC600;
+}

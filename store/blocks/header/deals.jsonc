@@ -29,8 +29,9 @@
   },
   "vtex.menu@2.x:menu#deals": {
     "props": {
-      "blockClass": "submenu-top-wrapper-deals",
+      "blockClass": "submenu-top-wrapper-brands",
       "orientation": "horizontal"
+
     },
     "children": [
 "menu-item#promotions","menu-item#special-packs",
@@ -41,6 +42,7 @@
     "menu-item#promotions": {
       "props": {
         "id": "menu-item-promotions",
+        "blockClass": "top-menu-item-brand",
         "type": "custom",
         "iconId": null,
         "highlight": false,
@@ -56,6 +58,7 @@
        "menu-item#special-packs": {
          "props": {
            "id": "menu-item-special-packs",
+           "blockClass": "top-menu-item-brand",
            "type": "custom",
            "iconId": null,
            "highlight": false,
@@ -71,6 +74,7 @@
         "menu-item#others": {
           "props": {
             "id": "menu-item-others",
+            "blockClass": "top-menu-item-brand",
             "type": "custom",
             "iconId": null,
             "highlight": false,
@@ -86,6 +90,7 @@
             "menu-item#exclusivities": {
               "props": {
                 "id": "menu-item-exclusivities",
+                "blockClass": "top-menu-item-brand",
                 "type": "custom",
                 "iconId": null,
                 "highlight": false,
@@ -101,6 +106,7 @@
             "menu-item#last-chance": {
               "props": {
                 "id": "menu-item-last-chance",
+                "blockClass": "top-menu-item-brand",
                 "type": "custom",
                 "iconId": null,
                 "highlight": false,
@@ -116,6 +122,7 @@
        "menu-item#beer-subscription": {
                   "props": {
                     "id": "menu-item-beer-subscription",
+                    "blockClass": "top-menu-item-brand",
                     "type": "custom",
                     "iconId": null,
                     "highlight": false,

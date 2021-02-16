@@ -1,3 +1,10 @@
+
+.nameContainer{
+  padding-bottom: 0;
+  padding-top: 0;
+  background-color: transparent;
+}
+
 .imageContainer{
   background: white;
 }
@@ -78,9 +85,12 @@
 }
 .imageWrapper--shelfProduct-image {
   background: rgb(251,249,240);
+  max-width: 200px;
 }
 .image--shelfProduct-image{
   background: rgb(251,249,240);
+  width: 200px;
+  height: 200px;
 }
 .containerNormal--search-page-containe{
   background: red;
@@ -89,3 +99,4 @@
 .buyButton--searchBuyButton{
   background: red;
 }
+

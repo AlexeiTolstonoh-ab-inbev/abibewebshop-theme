@@ -102,18 +102,9 @@
                     "orientation": "vertical"
                   },
                   "children": [
-                       "menu-item#type-pils","menu-item#type-abbey",
-                             "menu-item#type-alcoholfree","menu-item#type-strong-blonde",
-                             "menu-item#type-crafts", "menu-item#type-international",
-                             "menu-item#type-wheat-beer", "menu-item#type-fruit-beer",
-                             "menu-item#type-flavoured-lager", "menu-item#type-amber-ale",
-                             "menu-item#type-amber-lager",   "menu-item#type-barrel-aged",
-                             "menu-item#type-season-beer",   "menu-item#type-brown-ale",
-                             "menu-item#type-dark-lager",  "menu-item#type-ipa",
-                             "menu-item#type-lambic",   "menu-item#type-pale-ale",
-                             "menu-item#type-pale-lager",  "menu-item#type-stout",
-                             "menu-item#type-tripel",   "menu-item#type-strong-ale"
-                  ]
+                       "menu-item#type-abbey","menu-item#type-alcoholfree",
+"menu-item#type-flavoured-beer","menu-item#type-strong-pils-lager",
+"menu-item#type-strong-blonde","menu-item#type-tripel","menu-item#type-wheat-beer"]
                 },
 
 

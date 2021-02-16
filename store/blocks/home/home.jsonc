@@ -2,8 +2,7 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      "flex-layout.row#deals",
-  "flex-layout.row#shelfProduct",
+"flex-layout.row#producthome",
   "flex-layout.row#puerbm-container"
     ]
   },

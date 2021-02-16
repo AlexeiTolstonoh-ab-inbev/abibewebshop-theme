@@ -87,4 +87,10 @@
 }
 .headerRowContainer--main-header-category{
   background: rgb(249,198,19);
+  display: flex;
+  justify-content: space-around;
+
+}
+:global(.vtex-flex-layout-0-x-flexRow--categoryMenuWrapper){
+  width: 100%;
 }

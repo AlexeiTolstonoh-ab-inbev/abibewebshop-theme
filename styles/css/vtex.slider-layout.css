@@ -28,6 +28,7 @@
 .slideChildrenContainer--shelfProduct-container{
   background: rgb(251,249,240);
   padding: 0;
+  height: auto;
 }
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelfProduct-container){
   padding: 10px;

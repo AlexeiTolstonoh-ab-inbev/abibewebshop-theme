@@ -7,32 +7,36 @@
       "blockClass": "footer-container"
     },
     "children": [
-      "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-1-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "vtex.menu@2.x:menu#footer-politics",
-      "flex-layout.col#info"
+      "flex-layout.col#info",
+      "flex-layout.col#payment-methods"
     ],
     "props": {
-      "blockClass": "menu-row",
+      "blockClass": "footer-menu-row",
       "paddingTop": 6,
-      "paddingBottom": 3
+      "paddingBottom": 6
     }
   },
 
   "flex-layout.col#info": {
-    "children": ["social-networks","rich-text#information"]
-
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "top"
+    },
+    "children": ["rich-text#information","social-networks"]
   },
   "rich-text#information": {
     "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "for any Customer enquiries please contact: https://contactus.ab-inbev.com/fr"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Follow us:",
+      "blockClass": "footerSocialHeader",
+      "font": "t-heading-2"
     }
   },
   "social-networks": {
@@ -49,42 +53,20 @@
       ]
     }
   },
-
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+  "flex-layout.col#payment-methods": {
     "props": {
-      "blockClass": "payment-methods"
-    }
+      "horizontalAlign": "right",
+      "verticalAlign": "bottom"
+    },
+    "children":["accepted-payment-methods"]
   },
   "accepted-payment-methods": {
     "props": {
       "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
     }
   },
-  "flex-layout.row#footer-3-desktop": {
-    "children": [ "rich-text#copyright", "rich-text#responseDrink"],
-    "props": {
-      "blockClass": "drinkResp"
-    }
-  },
-  "rich-text#copyright": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "© 2021 AB InBev UK Limited T/A Budweiser Brewing Group UK&I.ALL RIGHTS RESERVED.\nPLEASE DO NOT SHARE OR FORWARD THIS WEBSITE OR ITS CONTENTS TO ANYONE UNDER 18",
-      "font": "heading",
-      "blockClass": "copyrightFooter"
-    }
-  },
-  "rich-text#responseDrink": {
-    "props": {
-      "textAlignment": "RIGHT",
-      "textPosition": "RIGHT",
-      "text": "[www.drinkaware.co.uk](http://www.drinkaware.co.uk)\nPLEASE DRINK RESPONSIBLY",
-      "blockClass": "copyrightResponse",
-      "font": "heading"
-    }
-  },
+
+
 
   "footer-layout.mobile": {
     "children": [

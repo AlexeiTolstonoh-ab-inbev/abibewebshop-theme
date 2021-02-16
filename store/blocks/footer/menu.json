@@ -1,64 +1,4 @@
 {
-  "vtex.menu@2.x:menu#footer-bags": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
-    ]
-  },
-
-  "menu-item#bags": {
-    "props": {
-      "id": "menu-item-bags",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/d",
-        "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
-      }
-    }
-  },
-
-  "menu-item#backpacks": {
-    "props": {
-      "id": "menu-item-backpacks",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/backpacks",
-        "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
-      }
-    }
-  },
-
-  "menu-item#necessaire": {
-    "props": {
-      "id": "menu-item-necessaire",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/necessaire",
-        "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
-      }
-    }
-  },
-
-
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
@@ -75,23 +15,58 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#website-Privacy-policy",
+      "menu-item#website-about-danny",
+      "menu-item#website-contact-us",
+      "menu-item#item-faq",
       "menu-item#terms-conditions",
-      "menu-item#item-faq"
+      "menu-item#website-Privacy-policy"
     ]
+  },
+  "menu-item#website-about-danny": {
+    "props": {
+      "id": "website-about-danny",
+      "blockClass": "footer-link",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/#",
+        "noFollow": false,
+        "tagTitle": "About Danny",
+        "text": "About Danny"
+      }
+    }
+  },
+  "menu-item#website-contact-us": {
+    "props": {
+      "id": "website-contact-us",
+      "type": "custom",
+      "blockClass": "footer-link",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://contactus.ab-inbev.com/en?redirect_url=https://Danny.delivery",
+        "noFollow": false,
+        "tagTitle": "Contact us",
+        "text": "Contact us"
+      }
+    }
   },
   "menu-item#website-Privacy-policy": {
     "props": {
       "id": "website-Privacy-policy",
       "type": "custom",
+      "blockClass": "footer-link",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/privacy-policy/",
         "noFollow": false,
-        "tagTitle": "Website Privacy Policy UK",
-        "text": "Website Privacy Policy UK"
+        "tagTitle": "Privacy & Cookies",
+        "text": "Privacy & Cookies"
       }
     }
   },
@@ -99,6 +74,7 @@
     "props": {
       "id": "terms-and-conditions",
       "type": "custom",
+      "blockClass": "footer-link",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -113,6 +89,7 @@
   "menu-item#item-faq": {
     "props": {
       "id": "item-faq",
+      "blockClass": "footer-link",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -120,8 +97,8 @@
         "type": "internal",
         "href": "/faq",
         "noFollow": false,
-        "tagTitle": "FAQ`S",
-        "text": "FAQ`S"
+        "tagTitle": "FAQ",
+        "text": "FAQ"
       }
     }
   }

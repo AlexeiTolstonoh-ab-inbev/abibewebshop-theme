@@ -1,8 +1,8 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true,
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "menu-wrapper"
     },
     "children": [
       "menu-item#brand-zone",
@@ -12,6 +12,7 @@
       "menu-item#merch"
     ]
   },
+
   "menu-item#brand-zone": {
     "props": {
       "id": "menu-item-brand-zone",
@@ -40,11 +41,13 @@
       "vtex.menu@2.x:menu#brand-zone"
     ]
   },
+
   "vtex.menu@2.x:menu#brand-zone": {
     "props": {
       "blockClass": "submenu-top-wrapper-brands",
       "orientation": "horizontal"
     },
+
     "children": [
       "menu-item#brand-jupiler",
       "menu-item#brand-stella-artois",
@@ -53,12 +56,12 @@
       "menu-item#brand-corona",
       "menu-item#brand-victoria",
       "menu-item#brand-mike's",
-      "menu-item#brand-atom-brands"
-    ]
+      "menu-item#brand-atom-brands"]
   },
   "menu-item#brand-jupiler": {
     "props": {
       "id": "menu-item-brand-jupiler",
+      "blockClass": "top-menu-item-brand",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -74,6 +77,7 @@
   "menu-item#brand-stella-artois": {
     "props": {
       "id": "menu-item-brand-stella-artois",
+      "blockClass": "top-menu-item-brand",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -89,6 +93,7 @@
   "menu-item#brand-Leffe": {
     "props": {
       "id": "menu-item-brand-leffe",
+      "blockClass": "top-menu-item-brand",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -104,6 +109,7 @@
   "menu-item#brand-tripel-karmeliet": {
     "props": {
       "id": "menu-item-brand-tripel-karmeliet",
+      "blockClass": "top-menu-item-brand",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -119,6 +125,7 @@
   "menu-item#brand-corona": {
     "props": {
       "id": "menu-item-brand-corona",
+      "blockClass": "top-menu-item-brand",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -134,6 +141,7 @@
   "menu-item#brand-victoria": {
     "props": {
       "id": "menu-item-brand-victoria",
+      "blockClass": "top-menu-item-brand",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -149,6 +157,7 @@
   "menu-item#brand-mike's": {
     "props": {
       "id": "menu-item-brand-mike's",
+      "blockClass": "top-menu-item-brand",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -164,6 +173,7 @@
   "menu-item#brand-atom-brands": {
     "props": {
       "id": "menu-item-brand-atom-brands",
+      "blockClass": "top-menu-item-brand",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -209,8 +219,8 @@
     },
     "children": [
       "flex-layout.col#menu-beer-1",
-      "flex-layout.col#menu-beer-2",
-      "flex-layout.col#menu-beer-3"
+      "flex-layout.col#menu-beer-3",
+      "flex-layout.col#menu-beer-2"
     ]
   },
   "flex-layout.col#menu-beer-1": {
@@ -332,17 +342,14 @@
     "props": {
       "orientation": "vertical"
     },
-    "children": ["menu-item#beer-type","menu-item#type-pils","menu-item#type-abbey",
-      "menu-item#type-alcoholfree","menu-item#type-strong-blonde",
-      "menu-item#type-crafts", "menu-item#type-international",
-      "menu-item#type-wheat-beer", "menu-item#type-fruit-beer",
-      "menu-item#type-flavoured-lager", "menu-item#type-amber-ale",
-      "menu-item#type-amber-lager",   "menu-item#type-barrel-aged",
-      "menu-item#type-season-beer",   "menu-item#type-brown-ale",
-      "menu-item#type-dark-lager",  "menu-item#type-ipa",
-      "menu-item#type-lambic",   "menu-item#type-pale-ale",
-      "menu-item#type-pale-lager",  "menu-item#type-stout",
-      "menu-item#type-tripel",   "menu-item#type-strong-ale"
+    "children": ["menu-item#beer-type",
+      "menu-item#type-abbey",
+      "menu-item#type-alcoholfree",
+      "menu-item#type-flavoured-beer",
+      "menu-item#type-strong-pils-lager",
+      "menu-item#type-strong-blonde",
+      "menu-item#type-tripel",
+      "menu-item#type-wheat-beer"
     ]
   },
   "menu-item#beer-type": {
@@ -361,21 +368,6 @@
       }
     }
   },
-  "menu-item#type-pils": {
-    "props": {
-      "id": "menu-item-type-pils",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Pils",
-        "text": "Pils"
-      }
-    }
-  },
   "menu-item#type-abbey": {
     "props": {
       "id": "menu-item-type-abbey",
@@ -391,6 +383,7 @@
       }
     }
   },
+
   "menu-item#type-alcoholfree": {
     "props": {
       "id": "menu-item-type-alcoholfree",
@@ -403,6 +396,37 @@
         "noFollow": true,
         "tagTitle": "Alcoholfree",
         "text": "Alcoholfree"
+      }
+    }
+  },
+  "menu-item#type-flavoured-beer": {
+    "props": {
+      "id": "menu-item-type-flavoured-beer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Flavoured Beer",
+        "text": "Flavoured Beer"
+      }
+    }
+  },
+
+  "menu-item#type-strong-pils-lager": {
+    "props": {
+      "id": "menu-item-type-strong-pils-lager",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Pils & Lager",
+        "text": "Pils & Lager"
       }
     }
   },
@@ -421,22 +445,7 @@
       }
     }
   },
-  "menu-item#type-crafts": {
-    "props": {
-      "id": "menu-item-type-crafts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Crafts",
-        "text": "Crafts"
-      }
-    }
-  },
-  "menu-item#type-international": {
+  "menu-item#type-tripel": {
     "props": {
       "id": "menu-item-type-international",
       "type": "custom",
@@ -446,8 +455,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "International",
-        "text": "International"
+        "tagTitle": "Tripel",
+        "text": "Tripel"
       }
     }
   },
@@ -466,231 +475,7 @@
       }
     }
   },
-  "menu-item#type-fruit-beer": {
-    "props": {
-      "id": "menu-item-type-fruit-beer",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Fruit Beer",
-        "text": "Fruit Beer"
-      }
-    }
-  },
-  "menu-item#type-flavoured-lager": {
-    "props": {
-      "id": "menu-item-type-flavoured-lager",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Flavoured Lager",
-        "text": "Flavoured Lager"
-      }
-    }
-  },
-  "menu-item#type-amber-ale": {
-    "props": {
-      "id": "menu-item-type-amber-ale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Amber Ale",
-        "text": "Amber Ale"
-      }
-    }
-  },
-  "menu-item#type-amber-lager": {
-    "props": {
-      "id": "menu-item-type-amber-lager",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Amber Lager",
-        "text": "Amber Lager"
-      }
-    }
-  },
-  "menu-item#type-barrel-aged": {
-    "props": {
-      "id": "menu-item-type-barrel-aged",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Barrel Aged",
-        "text": "Barrel Aged"
-      }
-    }
-  },
-  "menu-item#type-season-beer": {
-    "props": {
-      "id": "menu-item-type-season-beer",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Season Beer",
-        "text": "Season Beer"
-      }
-    }
-  },
-  "menu-item#type-brown-ale": {
-    "props": {
-      "id": "menu-item-type-brown-ale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Brown Ale",
-        "text": "Brown Ale"
-      }
-    }
-  },
-  "menu-item#type-dark-lager": {
-    "props": {
-      "id": "menu-item-type-dark-lager",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Dark Lager",
-        "text": "Dark Lager"
-      }
-    }
-  },
-  "menu-item#type-ipa": {
-    "props": {
-      "id": "menu-item-type-ipa",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "IPA",
-        "text": "IPA"
-      }
-    }
-  },
-  "menu-item#type-lambic": {
-    "props": {
-      "id": "menu-item-type-dark-lambic",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Lambic",
-        "text": "Lambic"
-      }
-    }
-  },
-  "menu-item#type-pale-ale": {
-    "props": {
-      "id": "menu-item-type-pale-ale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Pale Ale",
-        "text": "Pale Ale"
-      }
-    }
-  },
-  "menu-item#type-pale-lager": {
-    "props": {
-      "id": "menu-item-type-pale-lager",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Pale Lager",
-        "text": "Pale Lager"
-      }
-    }
-  },
-  "menu-item#type-stout": {
-    "props": {
-      "id": "menu-item-type-stout",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Stout",
-        "text": "Stout"
-      }
-    }
-  },
-  "menu-item#type-tripel": {
-    "props": {
-      "id": "menu-item-type-tripel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Tripel",
-        "text": "Tripel"
-      }
-    }
-  },
-  "menu-item#type-strong-ale": {
-    "props": {
-      "id": "menu-item-type-strong-ale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Strong Ale",
-        "text": "Strong Ale"
-      }
-    }
-  },
+
 
   "vtex.menu@2.x:menu#beer-beer-brand": {
     "props": {

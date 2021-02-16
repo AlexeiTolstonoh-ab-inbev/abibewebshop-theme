@@ -9,6 +9,14 @@
   background: rgb(251,249,240);
 }
 
+:global(.vtex-menu-2-x-menuContainer--submenu-top-wrapper-brands) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+display: flex;
+  flex-wrap: wrap;
+  background: red;
+  min-height: 150px;
+  max-width: 100%;
+}
+
 .submenu--submenu-top{
   justify-content: center;
   flex-direction: column;
@@ -21,9 +29,11 @@
 :global(.vtex-menu-2-x-menuContainerNav){
   width: 100%;
 }
-.submenu--submenu-top :global(.vtex-menu-2-x-menuItem){
-  width: 50%;
-}
+/*.submenu--submenu-top :global(.vtex-menu-2-x-menuItem){*/
+/*   width: auto;*/
+/*  padding-left: 50px;*/
+/*  padding-left: 50px;*/
+/* }*/
 
 .submenu--submenu-top :global(.vtex-menu-2-x-menuItem):hover{
   outline-bottom: 2px solid #B12025;
@@ -41,6 +51,9 @@
 
 .menuContainer{
   min-width: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 .styledLinkContent--head-of-category{
   font-weight: bold;
@@ -50,4 +63,27 @@
 }
 .styledLinkContent:hover{
   color: black;
+}
+.menuItem--top-menu-item{
+  width: 400px;
+}
+:global(.vtex-menu-2-x-styledLinkContainer--top-menu-item-brand){
+  color: coral;
+  width: 33%;
+  font-size: 24px;
+}
+.menuItem--top-menu-item-brand{
+  padding: 10px 70px 10px 70px;
+}
+.menuContainer--submenu-top-wrapper-brands{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+.styledLinkContent--footer-link{
+  color: white;
+}
+.styledLinkContent--footer-link:hover{
+  color: white;
 }

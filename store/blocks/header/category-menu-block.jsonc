@@ -11,6 +11,15 @@
 "children":[
 "flex-layout.row#category-menu"
  ]
-}
+},
+  "flex-layout.row#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "blockClass": "categoryMenuWrapper"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  }
 
 }

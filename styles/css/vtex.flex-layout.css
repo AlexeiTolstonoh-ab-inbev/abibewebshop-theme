@@ -1,3 +1,30 @@
+.flexCol--topContainerRight{
+  padding-top: 14px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--buy-button-pseudo){
+  position: relative;
+  height: 20px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--buy-button-pseudo) ::before {
+  position: absolute;
+  content: "Buy now";
+  background-color: rgb(58,3,45);
+  text-align: center;
+  vertical-align: middle;
+  width: 50%;
+  padding: 8px;
+  border-radius: 18px;
+  color: white;
+  top: -8px;
+  right: 0
+}
+
+
+
+
+
 :global(.vtex-store__template){
   max-width: 1520px;
   margin: 0 auto;

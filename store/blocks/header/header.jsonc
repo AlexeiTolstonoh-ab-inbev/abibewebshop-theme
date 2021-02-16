@@ -28,26 +28,35 @@
     },
     "children": [
      "logo#desktop",
-      "header-spacer#spacer",
+             "header-spacer#spacer",
 
-      "locale-switcher",
-      "login",
+        "search-bar#home",
+      "header-spacer#spacer",
+      "locale-switcher#home",
+      "login#home",
       "minicart.v2"
     ]
   },
 "header-spacer#spacer":{
 "props":{
-"width": "100%"
+"maxWidth": "100%",
+"autocompleteFullWidth": true
+}
+},
+"locale-switcher#home":{
+"props":{
+"blockClass": "header-lang-swither"
+}
+},
+"login#home":{
+"props":{
+"showIconProfile": true,
+"iconLabel": "",
+"labelClasses": ["icon-login"],
+"blockClass": "header-login"
 }
 },
 
-  "flex-layout.row#category-menu": {
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "center"
-    },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
-  },
   "logo#desktop": {
     "props": {
       "title": "Logo",
@@ -55,6 +64,11 @@
       "url": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f606c6cf-dbd3-4a01-93ca-e63fd4305266___a410449bd1002aa3deaf1780368ce7b2.png",
       "width": "180"
     }
+  },
+  "search-bar#home":{
+  "props":{
+  "maxWidth": 379
+  }
   },
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]

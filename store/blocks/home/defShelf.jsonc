@@ -1,0 +1,104 @@
+ {
+  "flex-layout.row#producthome":{
+  "props":{
+  "fullWidth": true
+  },
+  "children": ["list-context.product-list#producthome"]
+
+  },
+   "list-context.product-list#producthome": {
+     "blocks": ["product-summary.shelf#producthome"],
+     "children": ["slider-layout#home"],
+     "props": {
+           "orderBy": "OrderByTopSaleDESC"
+         }
+   },
+
+      "slider-layout#home": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "showPaginationDots": "newer",
+          "fullWidth": true,
+          "blockClass": "shelfProduct-container"
+        }
+      },
+  "product-summary.shelf#producthome": {
+  "props":{
+  "blockClass":"product-home-wrapper"
+  },
+    "children": [
+    "product-summary-image#producthome",
+    "flex-layout.row#topContainer",
+   //   "product-summary-quantity#test",
+//"add-to-cart-button#test"
+"flex-layout.row#empty"
+    ]
+  },
+  "flex-layout.row#empty":{
+  "props":{
+  "blockClass": "buy-button-pseudo"
+  }
+  },
+    "flex-layout.row#topContainer":{
+    "props":{
+    "blockClass": "topContainer"
+        },
+    "children": ["flex-layout.col#topContainerLeft","flex-layout.col#topContainerRight"]
+  },
+
+      "flex-layout.col#topContainerLeft":{
+      "props":{
+      "blockClass": "topContainerLeft",
+      "width": "70%"
+      },
+      "children": ["product-summary-name#producthome"]
+    },
+          "flex-layout.col#topContainerRight":{
+          "props":{
+          "width": "30%",
+          "verticalAlign": "top",
+          "blockClass": "topContainerRight"
+          },
+          "children": ["product-selling-price#producthome"]
+        },
+
+    "product-summary-image#producthome": {
+        "props": {
+              "showBadge": false,
+              "blockClass": "shelfProduct-image"
+            }
+      },
+          "product-summary-name#producthome":{
+      "props":{
+      "tag": "h2",
+      "blockClass": "shelfProduct-name"
+      }
+      },
+  "product-summary-quantity#producthome":{
+  "props":{
+  "blockClass":"quantity-shelf"
+  }
+  },
+
+              "product-selling-price#producthome":{
+                  "props": {
+                    "showInstallments": true,
+                    "showSavings": true,
+                     "message": "{sellingPriceWithTax}",
+                     "blockClass": "shelfProduct-price"
+                  }
+              },
+                   "add-to-cart-button#producthome":{
+                      "props": {
+                         "isOneClickBuy": false,
+                         "buyButtonText": "Buy now",
+                         "blockClass": "shelfProduct-button"
+                       }
+                   }
+}

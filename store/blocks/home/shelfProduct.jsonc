@@ -17,14 +17,14 @@
      "slider-layout#shelfProduct": {
        "props": {
          "itemsPerPage": {
-           "desktop": 2,
+           "desktop": 4,
            "tablet": 2,
            "phone": 1
          },
          "infinite": true,
-         "showNavigationArrows": "newer",
+         "showNavigationArrows": "always",
          "showPaginationDots": "newer",
-         "fullWidth": false,
+         "fullWidth": true,
          "blockClass": "shelfProduct-container"
        }
      },
@@ -35,11 +35,26 @@
   "Number": 2
   },
     "children": [
-      "product-summary-image#shelfProduct",
-      "product-summary-name#shelfProduct",
-      "product-selling-price#shelfProduct",
-      "product-summary-buy-button#shelfProduct"
+       "flex-layout.row#productInShelf"
     ]
+  },
+  "flex-layout.row#productInShelf":{
+    "children":["flex-layout.col#left","flex-layout.col#right"]
+  },
+  "flex-layout.col#left":{
+    "props":{
+    "preventVerticalStretch": true,
+    "verticalAlign": "bottom"
+    },
+  "children":["product-summary-image#shelfProduct"]
+  },
+  "flex-layout.col#right":{
+  "props":{
+  "preventVerticalStretch": true,
+  "verticalAlign": "bottom"
+  },
+  "children":["product-summary-name#shelfProduct","product-selling-price#shelfProduct","product-summary-quantity#shelfProduct",
+   "add-to-cart-button#shelfProduct"]
   },
   "product-summary-image#shelfProduct": {
       "props": {
@@ -58,15 +73,17 @@
                 "props": {
                   "showInstallments": true,
                   "showSavings": true,
-                   "message": "{sellingPriceWithTax} (inc.VAT)",
+                   "message": "{sellingPriceWithTax}",
                    "blockClass": "shelfProduct-price"
                 }
             },
-     "product-summary-buy-button#shelfProduct":{
+     "add-to-cart-button#shelfProduct":{
         "props": {
            "isOneClickBuy": false,
            "buyButtonText": "Buy now",
            "blockClass": "shelfProduct-button"
          }
+     },
+     "product-summary-quantity#shelfProduct":{
      }
  }

@@ -29,7 +29,6 @@
     "children": [
      "logo#desktop",
              "header-spacer#spacer",
-
         "search-bar#home",
       "header-spacer#spacer",
       "locale-switcher#home",
@@ -69,51 +68,5 @@
   "props":{
   "maxWidth": 379
   }
-  },
-  "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
-  },
-  "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
-  },
-  "flex-layout.row#1-mobile": {
-    "children": [
-      "drawer",
-      "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": ["menu#drawer"]
-  },
-
-  "menu#drawer": {
-    "children": [
-      "menu-item#brand-zones-mobile-header",
-      "menu-item#beer-mobile-header",
-        "menu-item#other-drinks-mobile-header",
-        "menu-item#deals-mobile-header",
-        "menu-item#merch-mobile-header"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-
-  "logo#mobile": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f606c6cf-dbd3-4a01-93ca-e63fd4305266___a410449bd1002aa3deaf1780368ce7b2.png",
-      "width": "70"
-    }
   }
 }

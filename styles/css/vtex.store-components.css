@@ -136,6 +136,9 @@
   .newsletter .container {
     padding: 140px;
   }
+  .logoImage{
+    width: 231px;
+  }
 
   .label {
     font-size: 40px;

@@ -1,10 +1,15 @@
 .profileIcon--header-login{
   color: white;
+  width: 30px;
+  height: 30px;
 }
 .container :hover{
   background-color: #F94E32;
 }
 .label{
   display: none;
+}
+.buttonLink{
+  width: 50px;
 }
 

@@ -46,7 +46,7 @@
       "product-selling-price#product-details-inc-vat",
       "product-separator",
       "product-quantity",
-      "product-identifier.product",
+   //   "product-identifier.product",
       //"sku-selector",
       "product-description",
       "flex-layout.row#buy-button",

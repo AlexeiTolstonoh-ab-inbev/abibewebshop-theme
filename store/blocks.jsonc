@@ -113,5 +113,10 @@
     "store.custom#faq":{
     "blocks":[
     "flex-layout.row#faq"
-    ]}
+    ]},
+     "store.custom#aboutus":{
+      "blocks":[
+      "flex-layout.row#aboutus"
+      ]
+      }
 }

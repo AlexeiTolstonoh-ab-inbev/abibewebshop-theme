@@ -6,7 +6,7 @@
 "fullWidth": true
 },
 "children":["flex-layout.col#img1","flex-layout.col#img2","flex-layout.col#img3",
-"flex-layout.col#img4", "flex-layout.col#img5"]
+"flex-layout.col#img4", "flex-layout.col#img5","flex-layout.col#img6", "flex-layout.col#img7","flex-layout.col#img8"]
 },
   "flex-layout.col#img1":{
   "children":[
@@ -63,6 +63,39 @@
                   "verticalAlign": "middle"
           }
           },
+          "flex-layout.col#img6":{
+          "children":[
+            "image#puerbm-image6"
+          ],
+          "props":{
+          "horizontalAlign":"center",
+                  "paddingRight": 1,
+                  "paddingLeft": 1,
+                  "verticalAlign": "middle"
+          }
+          },
+          "flex-layout.col#img7":{
+          "children":[
+            "image#puerbm-image7"
+          ],
+          "props":{
+          "horizontalAlign":"center",
+                  "paddingRight": 1,
+                  "paddingLeft": 1,
+                  "verticalAlign": "middle"
+          }
+          },
+          "flex-layout.col#img8":{
+          "children":[
+            "image#puerbm-image8"
+          ],
+          "props":{
+          "horizontalAlign":"center",
+                  "paddingRight": 1,
+                  "paddingLeft": 1,
+                  "verticalAlign": "middle"
+          }
+          },
 
   "image#puerbm-image1": {
     "props": {
@@ -73,7 +106,7 @@
       "link": "/jupiler",
       "title": "Juppiler brand",
       "maxWidth": "100%",
-      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/a1bea3a4-6eb6-4bea-9106-cc0db76cfc46___be48767b664cfae9c6db42328f69806e.png"
+      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/81234cc8-1e7a-4389-adf4-8e584934793e___a4e30396192e4ebdd948f4c4c7aeac09.png"
     }
   },  "image#puerbm-image2": {
         "props": {
@@ -81,9 +114,9 @@
           "min-height": "200",
           "min-width": "320",
           "blockClass": "puerbm-image",
-          "link": "/bud",
+          "link": "/stella-artois",
           "maxWidth": "100%",
-          "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/9e24da3f-41fe-4fdf-b07e-4b1e0b19716d___f46eff3fffa0c60f6c75451bfb48b0dd.png"
+          "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2543e4ac-c2fd-4a58-b6e0-280960d801d9___3c96e39004f5ac2fe66692b7469ef80d.png"
         }
       },
       "image#puerbm-image3": {
@@ -92,9 +125,9 @@
                 "min-height": "200",
                 "min-width": "320",
                 "blockClass": "puerbm-image",
-                "link": "/bud",
+                "link": "/tripel-karmeliet",
                 "maxWidth": "100%",
-                "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/5e2f642e-aa9b-4134-8993-983cfbfed96e___c3adb3e26b5774cf9f49c75152e63ca8.png"
+                "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/a5efddca-cf87-4ec2-9739-0cc4c1a87297___0fe6d90303ebc1428546c4efbba3e491.png"
               }
             },
       "image#puerbm-image4": {
@@ -103,9 +136,9 @@
                 "min-height": "200",
                 "min-width": "320",
                 "blockClass": "puerbm-image",
-                "link": "/bud",
+                "link": "/budhub",
                 "maxWidth": "100%",
-                "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b7b2e2af-dbdb-41da-a960-faf866ced35c___2a5d0ef9d4e017959f8e77faa0de6ce5.jpg"
+                "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/0c8ee6b6-113e-4b8d-a642-5f4adcd7c24d___9b8958a567ff373ea15b47bf5cbda363.png"
               }
             },
             "image#puerbm-image5": {
@@ -114,9 +147,42 @@
                       "min-height": "200",
                       "min-width": "320",
                       "blockClass": "puerbm-image",
-                      "link": "/bud",
+                      "link": "/smirnoff",
                       "maxWidth": "100%",
-                      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b7b2e2af-dbdb-41da-a960-faf866ced35c___2a5d0ef9d4e017959f8e77faa0de6ce5.jpg"
+                      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/a3724015-01f8-40f3-9e47-e176cd39849d___1ff5281b314ba34d4c9eb4a0ec57e629.png"
                     }
-                  }
+                  },
+             "image#puerbm-image6": {
+                     "props": {
+                       "title":"First image",
+                       "min-height": "200",
+                       "min-width": "320",
+                       "blockClass": "puerbm-image",
+                       "link": "/coca-cola",
+                       "maxWidth": "100%",
+                       "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/3fa00e2d-a482-4fa3-81ad-64ab4b966e8c___109627646f84870661fd994ebec182a0.png"
+                     }
+                   },
+             "image#puerbm-image7": {
+                     "props": {
+                       "title":"First image",
+                       "min-height": "200",
+                       "min-width": "320",
+                       "blockClass": "puerbm-image",
+                       "link": "/schweppes",
+                       "maxWidth": "100%",
+                       "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/c93f2d65-1310-4195-92c4-e3e36be704d9___d522f6b8f037e79944758d47f4d65f52.png"
+                     }
+                   },
+              "image#puerbm-image8": {
+                      "props": {
+                        "title":"First image",
+                        "min-height": "200",
+                        "min-width": "320",
+                        "blockClass": "puerbm-image",
+                        "link": "/chaudfontaine",
+                        "maxWidth": "100%",
+                        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/208ce80f-6d6b-4cd6-a441-a2e90eb34bf1___8d2ceb674d719cb61c593d4ba090f35a.png"
+                      }
+                    }
 }

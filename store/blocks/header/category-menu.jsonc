@@ -115,7 +115,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/trimpel",
+        "href": "/tripel-karmeliet",
         "noFollow": false,
         "tagTitle": "Tripel Karmeliet",
         "text": "Tripel Karmeliet"
@@ -215,7 +215,11 @@
   },
   "flex-layout.row#beer": {
     "props": {
-      "blockClass": "submenu-top-wrapper"
+      "blockClass": "submenu-top-wrapper",
+      "border": "bottom",
+      "borderColor": "black",
+      "borderWidth": 1,
+      "paddingBottom": 5
     },
     "children": [
       "flex-layout.col#menu-beer-1",
@@ -225,7 +229,8 @@
   },
   "flex-layout.col#menu-beer-1": {
     "props": {
-      "blockClass": "subcolumn"
+      "blockClass": "subcolumn",
+      "horizontalAlign": "center"
     },
     "children": [
       "vtex.menu@2.x:menu#beer-pack-type"
@@ -233,7 +238,8 @@
   },
   "flex-layout.col#menu-beer-2": {
     "props": {
-      "blockClass": "subcolumn"
+      "blockClass": "subcolumn",
+      "horizontalAlign": "center"
     },
     "children": [
       "vtex.menu@2.x:menu#beer-beer-type"
@@ -241,7 +247,12 @@
   },
   "flex-layout.col#menu-beer-3": {
     "props": {
-      "blockClass": "subcolumn"
+      "blockClass": "subcolumn",
+      "horizontalAlign": "center",
+      "border": ["left", "right"],
+      "borderColor": "black",
+      "borderWidth": 1,
+      "paddingBottom": 5
     },
     "children": [
       "vtex.menu@2.x:menu#beer-beer-brand"

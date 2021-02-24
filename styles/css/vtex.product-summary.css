@@ -89,8 +89,8 @@
 }
 .image--shelfProduct-image{
   background: rgb(251,249,240);
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: auto;
 }
 .containerNormal--search-page-containe{
   background: red;
@@ -99,4 +99,10 @@
 .buyButton--searchBuyButton{
   background: red;
 }
-
+.nameContainer--serchName{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.brandName--serchName{
+  color: black;
+}

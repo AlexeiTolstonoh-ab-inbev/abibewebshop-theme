@@ -28,7 +28,11 @@
     },
     "flex-layout.row#merch": {
     "props":{
-      "blockClass": "submenu-top-wrapper"
+      "blockClass": "submenu-top-wrapper",
+            "border": "bottom",
+            "borderColor": "black",
+            "borderWidth": 1,
+            "paddingBottom": 5
       },
         "children": [
           "flex-layout.col#menu-merch-brands-1",
@@ -36,11 +40,21 @@
         ]
       },
       "flex-layout.col#menu-merch-brands-1": {
+       "props":{
+                  "horizontalAlign": "center"
+         },
         "children": [
           "vtex.menu@2.x:menu#merch-brands"
         ]
       },
       "flex-layout.col#menu-merch-type-2": {
+      "props":{
+            "horizontalAlign": "center",
+            "border": "left",
+            "borderColor": "black",
+            "borderWidth": 1,
+            "paddingBottom": 5
+      },
         "children": [
           "vtex.menu@2.x:menu#merch-types"
         ]

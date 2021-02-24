@@ -249,90 +249,90 @@
     "measure": [30, 34, 20],
     "styles": {
       "heading-1": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "700",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "700",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "capitalize",
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "700",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "700",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "700",
         "fontSize": "0.875rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "700",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "code": {
-        "fontFamily": "Arial",
+        "fontFamily": "Bahnschrift SemiBold",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",

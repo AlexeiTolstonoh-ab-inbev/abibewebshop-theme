@@ -72,7 +72,7 @@
   },
   "rich-text#answer1.1": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234"
+      "text": "Once you have placed your order, you will receive the parcel  in 3-5 working days."
     }
   },
 
@@ -94,7 +94,7 @@
     },
     "rich-text#answer1.2": {
       "props": {
-        "text": "Call us at the number (212) 1234-1234"
+        "text": "When a product is out of stock, it will be mentioned on our Webshop. You can use the option ‘’Inform me when the product is available’’."
       }
     },
 
@@ -115,7 +115,7 @@
         },
         "rich-text#answer1.3": {
           "props": {
-            "text": "Call us at the number (212) 1234-1234"
+            "text": "Your order will be delivered by GLS or PostNL."
           }
         },
      "disclosure-layout#question1.4": {
@@ -129,13 +129,13 @@
          },
          "rich-text#question1.4": {
            "props": {
-             "text": "Who will deliver my parcel?",
+             "text": "Track & Trace says that my parcel is delivered but I haven’t received anything.",
              "blockClass": "question-text"
            }
          },
          "rich-text#answer1.4": {
            "props": {
-             "text": "Call us at the number (212) 1234-1234"
+             "text": "Please double check in your login area if the delivery address was correctly entered or contact our team [here](https://contactus.ab-inbev.com/en?redirect_url=https://Danny.delivery)."
            }
          },
       "disclosure-layout#question1.5": {
@@ -149,13 +149,13 @@
           },
           "rich-text#question1.5": {
             "props": {
-              "text": "Who will deliver my parcel?",
+              "text": "What should I do with damaged products?",
               "blockClass": "question-text"
             }
           },
           "rich-text#answer1.5": {
             "props": {
-              "text": "Call us at the number (212) 1234-1234"
+              "text": "Please send us a picture of your damaged product and we will come back to you as soon as possible."
             }
           },
       "disclosure-layout#question1.6": {
@@ -169,13 +169,13 @@
           },
           "rich-text#question1.6": {
             "props": {
-              "text": "Who will deliver my parcel?",
+              "text": "I did not receive an order confirmation, is there something wrong?",
               "blockClass": "question-text"
             }
           },
           "rich-text#answer1.6": {
             "props": {
-              "text": "Call us at the number (212) 1234-1234"
+              "text": "Please check your spam, perhaps your order confirmation is there. Otherwise you can contact us [here](https://contactus.ab-inbev.com/en?redirect_url=https://Danny.delivery)."
             }
           },
     "disclosure-layout#question1.7": {
@@ -189,13 +189,13 @@
         },
         "rich-text#question1.7": {
           "props": {
-            "text": "Who will deliver my parcel?",
+            "text": "Can I make changes in my already placed order?",
             "blockClass": "question-text"
           }
         },
         "rich-text#answer1.7": {
           "props": {
-            "text": "Call us at the number (212) 1234-1234"
+            "text": "Unfortunately not. If you have questions left, contact us [here](https://contactus.ab-inbev.com/en?redirect_url=https://Danny.delivery)."
           }
         },
     "disclosure-layout#question1.8": {
@@ -209,13 +209,13 @@
         },
         "rich-text#question1.8": {
           "props": {
-            "text": "Who will deliver my parcel?",
+            "text": "Is it possible to deliver parcels abroad?",
             "blockClass": "question-text"
           }
         },
         "rich-text#answer1.8": {
           "props": {
-            "text": "Call us at the number (212) 1234-1234"
+            "text": "Danny only delivers in Belgium."
           }
         },
       "disclosure-layout#question1.9": {
@@ -229,13 +229,13 @@
           },
           "rich-text#question1.9": {
             "props": {
-              "text": "Who will deliver my parcel?",
+              "text": "How do I place an order?",
               "blockClass": "question-text"
             }
           },
           "rich-text#answer1.9": {
             "props": {
-              "text": "Call us at the number (212) 1234-1234"
+              "text": "Add your products to your shopping cart, click on the top right shopping cart icon and go to checkout. Fill in all the necessary information. Your order is placed once you have paid. You will receive a confirmation email."
             }
           },
               "disclosure-layout#question1.10": {
@@ -249,13 +249,13 @@
                   },
                   "rich-text#question1.10": {
                     "props": {
-                      "text": "Who will deliver my parcel?",
+                      "text": "I only received a part of my order. What should I do?",
                       "blockClass": "question-text"
                     }
                   },
                   "rich-text#answer1.10": {
                     "props": {
-                      "text": "Call us at the number (212) 1234-1234"
+                      "text": " It is possible that your order is shipped in multiple boxes. If the rest of your order did not arrive in 5 days after placing the order, please contact us [here](https://contactus.ab-inbev.com/en?redirect_url=https://Danny.delivery) ."
                     }
                   },
       "disclosure-layout#question1.11": {
@@ -269,13 +269,13 @@
           },
           "rich-text#question1.11": {
             "props": {
-              "text": "Who will deliver my parcel?",
+              "text": "Can I still order Jupiler Masks?",
               "blockClass": "question-text"
             }
           },
           "rich-text#answer1.11": {
             "props": {
-              "text": "Call us at the number (212) 1234-1234"
+              "text": "Jupiler masks cannot be ordered anymore."
             }
           },
 
@@ -299,13 +299,13 @@
             },
             "rich-text#question2.1": {
               "props": {
-                "text": "Who will deliver my parcel?",
+                "text": "How can I return my parcel?",
                 "blockClass": "question-text"
               }
             },
             "rich-text#answer2.1": {
               "props": {
-                "text": "Call us at the number (212) 1234-1234"
+                "text": "Returns are not possible at the moment."
               }
             },
         "disclosure-layout#question2.2": {
@@ -319,13 +319,13 @@
              },
              "rich-text#question2.2": {
                "props": {
-                 "text": "Who will deliver my parcel?",
+                 "text": "How can I return empty bottles/ crates?",
                  "blockClass": "question-text"
                }
              },
              "rich-text#answer2.2": {
                "props": {
-                 "text": "Call us at the number (212) 1234-1234"
+                 "text": "You can return your empty bottles/ crates at any retailer. Danny is working on a solution, coming soon!"
                }
              },
              "rich-text#category-header3":{
@@ -348,13 +348,13 @@
                         },
                         "rich-text#question3.1": {
                           "props": {
-                            "text": "Who will deliver my parcel?",
+                            "text": "How can I pay my order?",
                             "blockClass": "question-text"
                           }
                         },
                         "rich-text#answer3.1": {
                           "props": {
-                            "text": "Call us at the number (212) 1234-1234"
+                            "text": "You can pay your order by Creditcard (Visa/Master/Amex/ApplePay) or by Bancontact."
                           }
                         },
 
@@ -369,13 +369,13 @@
                           },
                           "rich-text#question3.2": {
                             "props": {
-                              "text": "Who will deliver my parcel?",
+                              "text": "Where can I find the invoice of my order?",
                               "blockClass": "question-text"
                             }
                           },
                           "rich-text#answer3.2": {
                             "props": {
-                              "text": "Call us at the number (212) 1234-1234"
+                              "text": "You can find it on your personal account on danny.delivery."
                             }
                           },
                             "disclosure-layout#question3.3": {
@@ -389,13 +389,13 @@
                             },
                             "rich-text#question3.3": {
                               "props": {
-                                "text": "Who will deliver my parcel?",
+                                "text": "What is the delivery fee I need to pay?",
                                 "blockClass": "question-text"
                               }
                             },
                             "rich-text#answer3.3": {
                               "props": {
-                                "text": "Call us at the number (212) 1234-1234"
+                                "text": "Danny is a generous guy, delivery is free for all the drinks you order."
                               }
                             }
 }

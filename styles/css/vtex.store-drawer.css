@@ -1,0 +1,19 @@
+.drawerContent{
+  background-color: #FF4121;
+}
+.closeIconContainer{
+  background-color: #FF4121;
+  height: 30px;
+}
+.openIconContainer{
+  color: white;
+}
+.closeIconButton{
+  color: white;
+}
+.plusIcon{
+  color: white;
+}
+.drawer{
+  background-color: #FF4121;
+}

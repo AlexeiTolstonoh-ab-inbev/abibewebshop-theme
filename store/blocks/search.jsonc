@@ -254,7 +254,7 @@
   "props":{
   "blockClass":"search-page-containe"},
       "children": [
-       "product-summary-image#searchProduct","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton"
+       "product-summary-image#searchProduct","product-summary-name#serchName","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton"
       ]
   },
     "product-summary-image#searchProduct": {
@@ -263,6 +263,12 @@
               "blockClass": "searchProduct-image"
             }
       },
+                "product-summary-name#serchName":{
+            "props":{
+            "tag": "h2",
+            "blockClass": "serchName"
+            }
+            },
 
        "add-to-cart-button#searchBuyButton":{
           "props": {

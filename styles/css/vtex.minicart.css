@@ -1,5 +1,7 @@
 .cartIcon{
   color: white;
+  width: 30px;
+  height: 30px;
 }
 .minicartContainer :hover{
   background-color: #F94E32;
@@ -9,6 +11,8 @@
 }
 .minicartCheckoutButton{
   background-color: rgb(255,198,0);
+  padding-left: 0;
+  padding-right: 0;
 }
 :global(.vtex-minicart-2-x-overlay--visible){
   background-color: #FFC600;

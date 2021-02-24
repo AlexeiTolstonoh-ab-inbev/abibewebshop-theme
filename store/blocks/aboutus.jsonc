@@ -1,0 +1,194 @@
+{
+"flex-layout.row#aboutus":{
+   "props": {
+    "fullWidth":true,
+    "horizontalAlign": "center",
+    "paddingBottom": 10
+    },
+"children":["flex-layout.col#aboutus-container"]
+},
+"flex-layout.col#aboutus-container":{
+   "props": {
+    "fullWidth":true,
+    "horizontalAlign": "center"
+    },
+"children":["flex-layout.row#aboutus-header-container", "flex-layout.row#aboutus-info-container"]
+},
+  "flex-layout.row#aboutus-header-container":{
+     "props": {
+      "fullWidth":true,
+      "horizontalAlign": "center"
+      },
+  "children":["rich-text#aboutus-header"]
+  },
+    "flex-layout.row#aboutus-info-container":{
+       "props": {
+        "fullWidth":true,
+        "horizontalAlign": "center"
+        },
+    "children":["flex-layout.col#aboutus-clo1", "flex-layout.col#aboutus-clo2", "flex-layout.col#aboutus-clo3", "flex-layout.col#aboutus-clo4"]
+    },
+
+
+  "rich-text#aboutus-header": {
+    "props": {
+      "text": "About Danny",
+      "blockClass": "aboutus-headerText"
+    }
+  },
+  "flex-layout.col#aboutus-clo1":{
+  "props":{
+  "borderColor": "red",
+  "border": ["top", "right", "bottom", "left"],
+  "borderWidth": 2,
+  "paddingLeft": 5,
+  "paddingRight": 5,
+  "marginLeft": 5,
+  "marginRight": 5,
+  "verticalAlign": "top",
+  "horizontalAlign": "center"
+  },
+  "children": ["rich-text#info-header-first", "image#about-img1", "rich-text#info-text-first"]
+  },
+
+    "rich-text#info-header-first": {
+      "props": {
+        "text": "WHO IS DANNY ?",
+        "blockClass": "aboutus-headerInfoText"
+      }
+    },
+"image#about-img1": {
+"props": {
+"title":"First image",
+"min-height": "200",
+"min-width": "200",
+"maxHeight": "200",
+"maxWidth": "100%",
+"src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b90a74ae-6759-45b0-abcc-925bb6f1598b___9b7c271de695bc8a0b48d6db8fac3207.png"
+    }
+ },
+    "rich-text#info-text-first": {
+      "props": {
+        "text": "Danny is everyone's friend, the guy that comes in handy, the guy that is always happy and ready to help!",
+        "blockClass": "aboutus-infoText"
+      }
+    },
+
+
+    "flex-layout.col#aboutus-clo2":{
+        "props":{
+          "borderColor": "red",
+          "border": ["top", "right", "bottom", "left"],
+          "borderWidth": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "verticalAlign": "top",
+        "horizontalAlign": "center"
+        },
+         "children": ["rich-text#info-header-second", "image#about-img2", "rich-text#info-text-second"]
+    },
+        "rich-text#info-header-second": {
+          "props": {
+            "text": "WHAT DOES HE DO?",
+            "blockClass": "aboutus-headerInfoText"
+          }
+        },
+        "image#about-img2": {
+        "props": {
+        "title":"First image",
+        "min-height": "200",
+        "min-width": "200",
+        "maxHeight": "200",
+        "maxWidth": "100%",
+        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f78a32d2-d1d5-4cb0-8de8-392c46fd6a4c___2e13ae0d1616c84e07918b007ffe5dce.png"
+            }
+         },
+        "rich-text#info-text-second": {
+          "props": {
+            "text": "Danny delivers drinks! Never have to worry about that heavy lifting again when going to the supermarket: Danny will deliver your drinks to your door in 3 to 5 working days. ",
+            "blockClass": "aboutus-infoText"
+          }
+        },
+
+
+
+    "flex-layout.col#aboutus-clo3":{
+        "props":{
+          "borderColor": "red",
+          "border": ["top", "right", "bottom", "left"],
+          "borderWidth": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "verticalAlign": "top",
+        "horizontalAlign": "center"
+        },
+         "children": ["rich-text#info-header-third", "image#about-img3", "rich-text#info-text-third"]
+    },
+            "rich-text#info-header-third": {
+              "props": {
+                "text": "WHY DO WE LIKE HIM ?",
+                "blockClass": "aboutus-headerInfoText"
+              }
+            },
+            "image#about-img3": {
+            "props": {
+            "title":"First image",
+            "min-height": "200",
+            "min-width": "200",
+            "maxHeight": "200",
+            "maxWidth": "100%",
+            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/8fa36165-763d-4677-80b5-212bb2e45d2a___41ad1182503cc4d6a1702a6d4c037648.png"
+                }
+             },
+            "rich-text#info-text-third": {
+              "props": {
+                "text": "We like Danny because Danny makes our life easy! From now on let's only focus on what matters: have a drink with friends, enjoy a nice cocktail or a beer. Danny makes sure you have what you need! ",
+                "blockClass": "aboutus-infoText"
+              }
+            },
+
+
+
+    "flex-layout.col#aboutus-clo4":{
+        "props":{
+          "borderColor": "red",
+          "border": ["top", "right", "bottom", "left"],
+          "borderWidth": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "verticalAlign": "top",
+        "horizontalAlign": "center"
+        },
+         "children": ["rich-text#info-header-fourth", "image#about-img4", "rich-text#info-text-fourth"]
+    },
+
+            "rich-text#info-header-fourth": {
+              "props": {
+                "text": "WHERE CAN HE HELP YOU ?",
+                "blockClass": "aboutus-headerInfoText"
+              }
+            },
+            "image#about-img4": {
+            "props": {
+            "title":"First image",
+            "min-height": "200",
+            "min-width": "200",
+            "maxHeight": "200",
+            "maxWidth": "100%",
+            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/9f3b28e0-15c9-42a9-a6cd-a56c5cd59418___d6d3744de58282c776f655ed5cdc7c8d.png"
+                }
+             },
+            "rich-text#info-text-fourth": {
+              "props": {
+                "text": "Danny delivers drinks, now you get that. Well, there is even more! Danny will also help you find merchandising, glasses and even experience related to your favorite beer brands! ",
+                "blockClass": "aboutus-infoText"
+              }
+            }
+
+}

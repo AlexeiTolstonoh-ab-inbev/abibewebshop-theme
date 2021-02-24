@@ -7,7 +7,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Other-drinks",
         "noFollow": true,
         "tagTitle": "Other drinks",
         "text": "Other drinks"
@@ -28,7 +28,12 @@
     },
     "flex-layout.row#other-drinks": {
     "props":{
-      "blockClass": "submenu-top-wrapper"
+      "blockClass": "submenu-top-wrapper",
+      "horizontalAlign": "center",
+          "border": "bottom",
+                  "borderColor": "black",
+                  "borderWidth": 1,
+                  "paddingBottom": 5
       },
         "children": [
           "flex-layout.col#menu-other-drinks-1",
@@ -36,11 +41,21 @@
         ]
       },
       "flex-layout.col#menu-other-drinks-1": {
+      "props":{
+          "horizontalAlign": "center"
+      },
         "children": [
           "vtex.menu@2.x:menu#other-drinks-types"
         ]
       },
       "flex-layout.col#menu-other-drinks-2": {
+       "props":{
+       "horizontalAlign": "center",
+            "border": "left",
+                        "borderColor": "black",
+                        "borderWidth": 1,
+                        "paddingBottom": 5
+            },
         "children": [
           "vtex.menu@2.x:menu#other-drinks-brands"
         ]
@@ -50,8 +65,9 @@
       "orientation": "vertical"
     },
     "children": [
+    "menu-item#other-type-of-drinks",
      "menu-item#water",
-      "menu-item#wine",
+      "menu-item#milk",
       "menu-item#soft-drinks",
       "menu-item#juices",
       "menu-item#wine-and-more",
@@ -59,6 +75,22 @@
     "menu-item#seltzers"
     ]
   },
+         "menu-item#other-type-of-drinks": {
+          "props": {
+           "blockClass":"head-of-category",
+            "id": "menu-item-type-of-drinks",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+             "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": true,
+             "tagTitle": "Type Of Drinks",
+             "text": "Type Of Drinks"
+                }
+               }
+             },
 
     "menu-item#water": {
       "props": {
@@ -68,25 +100,25 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "#",
+          "href": "/other-drinks/water?initialMap=c&initialQuery=other-drinks&map=category-1,category-2",
           "noFollow": true,
           "tagTitle": "Water",
           "text": "Water"
         }
       }
     },
-      "menu-item#wine": {
+      "menu-item#milk": {
         "props": {
-          "id": "menu-item-wine",
+          "id": "menu-item-milk",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/other-drinks/milk?initialMap=c&initialQuery=other-drinks&map=category-1,category-2",
             "noFollow": true,
-            "tagTitle": "Wine",
-            "text": "Wine"
+            "tagTitle": "Milk",
+            "text": "Milk"
           }
         }
       },
@@ -98,7 +130,7 @@
             "highlight": false,
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/other-drinks/soft-drinks?initialMap=c&initialQuery=other-drinks&map=category-1,category-2",
               "noFollow": true,
               "tagTitle": "Soft Drinks",
               "text": "Soft Drinks"
@@ -113,7 +145,7 @@
               "highlight": false,
               "itemProps": {
                 "type": "internal",
-                "href": "#",
+                "href": "/other-drinks/juices?initialMap=c&initialQuery=other-drinks&map=category-1,category-2",
                 "noFollow": true,
                 "tagTitle": "Juices",
                 "text": "Juices"
@@ -128,10 +160,10 @@
                 "highlight": false,
                 "itemProps": {
                   "type": "internal",
-                  "href": "#",
+                  "href": "/other-drinks/wine-and-more?initialMap=c&initialQuery=other-drinks&map=category-1,category-2",
                   "noFollow": true,
-                  "tagTitle": "Wine and More",
-                  "text": "Wine and More"
+                  "tagTitle": "Wine and Bubbles",
+                  "text": "Wine and Bubbles"
                 }
               }
             },
@@ -143,7 +175,7 @@
                 "highlight": false,
                 "itemProps": {
                   "type": "internal",
-                  "href": "#",
+                  "href": "/other-drinks/spirits?initialMap=c&initialQuery=other-drinks&map=category-1,category-2",
                   "noFollow": true,
                   "tagTitle": "Spirits",
                   "text": "Spirits"
@@ -165,21 +197,6 @@
                  }
                }
              },
-   "menu-item#spirits": {
-                "props": {
-                  "id": "menu-item-spirits",
-                  "type": "custom",
-                  "iconId": null,
-                  "highlight": false,
-                  "itemProps": {
-                    "type": "internal",
-                    "href": "#",
-                    "noFollow": true,
-                    "tagTitle": "Spirits",
-                    "text": "Spirits"
-                  }
-                }
-              },
        "vtex.menu@2.x:menu#other-drinks-brands": {
          "props": {
            "orientation": "vertical"
@@ -188,24 +205,35 @@
          "menu-item#other-drinks-brands",
          "menu-item#mike's-hard-seltzer",
      "menu-item#bathtub-gin",
-"menu-item#rumbullion"
+"menu-item#rumbullion",
+"menu-item#smirnoff",
+"menu-item#william-lawson's",
+"menu-item#la-laia-nuria",
+"menu-item#croix-d’or",
+"menu-item#chaudfontaine",
+ "menu-item#coca-cola",
+ "menu-item#lipton",
+ "menu-item#schweppes",
+ "menu-item#red-bull",
+ "menu-item#minute-maid"
          ]
-       },"menu-item#other-drinks-brands": {
-                                "props": {
-                                    "blockClass":"head-of-category",
-                                  "id": "menu-item-drinks-brands",
-                                  "type": "custom",
-                                  "iconId": null,
-                                  "highlight": false,
-                                  "itemProps": {
-                                    "type": "internal",
-                                    "href": "#",
-                                    "noFollow": true,
-                                    "tagTitle": "Brands",
-                                    "text": "Brands"
-                                  }
-                                }
-                              },
+       },
+       "menu-item#other-drinks-brands": {
+        "props": {
+        "blockClass":"head-of-category",
+        "id": "menu-item-drinks-brands",
+        "type": "custom",
+         "iconId": null,
+         "highlight": false,
+         "itemProps": {
+         "type": "internal",
+         "href": "#",
+         "noFollow": true,
+         "tagTitle": "Brands",
+         "text": "Brands"
+          }
+            }
+              },
           "menu-item#mike's-hard-seltzer": {
                        "props": {
                          "id": "menu-item-mike's-hard-seltzer",
@@ -229,7 +257,7 @@
                          "highlight": false,
                          "itemProps": {
                            "type": "internal",
-                           "href": "#",
+                           "href": "/bathtub-gin",
                            "noFollow": true,
                            "tagTitle": "Bathtub Gin",
                            "text": "Bathtub Gin"
@@ -244,11 +272,161 @@
                                   "highlight": false,
                                   "itemProps": {
                                     "type": "internal",
-                                    "href": "#",
+                                    "href": "/rumbullion-",
                                     "noFollow": true,
                                     "tagTitle": "Rumbullion!",
                                     "text": "Rumbullion!"
                                   }
                                 }
-                              }
+                              },
+                   "menu-item#smirnoff": {
+                                "props": {
+                                  "id": "menu-item-smirnoff",
+                                  "type": "custom",
+                                  "iconId": null,
+                                  "highlight": false,
+                                  "itemProps": {
+                                    "type": "internal",
+                                    "href": "/smirnoff",
+                                    "noFollow": true,
+                                    "tagTitle": "Smirnoff",
+                                    "text": "Smirnoff"
+                                  }
+                                }
+                              },
+ "menu-item#william-lawson's": {
+ "props": {
+"id": "menu-item-william-lawson's",
+"type": "custom",
+"iconId": null,
+"highlight": false,
+"itemProps": {
+"type": "internal",
+"href": "/william-lawson-s",
+"noFollow": true,
+"tagTitle": "William Lawson's",
+"text": "William Lawson's"
+    }
+  }
+},
+ "menu-item#la-laia-nuria": {
+ "props": {
+"id": "menu-item-la-laia-nuria",
+"type": "custom",
+"iconId": null,
+"highlight": false,
+"itemProps": {
+"type": "internal",
+"href": "/la-laia-nuria",
+"noFollow": true,
+"tagTitle": "La laia Nuria",
+"text": "La laia Nuria"
+    }
+  }
+},
+ "menu-item#croix-d’or": {
+ "props": {
+"id": "menu-item-croix-d’or",
+"type": "custom",
+"iconId": null,
+"highlight": false,
+"itemProps": {
+"type": "internal",
+"href": "/croix-d-or",
+"noFollow": true,
+"tagTitle": "Croix D’or",
+"text": "Croix D’or"
+    }
+  }
+},
+ "menu-item#chaudfontaine": {
+ "props": {
+"id": "menu-item-chaudfontaine",
+"type": "custom",
+"iconId": null,
+"highlight": false,
+"itemProps": {
+"type": "internal",
+"href": "/chaudfontaine",
+"noFollow": true,
+"tagTitle": "Chaudfontaine",
+"text": "Chaudfontaine"
+    }
+  }
+},
+ "menu-item#coca-cola": {
+ "props": {
+"id": "menu-item-coca-cola",
+"type": "custom",
+"iconId": null,
+"highlight": false,
+"itemProps": {
+"type": "internal",
+"href": "/coca-cola",
+"noFollow": true,
+"tagTitle": "Coca-cola",
+"text": "Coca-cola"
+    }
+  }
+},
+ "menu-item#lipton": {
+ "props": {
+"id": "menu-item-lipton",
+"type": "custom",
+"iconId": null,
+"highlight": false,
+"itemProps": {
+"type": "internal",
+"href": "/lipton",
+"noFollow": true,
+"tagTitle": "Lipton",
+"text": "Lipton"
+    }
+  }
+},
+ "menu-item#schweppes": {
+ "props": {
+"id": "menu-item-schweppes",
+"type": "custom",
+"iconId": null,
+"highlight": false,
+"itemProps": {
+"type": "internal",
+"href": "/schweppes",
+"noFollow": true,
+"tagTitle": "Schweppes",
+"text": "Schweppes"
+    }
+  }
+},
+ "menu-item#red-bull": {
+ "props": {
+"id": "menu-item-red-bull",
+"type": "custom",
+"iconId": null,
+"highlight": false,
+"itemProps": {
+"type": "internal",
+"href": "/red-bull",
+"noFollow": true,
+"tagTitle": "Red Bull",
+"text": "Red Bull"
+    }
+  }
+},
+ "menu-item#minute-maid": {
+ "props": {
+"id": "menu-item-minute-maid",
+"type": "custom",
+"iconId": null,
+"highlight": false,
+"itemProps": {
+"type": "internal",
+"href": "minute-maid",
+"noFollow": true,
+"tagTitle": "Minute Maid",
+"text": "Minute Maid"
+    }
+  }
+}
    }

@@ -21,7 +21,7 @@
         "props": {
           "showInstallments": true,
           "showSavings": true,
-           "message": "{sellingPriceWithTax} (inc.VAT)",
+           "message": "{sellingPriceWithTax}",
            "blockClass": "selling-price-inc-vat"
         }
     },

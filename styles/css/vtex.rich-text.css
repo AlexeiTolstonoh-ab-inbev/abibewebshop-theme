@@ -124,7 +124,13 @@
   font-size: 28px;
   font-weight: 700;
 }
-
+.paragraph--aboutus-headerText{
+  font-size: 26px;
+  text-decoration: underline;
+}
+.paragraph--aboutus-headerInfoText{
+  text-decoration: underline;
+}
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

@@ -3,7 +3,12 @@
   text-transform: capitalize;
   color: white;
 }
-
+.accordionIcon--isClosed{
+  color: white;
+}
+.accordionIcon--isOpen{
+  color: white;
+}
 .submenuWrapper--submenu-top--isOpen{
   border:2px solid #efefef;
   background: rgb(251,249,240);
@@ -29,11 +34,6 @@ display: flex;
 :global(.vtex-menu-2-x-menuContainerNav){
   width: 100%;
 }
-/*.submenu--submenu-top :global(.vtex-menu-2-x-menuItem){*/
-/*   width: auto;*/
-/*  padding-left: 50px;*/
-/*  padding-left: 50px;*/
-/* }*/
 
 .submenu--submenu-top :global(.vtex-menu-2-x-menuItem):hover{
   outline-bottom: 2px solid #B12025;
@@ -55,15 +55,11 @@ display: flex;
   display: flex;
   justify-content: space-around;
 }
-.styledLinkContent--head-of-category{
-  font-weight: bold;
-}
+
 .submenuWrapper--submenu-top--isOpen .styledLinkContent{
   color: black;
 }
-.styledLinkContent:hover{
-  color: black;
-}
+
 .menuItem--top-menu-item{
   width: 400px;
 }
@@ -72,18 +68,31 @@ display: flex;
   width: 33%;
   font-size: 24px;
 }
-.menuItem--top-menu-item-brand{
-  padding: 10px 70px 10px 70px;
-}
+
 .menuContainer--submenu-top-wrapper-brands{
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 5px;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 .styledLinkContent--footer-link{
   color: white;
 }
 .styledLinkContent--footer-link:hover{
   color: white;
+}
+
+@media only screen and (min-width: 1026px) {
+  .menuItem--top-menu-item-brand{
+    padding: 10px 70px 10px 70px;
+  }
+  .styledLinkContent:hover{
+    color: black;
+  }
+  .styledLinkContent--footer-link:hover{
+    color: white;
+  }
+  .styledLinkContent--head-of-category{
+    text-decoration: underline;
+  }
 }

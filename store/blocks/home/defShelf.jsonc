@@ -33,12 +33,19 @@
   "blockClass":"product-home-wrapper"
   },
     "children": [
-    "product-summary-image#producthome",
+    "flex-layout.col#image-container-producthome",
     "flex-layout.row#topContainer",
    //   "product-summary-quantity#test",
 //"add-to-cart-button#test"
 "flex-layout.row#empty"
     ]
+  },
+  "flex-layout.col#image-container-producthome":{
+  "props":{
+  "verticalAlign": "center",
+  "verticalAlign": "middle"
+  },
+  "children": ["product-summary-image#producthome"]
   },
   "flex-layout.row#empty":{
   "props":{

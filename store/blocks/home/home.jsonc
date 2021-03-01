@@ -3,6 +3,7 @@
     "blocks": [
       "list-context.image-list#demo",
 "flex-layout.row#producthome",
+"flex-layout.row#bottom-banner",
   "flex-layout.row#puerbm-container"
     ]
   },

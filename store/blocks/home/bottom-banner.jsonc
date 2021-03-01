@@ -1,0 +1,13 @@
+{
+"flex-layout.row#bottom-banner":{
+  "props": {
+  "fullWidth": true
+  },
+  "children": ["image#banner-bottom-image"]
+},
+"image#banner-bottom-image":{
+ "props": {
+  "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/7d1e7d8a-6f32-4306-8e19-861432ee1026___e1765de04e75f7580c1a424592214b6d.png"
+ }
+}
+}

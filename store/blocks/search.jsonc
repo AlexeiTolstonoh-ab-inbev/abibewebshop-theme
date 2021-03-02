@@ -235,10 +235,41 @@
   },
 
   "flex-layout.row#notfound": {
-    "children": ["not-found"],
+    "children": ["flex-layout.col#leftColNotFound","flex-layout.col#rightColNotFound"],
     "props": {
       "fullWidth": true
     }
+  },
+  "flex-layout.col#leftColNotFound":{
+  "props":{
+  "horizontalAlign": "center",
+  "verticalAlign": "middle",
+  "width": "20%"
+  },
+  "children":["image#notfound"]
+  },
+  "flex-layout.col#rightColNotFound":{
+   "props":{
+    "horizontalAlign": "center",
+    "verticalAlign": "middle",
+    "width": "25%"
+    },
+    "children":["rich-text#notfound"]
+    },
+  "image#notfound":{
+    "props":{
+    "height": 200,
+    "blockClass": "notfound-image",
+    "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/16a3545e-7600-469d-b905-9fd03c07ccbc___bbbea4dc27cc461e22bb6ff4b39bcd8e.png"
+    }
+  },
+  "rich-text#notfound":{
+    "props":{
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Coming soon, Danny is working on it!",
+      "blockClass": "notfound-text"
+      }
   },
 
   "breadcrumb": {

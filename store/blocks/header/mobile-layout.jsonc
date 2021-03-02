@@ -1,7 +1,7 @@
 {
 
   "header-layout.mobile": {
-    "children": ["header-row#1-mobile"]
+    "children": ["age-gate","header-row#1-mobile"]
   },
 
   "header-row#1-mobile": {

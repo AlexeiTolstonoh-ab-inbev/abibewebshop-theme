@@ -1,13 +1,43 @@
 {
+
 "flex-layout.row#puerbm-container":{
 "props":{
 "blockClass": "puerbm-container",
 "horizontalAlign":"center",
 "fullWidth": true
 },
-"children":["flex-layout.col#img1","flex-layout.col#img2","flex-layout.col#img3",
-"flex-layout.col#img4", "flex-layout.col#img5","flex-layout.col#img6", "flex-layout.col#img7","flex-layout.col#img8"]
+"children":["flex-layout.col#puerbm-wrapper"]
 },
+"flex-layout.col#puerbm-wrapper":{
+  "children":["flex-layout.row#bottomimgrow","flex-layout.row#bottomlinkrow"]
+},
+"flex-layout.row#bottomimgrow":{
+  "props":{
+  "fullWidth": true,
+  "horizontalAlign":"center",
+  "blockClass": "bottomimgcontainer"
+  },
+  "children":["flex-layout.col#img1","flex-layout.col#img2","flex-layout.col#img3",
+              "flex-layout.col#img4", "flex-layout.col#img5","flex-layout.col#img6", "flex-layout.col#img7","flex-layout.col#img8"]
+},
+
+"flex-layout.row#bottomlinkrow":{
+  "props":{
+  "fullWidth": true,
+  "blockClass": "bottomlinkcontainer",
+  "horizontalAlign":"center"
+  },
+  "children":["rich-text#bottomlink"]
+},
+
+  "rich-text#bottomlink":{
+    "props":{
+      "blockClass": "bottomlinkctext",
+         "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "[FIND ALL OUR BRANDS HERE](/bathtub-gin/chaudfontaine/coca-cola/corona/croix-d-or/jupiler/la-laia-nuria/leffe/lipton/minute-maid/red-bull/rumbullion-/schweppes/smirnoff/stella-artois/tripel-karmeliet/victoria/william-lawson-s?__bindingAddress=danny.delivery/en&initialMap=b&initialQuery=jupiler&map=brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand)"
+          }
+          },
   "flex-layout.col#img1":{
   "children":[
     "image#puerbm-image1"

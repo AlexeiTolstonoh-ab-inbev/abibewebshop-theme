@@ -64,7 +64,8 @@
 "min-width": "200",
 "maxHeight": "200",
 "maxWidth": "100%",
-"src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b90a74ae-6759-45b0-abcc-925bb6f1598b___9b7c271de695bc8a0b48d6db8fac3207.png"
+"blockClass": "about-image",
+"src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e0c81147-23e4-4e3f-a90c-e4d55f198150___61a377568e2234e5ac28a8f5efe9f393.png"
     }
  },
     "rich-text#info-text-first": {
@@ -102,7 +103,8 @@
         "min-width": "200",
         "maxHeight": "200",
         "maxWidth": "100%",
-        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f78a32d2-d1d5-4cb0-8de8-392c46fd6a4c___2e13ae0d1616c84e07918b007ffe5dce.png"
+        "blockClass": "about-image",
+        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f0dd70f1-17e4-4c51-a190-892dcd78db82___1c02d0aab421cd4d30293353e9cd42b9.png"
             }
          },
         "rich-text#info-text-second": {
@@ -141,7 +143,8 @@
             "min-width": "200",
             "maxHeight": "200",
             "maxWidth": "100%",
-            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/8fa36165-763d-4677-80b5-212bb2e45d2a___41ad1182503cc4d6a1702a6d4c037648.png"
+            "blockClass": "about-image",
+            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b92cc510-83f8-4831-bb27-8f06dcfeff1a___da91d3a1554821aa83d58b335cfdf315.png"
                 }
              },
             "rich-text#info-text-third": {
@@ -178,10 +181,11 @@
             "props": {
             "title":"First image",
             "min-height": "200",
-            "min-width": "200",
+            "min-width": "150",
             "maxHeight": "200",
             "maxWidth": "100%",
-            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/9f3b28e0-15c9-42a9-a6cd-a56c5cd59418___d6d3744de58282c776f655ed5cdc7c8d.png"
+            "blockClass": "about-image",
+            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e40e2ccc-5ddb-4a26-b165-6bf4da8cec6f___fa09f66b09373a60985963f31150a3de.png"
                 }
              },
             "rich-text#info-text-fourth": {

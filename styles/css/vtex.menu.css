@@ -12,12 +12,13 @@
 .submenuWrapper--submenu-top--isOpen{
   border:2px solid #efefef;
   background: rgb(251,249,240);
+  z-index: 3;
 }
 
 :global(.vtex-menu-2-x-menuContainer--submenu-top-wrapper-brands) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
 display: flex;
   flex-wrap: wrap;
-  background: red;
+  background: #FF4122;
   min-height: 150px;
   max-width: 100%;
 }
@@ -36,7 +37,7 @@ display: flex;
 }
 
 .submenu--submenu-top :global(.vtex-menu-2-x-menuItem):hover{
-  outline-bottom: 2px solid #B12025;
+  outline-bottom: 2px solid #ff4122;
 }
 
 
@@ -64,7 +65,7 @@ display: flex;
   width: 400px;
 }
 :global(.vtex-menu-2-x-styledLinkContainer--top-menu-item-brand){
-  color: coral;
+  color: #FFC600;
   width: 33%;
   font-size: 24px;
 }

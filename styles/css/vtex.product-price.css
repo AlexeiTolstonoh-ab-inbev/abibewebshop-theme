@@ -1,5 +1,5 @@
 .shelfProduct-price{
-  background-color: red;
+  background-color: #ff4122;
 }
 .listPrice {
   color: #727273;
@@ -97,18 +97,28 @@ display: none;
 }
 .sellingPrice--searchPrice{
   margin-top: 10px;
-  color:rgb(255,63,32);
+  color:#ff4122;
   font-size: 1.75em;
   margin-left: 10px;
   position: relative;
 }
 .sellingPrice--searchPrice ::after{
   content:"\276F";
-  color:rgb(255,63,32);
+  color: #FF4122;
   position: absolute;
   right: 10px;
   top: 5px;
   width: 10px;
   height: 10px;
   font-size: 25px;
+}
+.sellingPrice--searchPrice ::before{
+  content:"MORE INFO";
+  color: #ff4122;
+  position: absolute;
+  left: 101px;
+  top: 10px;
+  width: 82px;
+  height: 10px;
+  font-size: 15px;
 }

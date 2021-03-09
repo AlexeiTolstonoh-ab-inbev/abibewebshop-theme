@@ -83,10 +83,10 @@
   }
 }
 .headerRowContainer--main-header{
-  background: rgb(249,78,50);
+  background: #ff4122;
 }
 .headerRowContainer--main-header-category{
-  background: rgb(249,198,19);
+  background: #FFC600;
   display: flex;
   justify-content: space-around;
 

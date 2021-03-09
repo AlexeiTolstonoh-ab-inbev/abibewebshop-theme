@@ -50,7 +50,7 @@
       //"sku-selector",
       "product-description",
       "flex-layout.row#buy-button",
-   //   "availability-subscriber",
+     // "availability-subscriber",
       "shipping-simulator",
       "share#default"
     ]

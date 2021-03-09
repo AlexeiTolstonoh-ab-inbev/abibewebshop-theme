@@ -12,3 +12,45 @@
 :global(.vtex-store-footer-2-x-paymentMethodIcon){
   width: 100%;
 }
+
+
+.socialNetworkLink--social-items--instagram{
+  width: 50px;
+  position: relative;
+}
+.socialNetworkLink--social-items--instagram::before{
+  position: absolute;
+  content: ' ';
+  background-size: 100% 100%;
+  background-image: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/502247b9-6a43-439c-aa74-394613ce1a79___95f8accba767c0bc7279582b90ccd575.png");
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  line-height: 1;
+}
+.socialNetworkImage--social-items--instagram{
+  visibility: hidden;
+}
+
+.socialNetworkLink--social-items--facebook{
+  width: 50px;
+  position: relative;
+}
+.socialNetworkLink--social-items--facebook::before{
+  position: absolute;
+  content: ' ';
+  background-size: 100% 100%;
+  background-image: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/22e02dbd-c387-47fe-a357-8c3970b6ecb4___fcbb0b341a8a156e70f5f88e1aac2146.png");
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  line-height: 1;
+}
+.socialNetworkImage--social-items--facebook{
+  visibility: hidden;
+}
+.socialNetworksContainer--social-items{
+  margin-top: 12px;
+}

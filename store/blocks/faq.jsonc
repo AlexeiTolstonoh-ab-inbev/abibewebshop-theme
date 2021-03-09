@@ -281,7 +281,7 @@
 
         "rich-text#category-header2":{
               "props": {
-                "text": "Return",
+                "text": "Returns",
                 "blockClass": "faq-category-header",
                 "textAlignment": "LEFT",
                 "textPosition": "LEFT",
@@ -330,7 +330,7 @@
              },
              "rich-text#category-header3":{
                           "props": {
-                            "text": "Payment Methodes",
+                            "text": "Payment Methods",
                             "blockClass": "faq-category-header",
                             "textAlignment": "LEFT",
                             "textPosition": "LEFT",

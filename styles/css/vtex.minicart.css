@@ -4,13 +4,13 @@
   height: 30px;
 }
 .minicartContainer :hover{
-  background-color: #F94E32;
+  background-color: #ff4122;
 }
 .minicartQuantityBadge{
-  background-color: #F94E32;
+  background-color: #ff4122;
 }
 .minicartCheckoutButton{
-  background-color: rgb(255,198,0);
+  background-color: #FFC600;
   padding-left: 0;
   padding-right: 0;
 }

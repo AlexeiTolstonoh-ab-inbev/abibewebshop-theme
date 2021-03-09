@@ -1,7 +1,7 @@
 {
   "vendor": "abibewebshop",
   "name": "abibewebshop-store-theme",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -13,9 +13,8 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "abiukb2b.weekend-popup": "0.x",
-    "abiukb2b.privacy-policy": "0.x",
-    "abiukb2b.terms-conditions": "0.x",
+    "abibewebshop.privacy-policy-abibewebshop": "0.x",
+    "abibewebshop.abibe-terms-conditions": "0.x",
     "abibewebshop.be-agegate": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",

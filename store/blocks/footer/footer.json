@@ -42,6 +42,7 @@
   },
   "social-networks": {
     "props": {
+      "blockClass": "social-items",
       "socialNetworks": [
         {
           "name": "Facebook",
@@ -54,6 +55,7 @@
       ]
     }
   },
+
   "flex-layout.col#payment-methods": {
     "props": {
       "horizontalAlign": "right",

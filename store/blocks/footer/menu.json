@@ -17,7 +17,7 @@
     "children": [
       "menu-item#website-about-danny",
       "link#contactUsLink",
-      "menu-item#item-faq",
+      "link#FAQLink",
       "menu-item#terms-conditions",
       "menu-item#website-Privacy-policy"
     ]
@@ -47,6 +47,16 @@
       "href": "https://contactus.ab-inbev.com/en?redirect_url=https://Danny.delivery",
       "target": "_blank",
       "label": "Contact us"
+    }
+  },
+  "link#FAQLink": {
+    "props": {
+      "id": "website-contact-us",
+      "type": "custom",
+      "blockClass": "footer-link",
+      "href": "/faq",
+      "target": "_blank",
+      "label": "FAQ"
     }
   },
   "menu-item#website-Privacy-policy": {
@@ -80,22 +90,7 @@
         "text": "Terms & Conditions"
       }
     }
-  },
-  "menu-item#item-faq": {
-    "props": {
-      "id": "item-faq",
-      "blockClass": "footer-link",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/faq",
-        "noFollow": false,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
-      }
-    }
   }
+
 }
 

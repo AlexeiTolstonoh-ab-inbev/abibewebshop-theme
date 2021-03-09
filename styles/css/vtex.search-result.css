@@ -6,7 +6,7 @@
 
 :global(.vtex-slider__selector),
 :global(.vtex-slider__base-internal) {
-  background-color:  #b12025;
+  background-color:  #ff4122;
 }
 :global(.vtex-search-result-3-x-galleryItem),
 :global(.vtex-search-result-3-x-galleryItem--small){
@@ -49,20 +49,20 @@
 .filterPopupTitle {
   font-size: 16px;
   font-weight: bold;
-  color: #ffa935;
+  color: #FFC600;
   text-transform: capitalize;
 }
 .filter__container--title {
   font-size: 20px;
 }
 .orderByButton {
-  border: 1px solid #ffa935;
+  border: 1px solid #FFC600;
   border-radius: 4px;
   width: 100%;
   justify-content: center;
 }
 .filterPopupButton {
-  border: 1px solid #ffa935;
+  border: 1px solid #FFC600;
   border-radius: 4px;
   width: 100%;
   display: flex;
@@ -72,7 +72,7 @@
 .sidebar {
   background: #ffffff;
   width: 100%;
-  border-top: 5px solid #ffa935;
+  border-top: 5px solid #FFC600;
 }
 :global(.vtex-search-result-3-x-galleryItem){
   border-radius: 8px;
@@ -105,7 +105,7 @@
   width: 100%;
 }
 .imageWrapper--searchProduct-image{
-  background: red;
+  background: #ff4122;
 }
 
 
@@ -122,8 +122,8 @@
   border: none;
   width: 48px;
   height: 31px;
-  top: 10px;
-  right: 10px;
+  top: 3px;
+  right: 0px;
   background-size: contain;
   background-repeat: no-repeat;
   color: transparent;
@@ -153,10 +153,10 @@
 }
 .buttonShowMore :global(.vtex-button) {
   background: transparent;
-  border: solid 1px #ffa935;
+  border: solid 1px #FFC600;
   border-radius: 4px;
-  color: #ffa935;
-  outline-color: #ffa935;
+  color: #FFC600;
+  outline-color: #FFC600;
   height: 40px;
   text-transform: capitalize;
   width: 156px;
@@ -232,12 +232,12 @@
 }
 .filterClearButtonWrapper :global(.vtex-button) {
   background: #ffffff;
-  color: #ffa935;
-  border: 1px solid #ffa935;
+  color: #FFC600;
+  border: 1px solid #FFC600;
   border-radius: 4px;
 }
 .filterApplyButtonWrapper :global(.vtex-button) {
-  background: #ffa935;
+  background: #FFC600;
   color: #000000;
   border: none;
 }
@@ -259,12 +259,47 @@
   visibility: visible;
 }
 .filterAccordionBreadcrumbs .caretIcon {
-  color: #ffa935;
+  color: #FFC600;
 }
 :global(.vtex-search-result-3-x-filterItem--selected)
 :global(.vtex-checkbox__inner-container) {
-  background-color: #b12025;
+  background-color: #ff4122;
   border: 1px solid #707070;
+}
+.galleryItem :global(.vtex-store-components-3-x-subscriberContainer){
+  position: relative;
+  max-height: 32px;
+}
+.galleryItem :global(.vtex-store-components-3-x-title){
+  visibility: hidden;
+}
+.galleryItem :global(.vtex-store-components-3-x-subscribeLabel){
+  visibility: hidden;
+}
+.galleryItem :global(.vtex-store-components-3-x-form){
+  visibility: hidden;
+}
+.galleryItem :global(.vtex-store-components-3-x-subscriberContainer)::before {
+  content: "MORE INFO";
+  position: absolute;
+  color: #ff4122;
+  position: absolute;
+  font-weight: 600;
+  left: 101px;
+  top: 10px;
+  width: 82px;
+  height: 10px;
+}
+.galleryItem :global(.vtex-store-components-3-x-subscriberContainer)::after {
+  content: "\276F";
+  color: #ff4122;
+  font-weight: 600;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  font-size: 27px;
 }
 
 .filterTemplateOverflow::-webkit-scrollbar {
@@ -299,7 +334,7 @@
   width: 100%;
 }
 .orderByOptionItem:hover {
-  background-color: #ffa935;
+  background-color: #FFC600;
   color: #2b2e34;
 }
 .totalProductsMessage {
@@ -359,7 +394,7 @@
   }
   .orderByText {
     font-size: 16px;
-    color: #ffa935;
+    color: #FFC600;
   }
   .notFound--layout
   :global(.vtex-flex-layout-0-x-flexRow--categoriesRowWrapper) {

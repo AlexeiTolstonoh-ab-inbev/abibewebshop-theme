@@ -56,8 +56,42 @@
       "menu-item#brand-corona",
       "menu-item#brand-victoria",
       "menu-item#brand-mike's",
-      "menu-item#brand-atom-brands"]
+      "menu-item#brand-bathtub-gin",
+      "menu-item#brand-rumbullion"]
   },
+
+    "menu-item#brand-rumbullion": {
+      "props": {
+        "id": "menu-item-brand-rumbullion",
+        "blockClass": "top-menu-item-brand",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/rumbullion",
+          "noFollow": false,
+          "tagTitle": "Rumbullion!",
+          "text": "Rumbullion!"
+        }
+      }
+    },
+      "menu-item#brand-bathtub-gin": {
+          "props": {
+            "id": "menu-item-brand-bathtub-gin",
+            "blockClass": "top-menu-item-brand",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/bathtub-gin",
+              "noFollow": false,
+              "tagTitle": "Bathtub Gin",
+              "text": "Bathtub Gin"
+            }
+          }
+        },
   "menu-item#brand-jupiler": {
     "props": {
       "id": "menu-item-brand-jupiler",
@@ -170,22 +204,7 @@
       }
     }
   },
-  "menu-item#brand-atom-brands": {
-    "props": {
-      "id": "menu-item-brand-atom-brands",
-      "blockClass": "top-menu-item-brand",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/atom",
-        "noFollow": false,
-        "tagTitle": "ATOM Brands",
-        "text": "ATOM Brands"
-      }
-    }
-  },
+
   "menu-item#beer": {
     "props": {
       "id": "menu-item-beer",
@@ -340,7 +359,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/beer/pack-type/gift-packs",
         "noFollow": true,
         "tagTitle": "Gift Packs",
         "text": "Gift Packs"
@@ -673,6 +692,7 @@
       }
     }
   },
+
   "menu-item#contact-us": {
     "props": {
       "id": "menu-item-contact-us",

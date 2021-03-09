@@ -95,11 +95,11 @@
   height: auto;
 }
 .containerNormal--search-page-containe{
-  background: red;
+  background: #ff4122;
 }
 .buyButton
 .buyButton--searchBuyButton{
-  background: red;
+  background: #ff4122;
 }
 .nameContainer--serchName{
   padding-top: 0;

@@ -9,6 +9,7 @@
       "drawer",
       "logo#mobile",
       "header-spacer#spacer",
+      "binding-selector",
       "login#home",
       "minicart.v2"
     ],
@@ -26,11 +27,12 @@
   "menu#drawer": {
     "children": [
     "search-bar#home",
-      "menu-item#brand-zones-mobile-header",
+
+      "menu-item#other-drinks-mobile-header",
       "menu-item#beer-mobile-header",
-        "menu-item#other-drinks-mobile-header",
-        "menu-item#deals-mobile-header",
-        "menu-item#merch-mobile-header"
+        "menu-item#brand-zones-mobile-header",
+        "menu-item#deals-mobile-header"
+        //"menu-item#merch-mobile-header"
     ],
     "props": {
       "orientation": "vertical",

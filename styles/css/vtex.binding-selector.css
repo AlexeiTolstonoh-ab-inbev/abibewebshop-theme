@@ -1,0 +1,13 @@
+.buttonText{
+  color: white;
+  font-size: 22px;
+}
+.listElement{
+  background: #ff4122;
+  top: 23px;
+  color: white;
+}
+.listElement:hover{
+  background: #ff4122;
+  color: white;
+}

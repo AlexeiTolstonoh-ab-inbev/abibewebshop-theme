@@ -1,14 +1,18 @@
 .row--menu-row {
   padding-right: 24px;
 }
-
+.social-container{
+  margin-bottom: 30px;
+}
 .row--menu-row .rowContainer {
   align-items: flex-start;
 }
 
 .row--payment-methods {
   padding-top: 16px;
+  margin-top: 20px;
 }
+
 :global(.vtex-store-footer-2-x-paymentMethodIcon){
   width: 100%;
 }
@@ -53,4 +57,5 @@
 }
 .socialNetworksContainer--social-items{
   margin-top: 12px;
+  min-height: 55px;
 }

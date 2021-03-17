@@ -19,7 +19,8 @@
     "props": {
       "blockClass": "footer-menu-row",
       "paddingTop": 6,
-      "paddingBottom": 6
+      "paddingBottom": 6,
+      "horizontalAlign": "center"
     }
   },
 
@@ -27,9 +28,17 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "top",
-      "blockClass": "social-container"
+      "blockClass": "social-container",
+      "paddingBottom": 10
     },
-    "children": ["rich-text#information","social-networks"]
+    "children": ["rich-text#information","social-networks","link#newFooter"]
+  },
+  "link#newFooter": {
+    "props": {
+      "href": "/news",
+      "label": "Subscription",
+      "blockClass": "news-links-footer"
+    }
   },
   "rich-text#information": {
     "props": {
@@ -58,10 +67,17 @@
 
   "flex-layout.col#payment-methods": {
     "props": {
-      "horizontalAlign": "right",
+      "blockClass": "paymentCol",
       "verticalAlign": "bottom"
     },
-    "children":["accepted-payment-methods"]
+    "children":["accepted-payment-methods","rich-text#footerAbi"]
+  },
+
+  "rich-text#footerAbi": {
+    "props": {
+      "text": "© 2021 Anheuser-Busch InBev ",
+      "blockClass": "footerAbi"
+    }
   },
   "accepted-payment-methods": {
     "props": {

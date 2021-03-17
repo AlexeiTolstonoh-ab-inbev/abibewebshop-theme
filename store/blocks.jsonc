@@ -118,5 +118,10 @@
       "blocks":[
       "flex-layout.row#aboutus"
       ]
-      }
+      },
+    "store.custom#newsLatter":{
+          "blocks":[
+          "flex-layout.row#newsContainer"
+          ]
+          }
 }

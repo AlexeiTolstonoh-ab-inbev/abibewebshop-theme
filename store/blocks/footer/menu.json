@@ -12,7 +12,8 @@
 
   "vtex.menu@2.x:menu#footer-politics": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "footerMenu"
     },
     "children": [
       "menu-item#website-about-danny",

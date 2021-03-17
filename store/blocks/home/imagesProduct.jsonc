@@ -15,11 +15,27 @@
   "props":{
   "fullWidth": true,
   "horizontalAlign":"center",
-  "blockClass": "bottomimgcontainer"
+  "blockClass": "bottomimgcontainer",
+  "preserveLayoutOnMobile": true
   },
-  "children":["flex-layout.col#img1","flex-layout.col#img2","flex-layout.col#img3",
-              "flex-layout.col#img4", "flex-layout.col#img5","flex-layout.col#img6", "flex-layout.col#img7","flex-layout.col#img8"]
-},
+  "children":["slider-layout#puerbmSlider"]
+  },
+
+  "slider-layout#puerbmSlider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["flex-layout.col#img1","flex-layout.col#img2","flex-layout.col#img3",
+                               "flex-layout.col#img4", "flex-layout.col#img5","flex-layout.col#img6", "flex-layout.col#img7","flex-layout.col#img8"]
+
+  },
 
 "flex-layout.row#bottomlinkrow":{
   "props":{
@@ -46,7 +62,8 @@
   "horizontalAlign":"center",
           "paddingRight": 1,
           "paddingLeft": 1,
-          "verticalAlign": "middle"
+          "verticalAlign": "middle",
+          "blockClass": "puerbm-col-container"
   }
   },
     "flex-layout.col#img2":{
@@ -54,6 +71,7 @@
       "image#puerbm-image2"
     ],
     "props":{
+    "blockClass": "puerbm-col-container",
     "horizontalAlign":"center",
             "paddingRight": 1,
             "paddingLeft": 1,
@@ -66,6 +84,7 @@
       ],
       "props":{
       "horizontalAlign":"center",
+      "blockClass": "puerbm-col-container",
               "paddingRight": 1,
               "paddingLeft": 1,
               "verticalAlign": "middle"
@@ -77,6 +96,7 @@
         ],
         "props":{
         "horizontalAlign":"center",
+        "blockClass": "puerbm-col-container",
                 "paddingRight": 1,
                 "paddingLeft": 1,
                 "verticalAlign": "middle"
@@ -90,7 +110,8 @@
           "horizontalAlign":"center",
                   "paddingRight": 1,
                   "paddingLeft": 1,
-                  "verticalAlign": "middle"
+                  "verticalAlign": "middle",
+                  "blockClass": "puerbm-col-container"
           }
           },
           "flex-layout.col#img6":{
@@ -101,7 +122,8 @@
           "horizontalAlign":"center",
                   "paddingRight": 1,
                   "paddingLeft": 1,
-                  "verticalAlign": "middle"
+                  "verticalAlign": "middle",
+                  "blockClass": "puerbm-col-container"
           }
           },
           "flex-layout.col#img7":{
@@ -112,7 +134,8 @@
           "horizontalAlign":"center",
                   "paddingRight": 1,
                   "paddingLeft": 1,
-                  "verticalAlign": "middle"
+                  "verticalAlign": "middle",
+                  "blockClass": "puerbm-col-container"
           }
           },
           "flex-layout.col#img8":{
@@ -123,14 +146,15 @@
           "horizontalAlign":"center",
                   "paddingRight": 1,
                   "paddingLeft": 1,
-                  "verticalAlign": "middle"
+                  "verticalAlign": "middle",
+                  "blockClass": "puerbm-col-container"
           }
           },
 
   "image#puerbm-image1": {
     "props": {
-      "min-height": "200",
-      "min-width": "320",
+      "min-height": "152",
+      "min-width": "151",
       "blockClass": "puerbm-image",
       "link":{
       "url": "/jupiler"

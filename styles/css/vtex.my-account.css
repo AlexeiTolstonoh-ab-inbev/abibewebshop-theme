@@ -1,0 +1,10 @@
+.documentsSubContainer{
+  display: none;
+}
+
+:global(.vtex-profile-form-3-x-personalFields) div:nth-child(4){
+ display: none;
+}
+:global(.vtex-profile-form-3-x-profileContainer) div:nth-child(3){
+  display: none;
+}

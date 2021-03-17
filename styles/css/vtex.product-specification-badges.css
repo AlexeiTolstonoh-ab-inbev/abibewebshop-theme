@@ -1,0 +1,9 @@
+.badgeText{
+  color: black;
+  font-size: 12px;
+  margin: 0;
+}
+.badgeContainer--price-per-unit{
+  background-color: rgb(251,249,240);
+  padding: 0;
+}

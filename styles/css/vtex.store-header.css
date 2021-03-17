@@ -9,6 +9,8 @@
   display: block;
 }
 
+
+
 /* desktop/mobile main header padding and background transitions */
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
@@ -93,4 +95,10 @@
 }
 :global(.vtex-flex-layout-0-x-flexRow--categoryMenuWrapper){
   width: 100%;
+}
+@media only screen and (min-width: 1025px) {
+  .headerRowContainer--main-header {
+    position: relative;
+    padding-top: 15px;
+  }
 }

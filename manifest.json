@@ -13,6 +13,9 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.store-newsletter": "1.x",
+    "vtex.binding-selector": "1.x",
+    "vtex.product-specifications": "1.x",
     "abibewebshop.privacy-policy-abibewebshop": "0.x",
     "abibewebshop.abibe-terms-conditions": "0.x",
     "abibewebshop.be-agegate": "0.x",

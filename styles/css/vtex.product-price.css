@@ -96,10 +96,10 @@ display: none;
   font-weight: 600;
 }
 .sellingPrice--searchPrice{
-  margin-top: 10px;
+  margin-top: 0;
   color:#ff4122;
   font-size: 1.75em;
-  margin-left: 10px;
+  margin-left: 0;
   position: relative;
 }
 .sellingPrice--searchPrice ::after{
@@ -116,9 +116,9 @@ display: none;
   content:"MORE INFO";
   color: #ff4122;
   position: absolute;
-  left: 101px;
+  right: 5px;
   top: 10px;
   width: 82px;
   height: 10px;
-  font-size: 15px;
+  font-size: 14px;
 }

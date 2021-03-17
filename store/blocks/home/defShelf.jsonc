@@ -50,8 +50,17 @@
   "flex-layout.row#empty":{
   "props":{
   "blockClass": "buy-button-pseudo"
-  }
   },
+  "children":["rich-text#bottomTextShelf"]
+  },
+     "rich-text#bottomTextShelf":{
+                "props":{
+                     "textAlignment": "CENTER",
+                     "blockClass": "bottom-banner-custom-text-shelf",
+                      "textPosition": "CENTER",
+                      "text": "Buy now"
+                      }
+                      },
     "flex-layout.row#topContainer":{
     "props":{
     "blockClass": "topContainer"

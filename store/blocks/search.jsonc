@@ -172,6 +172,7 @@
 
   "search-result-layout.mobile": {
     "children": [
+    "flex-layout.row#image",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
@@ -197,8 +198,8 @@
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#filterMobile"
+     // "flex-layout.col#switcherMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
@@ -288,13 +289,53 @@
   "props":{
   "blockClass":"search-page-containe"},
       "children": [
-       "product-summary-image#searchProduct","product-summary-name#serchName","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
+       "product-summary-image#searchProduct","product-summary-name#serchName","flex-layout.row#search-specification-container","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
        "availability-subscriber#searchPage"
       ]
   },
+"flex-layout.row#search-specification-container":{
+"props":{
+  "fullWidth": true,
+  "blockClass": "specificationContainer"
+},
+"children": ["flex-layout.col#specificationName","flex-layout.col#specificationValue"]
+},
+"flex-layout.col#specificationName":{
+"props":{
+"width": "50%"
+},
+  "children":["product-specification-badges#name"]
+},
+"flex-layout.col#specificationValue":{
+"props":{
+"width": "30%"
+},
+  "children":["product-specification-badges#value"]
+},
+
+  "product-specification-badges#name": {
+      "props": {
+        "specificationGroupName": "drinks",
+        "specificationsOptions": [{
+          "specificationName": "price per unit",
+          "displayValue": "SPECIFICATION_NAME"
+        }]
+      }
+    },
+
+ "product-specification-badges#value": {
+      "props": {
+        "specificationGroupName": "drinks",
+        "specificationsOptions": [{
+          "specificationName": "price per unit",
+          "displayValue": "SPECIFICATION_VALUE"
+        }]
+      }
+    },
+
     "product-summary-image#searchProduct": {
         "props": {
-              "showBadge": false,
+              "showBadge": true,
               "blockClass": "searchProduct-image"
             }
       },

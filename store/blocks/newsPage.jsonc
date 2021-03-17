@@ -1,0 +1,51 @@
+{
+"flex-layout.row#newsContainer":{
+  "props":{
+  "blockClass": "newsContainer",
+  "horizontalAlign": "center",
+
+  "fullWidth": true
+  },
+ "children": ["flex-layout.col#newsWrapper"]
+},
+"flex-layout.col#newsWrapper":{
+  "props":{
+  "blockClass": "newsWrapper",
+
+  "width": "50%"
+  },
+ "children": ["rich-text#newHeader","newsletter-form#home"]
+},
+
+
+"rich-text#newHeader": {
+      "props": {
+        "text": "Subscribe  and enjoy great deals!",
+        "blockClass": "news-header"
+      }
+    },
+
+"newsletter-form#home": {
+"props":{
+  "blockClass": "newsForm"
+},
+    "children": [
+      "newsletter-input-email#home",
+      "newsletter-input-name",
+      "newsletter-checkbox-confirmation",
+      "rich-text#politics",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-email#home":{
+  "props":{
+
+  }
+  },
+  "rich-text#politics": {
+        "props": {
+          "text": "By clicking below, I accept the [terms & conditions](/terms-and-conditions) and confirm that I have read the [privacy policy](/privacy-policy).",
+          "blockClass": "news-footer"
+        }
+      }
+}

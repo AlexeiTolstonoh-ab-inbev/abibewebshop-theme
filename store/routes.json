@@ -10,5 +10,8 @@
   },
   "store.custom#aboutus": {
     "path": "/about-us"
+  },
+  "store.custom#newsLatter": {
+    "path": "/news"
   }
 }

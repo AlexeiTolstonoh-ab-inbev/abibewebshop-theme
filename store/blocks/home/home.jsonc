@@ -2,11 +2,14 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
+      "slider-layout#text-test",
 "flex-layout.row#producthome",
-"flex-layout.row#bottom-banner",
-  "flex-layout.row#puerbm-container"
+"flex-layout.row#puerbm-container",
+"list-context.image-list#bottom-banner"
+
     ]
   },
+
 
 //slider
   "list-context.image-list#demo": {

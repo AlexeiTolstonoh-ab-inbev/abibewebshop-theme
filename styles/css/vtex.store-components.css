@@ -1,6 +1,9 @@
 .imageElement--puerbm-image{
   margin: 0 auto;
 }
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--carousel){
+  background-color: #FBF9F0;
+}
 .productImageTag--main{
   background: #F3F4F6;
 }

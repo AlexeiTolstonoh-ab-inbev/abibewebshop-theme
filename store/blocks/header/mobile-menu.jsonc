@@ -10,7 +10,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "Brand Zones",
-        "text": "Brand Zones"
+        "text": "BRANDS"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#brand-zones"]
@@ -38,8 +38,8 @@
   "menu-item#beer-mobile-header": {
       "props": {
         "itemProps": {
-          "tagTitle": "Beer",
-          "text": "Beer"
+          "tagTitle": "BEER",
+          "text": "BEER"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#beer"]
@@ -144,8 +144,8 @@
   "menu-item#other-drinks-mobile-header": {
       "props": {
         "itemProps": {
-          "tagTitle": "Other Drinks",
-          "text": "Other Drinks"
+          "tagTitle": "DRINKS",
+          "text": "DRINKS"
         }
       },
       "blocks": ["vtex.menu@2.x:submenu.accordion#other-drinks"]
@@ -219,8 +219,8 @@
                   "menu-item#deals-mobile-header": {
                         "props": {
                           "itemProps": {
-                            "tagTitle": "Deals",
-                            "text": "Deals"
+                            "tagTitle": "DEALS",
+                            "text": "DEALS"
                           }
                         },
                         "blocks": ["vtex.menu@2.x:submenu.accordion#deals-brand"]

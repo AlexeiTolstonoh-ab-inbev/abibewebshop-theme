@@ -32,17 +32,28 @@
              "header-spacer#spacer",
         "search-bar#home",
       "header-spacer#spacer",
-      "locale-switcher#home",
+      "binding-selector",
+      //"locale-switcher#home",
       "login#home",
+      "link#new",
       "minicart.v2"
     ]
   },
+   "link#new": {
+        "props": {
+          "href": "/news",
+          "label": "Subscription",
+          "blockClass": "news-links"
+        }
+      },
 "header-spacer#spacer":{
 "props":{
 "maxWidth": "100%",
 "autocompleteFullWidth": true
 }
 },
+
+
 "locale-switcher#home":{
 "props":{
 "blockClass": "header-lang-swither"

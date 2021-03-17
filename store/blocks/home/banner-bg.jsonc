@@ -1,0 +1,113 @@
+{
+"flex-layout.row#bottom-banner-custom":{
+  "props": {
+  "fullWidth": true,
+  "blockClass": "bannerWrapper",
+  "marginTop":5
+  },
+  "children":["rich-text#bottomText"]
+},
+  "rich-text#bottomText":{
+    "props":{
+         "textAlignment": "CENTER",
+         "blockClass": "bottom-banner-custom-text",
+          "textPosition": "CENTER",
+          "text": "[Danny delivers beer at your dor](/jupiler)"
+          }
+          },
+"flex-layout.row#bottom-banner-custom2":{
+  "props": {
+  "fullWidth": true,
+  "blockClass": "bannerWrapper2",
+  "marginTop":5
+  },
+  "children":["rich-text#bottomText2"]
+},
+  "rich-text#bottomText2":{
+    "props":{
+         "textAlignment": "CENTER",
+         "blockClass": "bottom-banner-custom-text2",
+          "textPosition": "CENTER",
+          "text": "[Danny delivers water to your dor](/other-drinks/water)"
+          }
+          },
+     "flex-layout.row#bottom-banner-custom3":{
+       "props": {
+       "fullWidth": true,
+       "blockClass": "bannerWrapper3",
+       "marginTop":5
+       },
+       "children":["rich-text#bottomText3"]
+     },
+       "rich-text#bottomText3":{
+         "props":{
+              "textAlignment": "CENTER",
+              "blockClass": "bottom-banner-custom-text3",
+               "textPosition": "CENTER",
+               "text": "[Danny delivers soft drinks to your dor](/other-drinks/soft-drinks)"
+               }
+               },
+       "flex-layout.row#bottom-banner-custom4":{
+         "props": {
+         "fullWidth": true,
+         "blockClass": "bannerWrapper4",
+         "marginTop":5
+         },
+         "children":["rich-text#bottomText4"]
+       },
+         "rich-text#bottomText4":{
+           "props":{
+                "textAlignment": "CENTER",
+                "blockClass": "bottom-banner-custom-text4",
+                 "textPosition": "CENTER",
+                 "text": "[Danny delivers spirits to your dor](/other-drinks/spirits)"
+                 }
+                 },
+        "flex-layout.row#bottom-banner-custom5":{
+          "props": {
+          "fullWidth": true,
+          "blockClass": "bannerWrapper5",
+          "marginTop":5
+          },
+          "children":["rich-text#bottomText5"]
+        },
+          "rich-text#bottomText5":{
+            "props":{
+                 "textAlignment": "CENTER",
+                 "blockClass": "bottom-banner-custom-text5",
+                  "textPosition": "CENTER",
+                  "text": "[Danny delivers wine to your dor](/other-drinks/wine-and-more)"
+                  }
+                  },
+         "flex-layout.row#bottom-banner-custom6":{
+            "props": {
+            "fullWidth": true,
+            "blockClass": "bannerWrapper6",
+            "marginTop":5
+            },
+            "children":["rich-text#bottomText6"]
+          },
+            "rich-text#bottomText6":{
+              "props":{
+                   "textAlignment": "CENTER",
+                   "blockClass": "bottom-banner-custom-text6",
+                    "textPosition": "CENTER",
+                    "text": "[Free delivery for all drinks](/bathtub-gin/chaudfontaine/coca-cola/corona/croix-d-or/jupiler/la-laia-nuria/leffe/lipton/minute-maid/red-bull/rumbullion-/schweppes/smirnoff/stella-artois/tripel-karmeliet/victoria/william-lawson-s?__bindingAddress=danny.delivery/en&initialMap=b&initialQuery=jupiler&map=brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand)"
+                    }
+                    },
+
+
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carouselText"
+    },
+    "children": ["flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom4","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom6"]
+  }
+}

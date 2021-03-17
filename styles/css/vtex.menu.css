@@ -1,3 +1,7 @@
+.menuContainer--footerMenu{
+  align-items: center;
+  font-size: 22px;
+}
 .styledLinkContent{
   font-size: 16px;
   text-transform: capitalize;
@@ -5,9 +9,37 @@
 }
 .accordionIcon--isClosed{
   color: white;
+  font-size: 0;
+  position: relative;
 }
 .accordionIcon--isOpen{
   color: white;
+  position: relative;
+  font-size: 0;
+}
+.accordionIcon--isOpen::after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: -23px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f774e02c-357d-4c9b-bcfd-08ba5da852c8___e7042fa….png") no-repeat -6px 0;
+  background-size: cover;
+  height: 32px;
+  width: 38px;
+  transform: scale(.5);
+}
+
+.accordionIcon--isClosed::after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: -23px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b50a9a63-04e9-45e1-b2ec-923b111183dd___13956b2f332231d8a69f47dd1845ad1d.png") no-repeat -6px 0;
+  background-size: cover;
+  height: 32px;
+  width: 38px;
+  transform: scale(.5);
+
 }
 .submenuWrapper--submenu-top--isOpen{
   border:2px solid #efefef;
@@ -78,12 +110,25 @@ display: flex;
 }
 .styledLinkContent--footer-link{
   color: white;
+  font-size: 22px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+
 }
 .styledLinkContent--footer-link:hover{
   color: white;
+  font-size: 22px;
 }
+@media only screen and (min-width: 640px) {
+  .menuContainer--footerMenu {
+align-items: flex-start;
+  }
 
-@media only screen and (min-width: 1026px) {
+  .styledLinkContent--footer-link:hover{
+    color: white;
+  }
+}
+  @media only screen and (min-width: 1026px) {
   .menuItem--top-menu-item-brand{
     padding: 10px 70px 10px 70px;
   }

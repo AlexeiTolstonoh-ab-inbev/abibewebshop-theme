@@ -1,8 +1,9 @@
 .profileIcon--header-login{
   color: white;
-  width: 30px;
-  height: 30px;
+  width: 0;
+  position: relative;
 }
+
 .container :hover{
   background-color: #FF4122;
 }
@@ -10,6 +11,19 @@
   display: none;
 }
 .buttonLink{
-  width: 50px;
+  width: 30px;
+  position: relative;
 }
-
+:global(.vtex-login-2-x-container) :global(.vtex-button){
+  position: relative;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button)::after{
+  top: -10px;
+  left: 0px;
+  width: 60px;
+  height: 60px;
+  content: '';
+  position: absolute;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/70c90f4e-8018-4dfb-ad67-af187c1fe434___f4c918b50f244e93fefcaee5490d6adf.png") no-repeat -11px 0;
+  background-size: cover;
+}

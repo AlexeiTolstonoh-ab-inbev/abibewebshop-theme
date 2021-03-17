@@ -1,0 +1,39 @@
+.emailInputContainer,.nameInputContainer{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.confirmationCheckboxContainer{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/*.confirmationCheckboxContainer :global(.vtex-checkbox__label){*/
+/*  font-size: 0;*/
+/*}*/
+.confirmationCheckboxContainer{
+  position: relative;
+}
+/*.confirmationCheckboxContainer :global(.vtex-checkbox__label)::after{*/
+/*   position: absolute;*/
+/*  font-size: 14px;*/
+/*  content: 'Yes, I want to save money by subscribing to the danny.delivery`s newsletter with great offers.';*/
+/*  left: 24px;*/
+/*  top: 0;*/
+/* }*/
+.formSubmitContainer{
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+}
+.formSubmitContainer :global(.vtex-button){
+  width: 100%;
+}
+.newsletterForm--newsForm{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container--news-header{
+  width: 100%;
+}
+
+

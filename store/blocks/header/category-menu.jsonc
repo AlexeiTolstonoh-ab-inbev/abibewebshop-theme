@@ -5,11 +5,12 @@
       "blockClass": "menu-wrapper"
     },
     "children": [
-      "menu-item#brand-zone",
-      "menu-item#beer",
+
       "menu-item#other-drinks",
-      "menu-item#deals",
-      "menu-item#merch"
+      "menu-item#beer",
+        "menu-item#brand-zone",
+      "menu-item#deals"
+      //"menu-item#merch"
     ]
   },
 
@@ -23,8 +24,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Brand zones",
-        "text": "Brand zones"
+        "tagTitle": "BRANDS",
+        "text": "BRANDS"
       }
     },
     "blocks": [
@@ -215,8 +216,8 @@
         "type": "internal",
         "href": "/beer",
         "noFollow": true,
-        "tagTitle": "Beer",
-        "text": "Beer"
+        "tagTitle": "BEER",
+        "text": "BEER"
       }
     },
     "blocks": [

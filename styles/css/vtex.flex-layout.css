@@ -1,8 +1,83 @@
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper){
+  min-height: 450px;
+  background:  url("https://abibewebshop.vtexassets.com/arquivos/ids/155578-500-auto?width=500&height=auto&aspect=true") no-repeat bottom center,#ff4122;
+  background-size: 300px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper2){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b3ae0231-191b-47f6-8815-800f9abb92c2___eb96f30e9b99a79935fdf998353c4881.png") no-repeat center bottom,#3A032D;
+  background-size: 300px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper3){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/45f31659-ffa1-47ee-8ccf-17aa9a30c51b___8b2d9e03eadf43ccb6642a306bde5595.png") no-repeat center bottom,#FBF9F0;
+  background-size: 300px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper4){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6a88d37e-4fb4-46b5-81cb-8557da2ce551___95ae2f89fed65cf77a243092b12fa634.png") no-repeat center bottom, #3a032d;
+  background-size: 300px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper5){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2d50a0f8-4bee-4066-94d5-083140c3d9aa___1734ba3c99e82b870d24c7ddc53fe436.png") no-repeat center bottom, #ff4122;
+  background-size: 300px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/07900670-7135-4913-9f32-cc2f6ff48c58___d18e0622d4ad8ff7a83eca3f91c18aa0.png")repeat;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexRowContent--bannerWrapper{
+  width: 300px;
+}
+
+
+
+.flexCol--col-container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.flexCol--paymentCol{
+  margin-top: 20px;
+  align-items: center;
+}
 .flexCol--topContainerRight{
   padding-top: 14px;
 }
+.flexRowContent--bottomimgcontainer{
+  display: flex;
+  flex-width: wrap;
+}
+.imageElement--puerbm-image{
+  min-width: 25%;
+}
 .flexCol--social-container{
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   padding-top: 10px;
 }
 
@@ -10,19 +85,19 @@
   position: relative;
   height: 20px;
 }
-:global(.vtex-flex-layout-0-x-flexRow--buy-button-pseudo) ::before {
-  position: absolute;
-  content: "Buy now";
-  background-color: rgb(58,3,45);
-  text-align: center;
-  vertical-align: middle;
-  width: 50%;
-  padding: 8px;
-  border-radius: 18px;
-  color: white;
-  top: -8px;
-  right: 0
-}
+/*:global(.vtex-flex-layout-0-x-flexRow--buy-button-pseudo) ::before {*/
+/*  position: absolute;*/
+/*  content: "Buy now";*/
+/*  background-color: rgb(58,3,45);*/
+/*  text-align: center;*/
+/*  vertical-align: middle;*/
+/*  width: 50%;*/
+/*  padding: 8px;*/
+/*  border-radius: 18px;*/
+/*  color: white;*/
+/*  top: -8px;*/
+/*  right: 0*/
+/*}*/
 
 
 
@@ -82,133 +157,204 @@
 :global(.vtex-flex-layout-0-x-flexRowContent){
   background: transparent !important;
 }
-
-@media screen and (min-width: 40em) {
-  .flexRowContent--menu-link,
-  .flexRowContent--main-header {
-    padding: 0;
-  }
-}
-
-@media screen and (min-width: 80rem) {
-  .flexRowContent--menu-link,
-  .flexRowContent--main-header {
-    padding: 0 0.25rem;
-  }
-  .flexRowContent--main-header{
+@media screen and (min-width: 610px) {
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper) {
+    min-height: 320px;
+    background:  url("https://abibewebshop.vtexassets.com/arquivos/ids/155578-500-auto?width=500&height=auto&aspect=true") no-repeat 86% center,#ff4122 url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e6f8a2f5-63f1-4e60-baf0-5bdb8d0413e9___e6359e8a62d2d494c3a2338cda053473.png") no-repeat right;
+    background-size: 250px, 50% 100%;
     width: 100%;
-    max-width: 1520px;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
-
-.flexRowContent--menu-link {
-  background-color: #03044e;
-  color: #fff;
-}
-  .flexRowContent--main-header {
-    background-color: #f0f0f0;
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper2){
+    min-height: 320px;
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b3ae0231-191b-47f6-8815-800f9abb92c2___eb96f30e9b99a79935fdf998353c4881.png") no-repeat 86% center,#3A032D url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/22884c2c-45cb-4422-9161-0fe841ea376d___ac7c9431b514749a204a14bffaacfdaf.png") no-repeat right;
+    background-size: 250px, 50% 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
-
-.flexRowContent--main-header-mobile {
-  align-items: center;
-  padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
-}
-
-.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: #ffffff;
-  font-size: 14px;
-}
-
-.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727273;
-  font-size: 14px;
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper3){
+    min-height: 320px;
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/45f31659-ffa1-47ee-8ccf-17aa9a30c51b___8b2d9e03eadf43ccb6642a306bde5595.png") no-repeat 86% center,#FBF9F0 url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e6f8a2f5-63f1-4e60-baf0-5bdb8d0413e9___e6359e8a62d2d494c3a2338cda053473.png") no-repeat right;
+    background-size: 250px, 50% 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
-.flexRow--deals {
-  background-color: #b12025;
-  padding: 14px 0px;
-}
-
-.flexRow--deals .stretchChildrenWidth {
-  align-items: center;
-}
-
-.flexRow--deals .flexCol {
-  align-items: center;
-}
-.col--deals4{
-  background: #b12025;
-}
-
-.flexCol--filterCol {
-  max-width: 500px;
-  min-width: 230px;
-}
-
-.flexCol--productCountCol {
-  align-items: flex-start;
-}
-
-.flexCol--orderByCol {
-  align-items: flex-end;
-}
-
-.flexCol--orderByMobileCol {
-  width: 42%;
-}
-
-.flexCol--filterMobileCol {
-  width: 38%;
-}
-
-.flexCol--switcherMobileCol {
-  width: 20%;
-}
-
-.flexRow--quickviewMainRow {
-  display: flex;
-  max-height: 100%;
-}
-
-.flexColChild--quickviewDetails:first-child {
-  overflow-y: auto;
-  height: 66% !important;
-  overflow-x: hidden;
-}
-
-.flexColChild--quickviewDetails:last-child {
-  height: 34% !important;
-}
-
-.flexRow--addToCartRow {
-  padding-bottom: 1rem;
-}
-.flexRow--collage-collumText{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-}
-
-.flexRowContent--collage-container{
-  flex-direction: column;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.flexColChild--collage-colWrapper{
-  background: #b12025;
-  text-align: center;
-  width: 50%;
-}
-
-.flexColChild--collage-collumText{
-  padding: 0 57px;
-}
-
-  :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-flexRowContent--deals-container){
-    background: #252424;
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper4){
+    min-height: 320px;
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6a88d37e-4fb4-46b5-81cb-8557da2ce551___95ae2f89fed65cf77a243092b12fa634.png") no-repeat 86% center, #3a032d url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/444b6532-6937-4082-90d7-95fbc134649c___9a61d325f0636f3b35321fc0d8f9f845.png") no-repeat right;
+    background-size: 250px, 50% 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper5){
+    min-height: 320px;
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2d50a0f8-4bee-4066-94d5-083140c3d9aa___1734ba3c99e82b870d24c7ddc53fe436.png") no-repeat 86% center, #ff4122 url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/67fa0722-3f6f-422f-9bc2-c4239f9d9c96___c29e894af0cc1f332ef7fc1c1cc3250c.png") no-repeat right;
+    background-size: 250px, 50% 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
+    min-height: 320px;
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/07900670-7135-4913-9f32-cc2f6ff48c58___d18e0622d4ad8ff7a83eca3f91c18aa0.png")repeat-x, repeat-y;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
+
+  @media screen and (min-width: 40em) {
+    .flexRowContent--menu-link,
+    .flexRowContent--main-header {
+      padding: 0;
+    }
+
+    .flexCol--paymentCol {
+      margin-top: 20px;
+      align-items: flex-end;
+    }
+  }
+  @media screen and (min-width: 1026px) {
+    :global(.vtex-search-result-3-x-orderByDropdown) {
+      align-items: flex-end;
+      justify-content: flex-end;
+      display: flex;
+    }
+  }
+  @media screen and (min-width: 80rem) {
+    .flexRowContent--menu-link,
+    .flexRowContent--main-header {
+      padding: 0 0.25rem;
+    }
+
+    .flexRowContent--main-header {
+      width: 100%;
+      max-width: 1520px;
+      margin: 0 auto;
+    }
+
+    .flexRowContent--menu-link {
+      background-color: #03044e;
+      color: #fff;
+    }
+
+    .flexRowContent--main-header {
+      background-color: #f0f0f0;
+    }
+
+    .flexRowContent--main-header-mobile {
+      align-items: center;
+      padding: 0.625rem 0.5rem;
+      background-color: #f0f0f0;
+    }
+
+    .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+      color: #ffffff;
+      font-size: 14px;
+    }
+
+    .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+      color: #727273;
+      font-size: 14px;
+    }
+
+    .flexRow--deals {
+      background-color: #b12025;
+      padding: 14px 0px;
+    }
+
+    .flexRow--deals .stretchChildrenWidth {
+      align-items: center;
+    }
+
+    .flexRow--deals .flexCol {
+      align-items: center;
+    }
+
+    .col--deals4 {
+      background: #b12025;
+    }
+
+    .flexCol--filterCol {
+      max-width: 500px;
+      min-width: 230px;
+    }
+
+    .flexCol--productCountCol {
+      align-items: flex-start;
+    }
+
+    .flexCol--orderByCol {
+      align-items: flex-end;
+    }
+
+    .flexCol--orderByMobileCol {
+      width: 42%;
+    }
+
+    .flexCol--filterMobileCol {
+      width: 38%;
+    }
+
+    .flexCol--switcherMobileCol {
+      width: 20%;
+    }
+
+    .flexRow--quickviewMainRow {
+      display: flex;
+      max-height: 100%;
+    }
+
+    .flexColChild--quickviewDetails:first-child {
+      overflow-y: auto;
+      height: 66% !important;
+      overflow-x: hidden;
+    }
+
+    .flexColChild--quickviewDetails:last-child {
+      height: 34% !important;
+    }
+
+    .flexRow--addToCartRow {
+      padding-bottom: 1rem;
+    }
+
+    .flexRow--collage-collumText {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+
+    .flexRowContent--collage-container {
+      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .flexColChild--collage-colWrapper {
+      background: #b12025;
+      text-align: center;
+      width: 50%;
+    }
+
+    .flexColChild--collage-collumText {
+      padding: 0 57px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-flexRowContent--deals-container) {
+      background: #252424;
+    }
+  }

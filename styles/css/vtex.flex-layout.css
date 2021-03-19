@@ -1,6 +1,6 @@
 :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper){
   min-height: 450px;
-  background:  url("https://abibewebshop.vtexassets.com/arquivos/ids/155578-500-auto?width=500&height=auto&aspect=true") no-repeat bottom center,#ff4122;
+  background:  url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/d0662aaf-01b2-43b3-8782-5971072191eb___7f70a8f33b129ad9e6e3384f828f4f74.png") no-repeat bottom center,#ff4122;
   background-size: 300px,1520px;
   width: 100%;
   display: flex;
@@ -10,7 +10,7 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper2){
   min-height: 450px;
-  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b3ae0231-191b-47f6-8815-800f9abb92c2___eb96f30e9b99a79935fdf998353c4881.png") no-repeat center bottom,#3A032D;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/d7d62579-84eb-4d3c-843c-b65595412f28___eb96f30e9b99a79935fdf998353c4881.png") no-repeat center bottom,#3A032D;
   background-size: 300px,1520px;
   width: 100%;
   display: flex;
@@ -160,7 +160,7 @@
 @media screen and (min-width: 610px) {
   :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper) {
     min-height: 320px;
-    background:  url("https://abibewebshop.vtexassets.com/arquivos/ids/155578-500-auto?width=500&height=auto&aspect=true") no-repeat 86% center,#ff4122 url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e6f8a2f5-63f1-4e60-baf0-5bdb8d0413e9___e6359e8a62d2d494c3a2338cda053473.png") no-repeat right;
+    background:  url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/d0662aaf-01b2-43b3-8782-5971072191eb___7f70a8f33b129ad9e6e3384f828f4f74.png") no-repeat 86% center,#ff4122 url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e6f8a2f5-63f1-4e60-baf0-5bdb8d0413e9___e6359e8a62d2d494c3a2338cda053473.png") no-repeat right;
     background-size: 250px, 50% 100%;
     width: 100%;
     display: flex;
@@ -169,7 +169,7 @@
   }
   :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper2){
     min-height: 320px;
-    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b3ae0231-191b-47f6-8815-800f9abb92c2___eb96f30e9b99a79935fdf998353c4881.png") no-repeat 86% center,#3A032D url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/22884c2c-45cb-4422-9161-0fe841ea376d___ac7c9431b514749a204a14bffaacfdaf.png") no-repeat right;
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/d7d62579-84eb-4d3c-843c-b65595412f28___eb96f30e9b99a79935fdf998353c4881.png") no-repeat 86% center,#3A032D url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/22884c2c-45cb-4422-9161-0fe841ea376d___ac7c9431b514749a204a14bffaacfdaf.png") no-repeat right;
     background-size: 250px, 50% 100%;
     width: 100%;
     display: flex;

@@ -1,3 +1,24 @@
+:global(.vtex-login-2-x-button):global(.vtex-login-2-x-emailPasswordOptionBtn) button{
+  position: relative;
+}
+:global(.vtex-login-2-x-button):global(.vtex-login-2-x-emailPasswordOptionBtn) button::after{
+  position: absolute;
+  top: -1px;
+  content: '';
+  left: -1px;
+  width: 40px;
+  height: 40px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/50705d34-1756-42f3-8226-651d139d1079___4ea5fee3e796f8418835609f46bc312a.png");
+  background-size: cover;
+}
+
+:global(.vtex-login-2-x-optionsListItem) :global(.vtex-button__label){
+  font-size: 14px;
+  color: black;
+}
+:global(.vtex-login-2-x-optionsListItem) :global(.vtex-button){
+  background: white;
+}
 .profileIcon--header-login{
   color: white;
   width: 0;
@@ -18,7 +39,7 @@
   position: relative;
 }
 :global(.vtex-login-2-x-container) :global(.vtex-button)::after{
-  top: -10px;
+  top: -13px;
   left: 0px;
   width: 60px;
   height: 60px;
@@ -26,4 +47,14 @@
   position: absolute;
   background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/70c90f4e-8018-4dfb-ad67-af187c1fe434___f4c918b50f244e93fefcaee5490d6adf.png") no-repeat -11px 0;
   background-size: cover;
+}
+@media screen and (min-width: 1026px){
+  :global(.vtex-login-2-x-optionsListItem) :global(.vtex-button__label){
+    font-size: 14px;
+    color: black;
+  }
+  :global(.vtex-login-2-x-optionsListItem) :global(.vtex-button){
+    background: white;
+  }
+
 }

@@ -1,6 +1,6 @@
 .buttonText{
   color: white;
-  font-size: 22px;
+  font-size: 45px;
 }
 .listElement{
   background: #ff4122;
@@ -10,4 +10,9 @@
 .listElement:hover{
   background: #ff4122;
   color: white;
+}
+@media screen and (min-width: 1026px){
+  .buttonText{
+    font-size: 45px;
+  }
 }

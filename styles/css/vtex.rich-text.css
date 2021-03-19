@@ -377,7 +377,7 @@
       width: 400px;
     }
     .link--bottom-banner-custom-text{
-      font-size: 66px;
+      font-size: 61px;
       line-height: 1.3;
     }
     .container--bottom-banner-custom-text2{
@@ -390,7 +390,7 @@
       width: 400px;
     }
     .link--bottom-banner-custom-text2{
-      font-size: 66px;
+      font-size: 61px;
       line-height: 1.3;
     }
     .container--bottom-banner-custom-text3{
@@ -403,8 +403,8 @@
       width: 400px;
     }
     .link--bottom-banner-custom-text3{
-      font-size: 66px;
-      line-height: 1.3;
+      font-size: 61px;
+      line-height: 1.1;
     }
     .container--bottom-banner-custom-text4{
       justify-content: flex-start;
@@ -416,8 +416,8 @@
       width: 400px;
     }
     .link--bottom-banner-custom-text4{
-      font-size: 66px;
-      line-height: 1.3;
+      font-size: 61px;
+      line-height: 1.1;
     }
     .container--bottom-banner-custom-text5{
       justify-content: flex-start;
@@ -429,7 +429,7 @@
       width: 400px;
     }
     .link--bottom-banner-custom-text5{
-      font-size: 66px;
+      font-size: 61px;
       line-height: 1.3;
     }
     .wrapper--bottom-banner-custom-text6{
@@ -441,7 +441,7 @@
       width: auto;
     }
     .link--bottom-banner-custom-text6{
-      font-size: 66px;
+      font-size: 61px;
       text-transform: uppercase;
     }
   }

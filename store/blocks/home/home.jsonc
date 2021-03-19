@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+    //  "list-context.image-list#demo",
       "slider-layout#text-test",
 "flex-layout.row#producthome",
 "flex-layout.row#puerbm-container",

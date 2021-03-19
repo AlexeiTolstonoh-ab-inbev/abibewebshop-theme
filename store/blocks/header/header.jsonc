@@ -78,7 +78,8 @@
   },
   "search-bar#home":{
   "props":{
-  "maxWidth": 379
+  "maxWidth": 379,
+  "openAutocompleteOnFocus": true
   }
   }
 }

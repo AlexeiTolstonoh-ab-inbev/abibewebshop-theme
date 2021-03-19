@@ -12,7 +12,7 @@
          "textAlignment": "CENTER",
          "blockClass": "bottom-banner-custom-text",
           "textPosition": "CENTER",
-          "text": "[Danny delivers beer at your dor](/jupiler)"
+          "text": "[Danny delivers beer at your door](/jupiler)"
           }
           },
 "flex-layout.row#bottom-banner-custom2":{
@@ -28,7 +28,7 @@
          "textAlignment": "CENTER",
          "blockClass": "bottom-banner-custom-text2",
           "textPosition": "CENTER",
-          "text": "[Danny delivers water to your dor](/other-drinks/water)"
+          "text": "[Danny delivers water to your door](/other-drinks/water)"
           }
           },
      "flex-layout.row#bottom-banner-custom3":{
@@ -44,7 +44,7 @@
               "textAlignment": "CENTER",
               "blockClass": "bottom-banner-custom-text3",
                "textPosition": "CENTER",
-               "text": "[Danny delivers soft drinks to your dor](/other-drinks/soft-drinks)"
+               "text": "[Danny delivers soft drinks to your door](/other-drinks/soft-drinks)"
                }
                },
        "flex-layout.row#bottom-banner-custom4":{
@@ -60,7 +60,7 @@
                 "textAlignment": "CENTER",
                 "blockClass": "bottom-banner-custom-text4",
                  "textPosition": "CENTER",
-                 "text": "[Danny delivers spirits to your dor](/other-drinks/spirits)"
+                 "text": "[Danny delivers spirits to your door](/other-drinks/spirits)"
                  }
                  },
         "flex-layout.row#bottom-banner-custom5":{
@@ -76,7 +76,7 @@
                  "textAlignment": "CENTER",
                  "blockClass": "bottom-banner-custom-text5",
                   "textPosition": "CENTER",
-                  "text": "[Danny delivers wine to your dor](/other-drinks/wine-and-more)"
+                  "text": "[Danny delivers wine to your door](/other-drinks/wine-and-more)"
                   }
                   },
          "flex-layout.row#bottom-banner-custom6":{
@@ -108,6 +108,6 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carouselText"
     },
-    "children": ["flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom4","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom6"]
+    "children": ["flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom4","flex-layout.row#bottom-banner-custom5"]
   }
 }

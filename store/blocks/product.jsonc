@@ -50,10 +50,10 @@
    //   "product-identifier.product",
       //"sku-selector",
       "product-description",
-      "flex-layout.row#buy-button",
+      "flex-layout.row#buy-button"
      // "availability-subscriber",
-      "shipping-simulator",
-      "share#default"
+      //"shipping-simulator",
+      //"share#default"
     ]
   },
 

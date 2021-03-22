@@ -298,7 +298,7 @@
   "fullWidth": true,
   "blockClass": "specificationContainer"
 },
-"children": ["product-specification-badges#name"]
+"children": ["flex-layout.col#specificationName","flex-layout.col#specificationValue"]
 },
 "flex-layout.col#specificationName":{
 "props":{

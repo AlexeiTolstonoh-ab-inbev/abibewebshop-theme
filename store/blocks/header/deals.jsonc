@@ -64,7 +64,7 @@
            "highlight": false,
            "itemProps": {
              "type": "internal",
-             "href": "/beer/pack-type/special-packs",
+             "href": "/beer/pack-type/special-packs?initialMap=c,c,c&initialQuery=beer/pack-type/cans&map=category-1,category-2,category-3",
              "noFollow": false,
              "tagTitle": "Special Packs",
              "text": "Special Packs"

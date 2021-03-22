@@ -42,7 +42,7 @@
    "link#new": {
         "props": {
           "href": "/news",
-          "label": "Subscription",
+          "label": "Newsletter",
           "blockClass": "news-links"
         }
       },

@@ -7,7 +7,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/deals",
         "noFollow": false,
         "tagTitle": "DEALS",
         "text": "DEALS"
@@ -48,7 +48,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "#",
+          "href": "/promotions",
           "noFollow": false,
           "tagTitle": "Promotions",
           "text": "Promotions"
@@ -64,7 +64,7 @@
            "highlight": false,
            "itemProps": {
              "type": "internal",
-             "href": "#",
+             "href": "/beer/pack-type/special-packs",
              "noFollow": false,
              "tagTitle": "Special Packs",
              "text": "Special Packs"
@@ -80,7 +80,7 @@
             "highlight": false,
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/others",
               "noFollow": false,
               "tagTitle": "Others",
               "text": "Others"
@@ -96,7 +96,7 @@
                 "highlight": false,
                 "itemProps": {
                   "type": "internal",
-                  "href": "#",
+                  "href": "/exclusivities",
                   "noFollow": false,
                   "tagTitle": "Exclusivities",
                   "text": "Exclusivities"
@@ -112,7 +112,7 @@
                 "highlight": false,
                 "itemProps": {
                   "type": "internal",
-                  "href": "#",
+                  "href": "/last-chance",
                   "noFollow": false,
                   "tagTitle": "Last Chance",
                   "text": "Last Chance"
@@ -128,7 +128,7 @@
                     "highlight": false,
                     "itemProps": {
                       "type": "internal",
-                      "href": "#",
+                      "href": "/beer-subscription",
                       "noFollow": false,
                       "tagTitle": "Beer Subscription",
                       "text": "Beer Subscription"

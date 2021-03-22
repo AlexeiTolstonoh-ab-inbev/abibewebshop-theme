@@ -19,15 +19,29 @@
 }
 .openIconContainer{
   position: relative;
+  padding: 10px 0 14px 0;
 }
 
 .openIconContainer::after{
   top: 2px;
-  right: 0;
+  left: 3px;
   width: 60px;
   height: 60px;
   content: '';
   position: absolute;
   background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/dbdfeea3-f96c-475b-996c-271531061a9e___3e1c6cc693d1cbebf0432b9aa9a47d5d.png") no-repeat -11px 0;
   background-size: cover;
+}
+@media screen and (min-width: 400px){
+  .openIconContainer::after{
+    top: 2px;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    content: '';
+    position: absolute;
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/dbdfeea3-f96c-475b-996c-271531061a9e___3e1c6cc693d1cbebf0432b9aa9a47d5d.png") no-repeat -11px 0;
+    background-size: cover;
+  }
+
 }

@@ -110,7 +110,7 @@ flex-basis: 100%;
 
 .searchResultContainer {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   max-width: 100%;
 }
 

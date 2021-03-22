@@ -1,13 +1,16 @@
 :global(.vtex-login-2-x-button):global(.vtex-login-2-x-emailPasswordOptionBtn) button{
   position: relative;
 }
+:global(.vtex-login-2-x-container){
+  width: 60px;
+}
 :global(.vtex-login-2-x-button):global(.vtex-login-2-x-emailPasswordOptionBtn) button::after{
   position: absolute;
   top: -1px;
   content: '';
-  left: -1px;
-  width: 40px;
-  height: 40px;
+  left: 0;
+  width: 50px;
+  height: 60px;
   background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/50705d34-1756-42f3-8226-651d139d1079___4ea5fee3e796f8418835609f46bc312a.png");
   background-size: cover;
 }
@@ -24,7 +27,10 @@
   width: 0;
   position: relative;
 }
-
+.container {
+  width: 50px;
+  height: 50px;
+}
 .container :hover{
   background-color: #FF4122;
 }
@@ -40,8 +46,8 @@
 }
 :global(.vtex-login-2-x-container) :global(.vtex-button)::after{
   top: -13px;
-  left: 0px;
-  width: 60px;
+  left: 0;
+  width: 50px;
   height: 60px;
   content: '';
   position: absolute;

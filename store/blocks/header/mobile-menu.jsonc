@@ -54,7 +54,7 @@
       },
       "children": [
       "menu-item#pack-type-mobile-header",
-      "menu-item#beer-type-mobile-header",
+      //"menu-item#beer-type-mobile-header",
       "menu-item#beer-brand-mobile-header"
       ]
     },
@@ -132,11 +132,11 @@
                   "menu-item#beer-brand-Leffe",
                   "menu-item#beer-brand-tripel-karmeliet",
                   "menu-item#beer-brand-corona",
-                  "menu-item#beer-brand-victoria",
-                  "menu-item#beer-brand-hoegarden",
-                  "menu-item#beer-brand-cubanisto",
-                  "menu-item#beer-brand-belle-vue",
-                  "menu-item#beer-brand-kwak"
+                  "menu-item#beer-brand-victoria"
+                  //"menu-item#beer-brand-hoegarden",
+                  //"menu-item#beer-brand-cubanisto",
+                  //"menu-item#beer-brand-belle-vue",
+                  //"menu-item#beer-brand-kwak"
                     ]
                   },
 

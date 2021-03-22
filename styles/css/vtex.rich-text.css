@@ -264,9 +264,9 @@
 .link--bottomlinkctext{
   color: white;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   border: 1px solid #FF4122;
-  text-decoration: none;
+  text-decoration: underline;
   border-radius: 25px;
   padding: 16px 10px;
   background: #FF4122;
@@ -364,7 +364,7 @@
     text-align: center;
   }
   .link--bottomlinkctext{
-    font-size: 20px;
+    font-size: 16px;
   }
   @media screen and (min-width: 944px){
     .container--bottom-banner-custom-text{

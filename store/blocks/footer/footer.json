@@ -36,7 +36,7 @@
   "link#newFooter": {
     "props": {
       "href": "/news",
-      "label": "Subscription",
+      "label": "Newsletter",
       "blockClass": "news-links-footer"
     }
   },
@@ -70,20 +70,62 @@
       "blockClass": "paymentCol",
       "verticalAlign": "bottom"
     },
-    "children":["accepted-payment-methods","rich-text#footerAbi"]
+    "children":["flex-layout.row#patmentMethods","rich-text#footerAbi"]
   },
-
+"flex-layout.row#patmentMethods": {
+  "props": {
+    "preventVerticalStretch": true,
+    "blockClass": "paymentsImg-container"
+  },
+  "children": ["image#MasterCard","image#Visa","image#bankContackt"]
+},
   "rich-text#footerAbi": {
     "props": {
       "text": "© 2021 Anheuser-Busch InBev ",
       "blockClass": "footerAbi"
     }
   },
-  "accepted-payment-methods": {
+  "image#MasterCard": {
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "min-height": "58",
+      "min-width": "58",
+      "blockClass": "payment-method-img",
+      "link":{
+        "url": "https://www.mastercard.us/en-us.html"
+      },
+      "title": "MC",
+      "maxWidth": "100%",
+      "src": "https://abibewebshop.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.22.0/public/react/a8a977f569877c2df3a46c5a7b0d4dec.svg"
     }
   },
+  "image#Visa": {
+    "props": {
+      "min-height": "58",
+      "min-width": "58",
+      "blockClass": "payment-method-img",
+      "link":{
+        "url": "https://usa.visa.com/"
+      },
+      "title": "Visa",
+      "maxWidth": "100%",
+      "src": "https://abibewebshop.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.22.0/public/react/69f24958103909c9e64057b9956d886f.svg"
+    }
+  },
+  "image#bankContackt": {
+    "props": {
+      "min-height": "58",
+      "min-width": "58",
+      "blockClass": "payment-method-img",
+      "link":{
+        "url": "https://www.bancontact.com/en"
+      },
+      "maxWidth": "100%",
+      "title": "Bancontact",
+      "src": "https://abibewebshop.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.22.0/public/react/d48ef71514c2996f778851c1df9cc5d0.svg"
+    }
+  },
+
+
 
   "footer-layout.mobile": {
     "props": {

@@ -1,3 +1,7 @@
+.flexRowContent--paymentsImg-container{
+  display: flex;
+  flex-direction: row;
+}
 :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper){
   min-height: 450px;
   background:  url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/d0662aaf-01b2-43b3-8782-5971072191eb___7f70a8f33b129ad9e6e3384f828f4f74.png") no-repeat bottom center,#ff4122;

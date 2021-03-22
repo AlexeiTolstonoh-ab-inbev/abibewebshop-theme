@@ -243,8 +243,8 @@
     },
     "children": [
       "flex-layout.col#menu-beer-1",
-      "flex-layout.col#menu-beer-3",
-      "flex-layout.col#menu-beer-2"
+      "flex-layout.col#menu-beer-3"
+     // "flex-layout.col#menu-beer-2"
     ]
   },
   "flex-layout.col#menu-beer-1": {
@@ -269,7 +269,7 @@
     "props": {
       "blockClass": "subcolumn",
       "horizontalAlign": "center",
-      "border": ["left", "right"],
+      "border": ["left"],
       "borderColor": "black",
       "borderWidth": 1,
       "paddingBottom": 5
@@ -519,11 +519,11 @@
       "menu-item#beer-brand-Leffe",
       "menu-item#beer-brand-tripel-karmeliet",
       "menu-item#beer-brand-corona",
-      "menu-item#beer-brand-victoria",
-      "menu-item#beer-brand-hoegarden",
-      "menu-item#beer-brand-cubanisto",
-      "menu-item#beer-brand-belle-vue",
-      "menu-item#beer-brand-kwak"
+      "menu-item#beer-brand-victoria"
+      //"menu-item#beer-brand-hoegarden",
+      //"menu-item#beer-brand-cubanisto",
+      //"menu-item#beer-brand-belle-vue",
+      //"menu-item#beer-brand-kwak"
     ]
   },
   "menu-item#beer-brand": {

@@ -38,7 +38,7 @@
   display: none;
 }
 .buttonLink{
-  width: 30px;
+  width: 50px;
   position: relative;
 }
 :global(.vtex-login-2-x-container) :global(.vtex-button){

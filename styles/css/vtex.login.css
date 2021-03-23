@@ -6,11 +6,11 @@
 }
 :global(.vtex-login-2-x-button):global(.vtex-login-2-x-emailPasswordOptionBtn) button::after{
   position: absolute;
-  top: -1px;
+  top: 0;
   content: '';
   left: 0;
-  width: 50px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/50705d34-1756-42f3-8226-651d139d1079___4ea5fee3e796f8418835609f46bc312a.png");
   background-size: cover;
 }

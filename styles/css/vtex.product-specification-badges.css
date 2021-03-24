@@ -7,3 +7,11 @@
   background-color: rgb(251,249,240);
   padding: 0;
 }
+.badgeText--bottle-deposit-euro45-included{
+  color: #ff4122;
+  background: rgb(251,249,240);
+  text-align: left;
+}
+.groupContainer {
+  margin:0;
+}

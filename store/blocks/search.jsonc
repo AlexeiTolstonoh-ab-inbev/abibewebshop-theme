@@ -289,7 +289,7 @@
   "props":{
   "blockClass":"search-page-containe"},
       "children": [
-       "product-summary-image#searchProduct","product-summary-name#serchName","flex-layout.row#search-specification-container","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
+       "product-summary-image#searchProduct","product-summary-name#serchName","flex-layout.row#search-specification-container","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
        "availability-subscriber#searchPage"
       ]
   },
@@ -332,6 +332,40 @@
         }]
       }
     },
+
+
+    "flex-layout.row#search-specification-container-deposite":{
+    "props":{
+      "fullWidth": true,
+      "blockClass": "specificationContainer"
+    },
+    "children": ["flex-layout.col#specificationNameDeposite"]
+    },
+    "flex-layout.col#specificationNameDeposite":{
+    "props":{
+    "width": "100%"
+    },
+      "children":["product-specification-badges#name-deposit"]
+    },
+
+      "product-specification-badges#name-deposit": {
+          "props": {
+            "specificationGroupName": "drinks",
+            "specificationsOptions": [{
+              "specificationName": "bottle deposit €4.5 included",
+              "displayValue": "SPECIFICATION_NAME"
+            }]
+          }
+        },
+
+
+
+
+
+
+
+
+
 
     "product-summary-image#searchProduct": {
         "props": {

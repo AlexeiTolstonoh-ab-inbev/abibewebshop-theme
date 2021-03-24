@@ -1,3 +1,9 @@
+.minicartSummary{
+display: none;
+}
+.minicartContentContainer .price{
+  display: none;
+}
 .cartIcon{
   color: transparent;
   width: 25px;

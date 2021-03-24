@@ -1,3 +1,6 @@
+:global(.vtex-store-components-3-x-searchBarInnerContainer--opened) :global(.vtex-store-components-3-x-searchBarInnerContainer--filled){
+  background: red;
+}
 .imageElement--payment-method-img{
   width: 58px;
   height: 58px;

@@ -30,7 +30,8 @@
     "children": [
      "logo#desktop",
              "header-spacer#spacer",
-        "search-bar#home",
+        //"search-bar#home",
+        "search-bar#new",
       "header-spacer#spacer",
       "binding-selector",
       //"locale-switcher#home",

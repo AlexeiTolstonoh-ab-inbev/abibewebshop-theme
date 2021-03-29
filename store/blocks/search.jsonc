@@ -352,7 +352,7 @@
           "props": {
             "specificationGroupName": "drinks",
             "specificationsOptions": [{
-              "specificationName": "bottle deposit €4.5 included",
+              "specificationName": "bottle deposit €4.5 excluded",
               "displayValue": "SPECIFICATION_NAME"
             }]
           }

@@ -1,3 +1,7 @@
+:global(.vtex-login-2-x-container) :global(.vtex-button){
+  width: 46px;
+}
+
 .container{
   justify-content: center;
   align-items: flex-start;
@@ -21,6 +25,9 @@
   padding-left: 0;
   justify-content: center;
   align-items: center;
+}
+.button:focus{
+  border: none;
 }
 .buttonText{
   color: transparent;

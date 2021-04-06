@@ -1,3 +1,6 @@
+:global(.vtex-login-2-x-profile){
+  max-width: 0px;
+}
 :global(.vtex-login-2-x-button):global(.vtex-login-2-x-emailPasswordOptionBtn) button{
   position: relative;
 }

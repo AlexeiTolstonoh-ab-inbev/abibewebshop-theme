@@ -1,3 +1,87 @@
+:global(.vtex-search-result-3-x-filter__container--category-1) :global(.vtex-search-result-3-x-filterTitle){
+color: transparent;
+  position: relative;
+}
+:global(.vtex-search-result-3-x-filter__container--category-1) :global(.vtex-search-result-3-x-filterTitle)::after{
+  position: absolute;
+  content: 'Drink type';
+  color: #8d8d8d;
+  width: 80%;
+  height: 100%;
+  top: 3px;
+  left: 0;
+  font-size: 16px;
+  background-color: transparent;
+}
+:global(.vtex-search-result-3-x-filter__container--category-3) :global(.vtex-search-result-3-x-filterTitle){
+  color: transparent;
+  position: relative;
+}
+:global(.vtex-search-result-3-x-filter__container--category-3) :global(.vtex-search-result-3-x-filterTitle)::after{
+  position: absolute;
+  content: 'Pack Type';
+  color: #8d8d8d;
+  width: 80%;
+  height: 100%;
+  top: 3px;
+  left: 0;
+  font-size: 16px;
+  background-color: transparent;
+}
+:global(.vtex-search-result-3-x-filterAccordionItemBox--department) :global(.vtex-search-result-3-x-accordionFilterItemTitle){
+  color: transparent;
+  position: relative;
+}
+
+:global(.vtex-search-result-3-x-filterAccordionItemBox--department) :global(.vtex-search-result-3-x-accordionFilterItemTitle)::after{
+  position: absolute;
+  content: 'Drink type';
+  color: #8d8d8d;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+:global(.vtex-search-result-3-x-filterAccordionItemBox--subcategory) :global(.vtex-search-result-3-x-accordionFilterItemTitle){
+  color: transparent;
+  position: relative;
+}
+
+:global(.vtex-search-result-3-x-filterAccordionItemBox--subcategory) :global(.vtex-search-result-3-x-accordionFilterItemTitle)::after{
+  position: absolute;
+  content: 'Pack Type';
+  color: #8d8d8d;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  background-color: transparent;
+}
+:global(.vtex-search-result-3-x-filterBreadcrumbsItem), :global(.vtex-search-result-3-x-filterBreadcrumbsItemName){
+  display: none;
+}
+
+  /*:global(.vtex-search-result-3-x-orderByOptionItem):first-child{*/
+/*  position: relative;*/
+/*  color: transparent;*/
+/*}*/
+/*:global(.vtex-search-result-3-x-orderByOptionItem):first-child:hover{*/
+/*  position: relative;*/
+/*  color: transparent;*/
+/*}*/
+/*:global(.vtex-search-result-3-x-orderByOptionItem):first-child::after{*/
+/*  position: absolute;*/
+/*  content: 'By default';*/
+/*  width: auto;*/
+/*  height: auto;*/
+/*  top: 11px;*/
+/*  left: 12px;*/
+/*  color: #8d8d8d;*/
+/*}*/
 
 .render-container .render-route-store-search{
   margin:0 auto;

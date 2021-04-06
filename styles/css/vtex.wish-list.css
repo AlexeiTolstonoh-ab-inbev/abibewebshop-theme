@@ -1,0 +1,36 @@
+.wishlistIconContainer{
+  width: 100%;
+  height: 0px;
+  position: relative;
+}
+.wishlistIconContainer :global(.vtex-button){
+  background-image: none;
+   background: transparent;
+  position: absolute;
+  border: none;
+  width: 85px;
+  height: 31px;
+  top: -36px;
+  right: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: transparent;
+}
+:global(.vtex-wish-list-1-x-wishlistIconContainer--productpageWish){
+  width: 100%;
+  position: relative;
+}
+:global(.vtex-wish-list-1-x-wishlistIconContainer--productpageWish) :global(.vtex-button){
+  background-image: none;
+  background: transparent;
+  position: absolute;
+  border: none;
+  width: 85px;
+  height: 31px;
+  top:  0px;
+  right: 0px;
+  z-index: 2;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: transparent;
+}

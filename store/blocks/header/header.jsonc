@@ -32,6 +32,7 @@
              "header-spacer#spacer",
         //"search-bar#home",
         "search-bar#new",
+        //"modal-trigger#searchBar",
       "header-spacer#spacer",
       "binding-selector",
       //"locale-switcher#home",
@@ -40,6 +41,13 @@
       "minicart.v2"
     ]
   },
+  "modal-trigger#searchBar":{
+  "children":["search-bar#new","modal-layout#searchBarModal"]
+  },
+
+"modal-layout#searchBarModal":{
+  "children":["search-bar#new"]
+},
    "link#new": {
         "props": {
           "href": "/news",

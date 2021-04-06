@@ -289,7 +289,7 @@
   "props":{
   "blockClass":"search-page-containe"},
       "children": [
-       "product-summary-image#searchProduct","product-summary-name#serchName","flex-layout.row#search-specification-container","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
+       "product-summary-image#searchProduct","add-to-list-btn","product-summary-name#serchName","flex-layout.row#search-specification-container","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
        "availability-subscriber#searchPage"
       ]
   },

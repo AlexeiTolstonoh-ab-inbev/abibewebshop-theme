@@ -71,6 +71,7 @@
       "menu-item#soft-drinks",
       "menu-item#juices",
       "menu-item#wine-and-more",
+      "menu-item#beer-drinks",
       "menu-item#spirits",
     "menu-item#seltzers"
     ]
@@ -91,7 +92,21 @@
                 }
                }
              },
-
+      "menu-item#beer-drinks": {
+        "props": {
+          "id": "menu-item-beer",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/beer",
+            "noFollow": true,
+            "tagTitle": "Beer",
+            "text": "Beer"
+          }
+        }
+      },
     "menu-item#water": {
       "props": {
         "id": "menu-item-water",
@@ -190,10 +205,10 @@
                  "highlight": false,
                  "itemProps": {
                    "type": "internal",
-                   "href": "#",
+                   "href": "/other-drinks/seltzers",
                    "noFollow": true,
-                   "tagTitle": "Seltzers",
-                   "text": "Seltzers"
+                   "tagTitle": "Hard Seltzer",
+                   "text": "Hard Seltzer"
                  }
                }
              },
@@ -244,8 +259,8 @@
                            "type": "internal",
                            "href": "#",
                            "noFollow": true,
-                           "tagTitle": "Mike's Hard Seltzer",
-                           "text": "Mike's Hard Seltzer"
+                           "tagTitle": "Mike's",
+                           "text": "Mike's"
                          }
                        }
                      },

@@ -29,7 +29,7 @@
           "props": {
             "showInstallments": true,
             "showSavings": true,
-             "message": "{sellingPriceValue} (exc.VAT)",
+             "message": "{sellingPriceValue}",
              "blockClass": "selling-price-shelf-exc-vat"
           }
         },

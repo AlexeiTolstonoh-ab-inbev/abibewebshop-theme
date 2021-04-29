@@ -57,7 +57,7 @@
         "background": {
           "base": "#ffffff",
           "base--inverted": "#03044e",
-          "action-primary": "#ffc600",
+          "action-primary": "#D90026",
           "action-secondary": "#eef3f7",
           "emphasis": "#b12025",
           "disabled": "#f2f4f5",
@@ -74,8 +74,8 @@
           "muted-5": "#f2f4f5"
         },
         "hover-background": {
-          "action-primary": "#ffc600",
-          "action-secondary": "",
+          "action-primary": "#D90026",
+          "action-secondary": "#D90026",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -90,8 +90,8 @@
           "muted-5": "#f2f4f5"
         },
         "active-background": {
-          "action-primary": "#ffc600",
-          "action-secondary": "#d2defc",
+          "action-primary": "#D90026",
+          "action-secondary": "#D90026",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -149,13 +149,13 @@
           "warning--faded": "#fff6e0"
         },
         "border": {
-          "action-primary": "#ffc600",
+          "action-primary": "#D90026",
           "action-secondary": "#eef3f7",
           "emphasis": "#b12025",
           "disabled": "#e3e4e6",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
-          "danger": "#ff4c4c",
+          "danger": "#D90026",
           "danger--faded": "#ffe6e6",
           "warning": "#ffb100",
           "warning--faded": "#fff6e0",
@@ -166,7 +166,7 @@
           "muted-5": "#f2f4f5"
         },
         "hover-border": {
-          "action-primary": "#ffc600",
+          "action-primary": "#D90026",
           "action-secondary": "#dbe9fd",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
@@ -249,90 +249,90 @@
     "measure": [30, 34, 20],
     "styles": {
       "heading-1": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "700",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "700",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "capitalize",
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "700",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "700",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "700",
         "fontSize": "0.875rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "700",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "code": {
-        "fontFamily": "Bahnschrift SemiBold,Sans-Serif",
+        "fontFamily": "Gotham-Medium",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",

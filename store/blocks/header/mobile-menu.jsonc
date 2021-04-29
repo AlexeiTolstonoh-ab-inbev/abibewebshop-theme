@@ -234,8 +234,8 @@
                           "orientation": "vertical"
                         },
                         "children": [
-                          "menu-item#promotions","menu-item#special-packs",
-                          "menu-item#others", "menu-item#exclusivities",
+                          "menu-item#promotions",
+                          "menu-item#Merchandising", "menu-item#exclusivities",
                           "menu-item#last-chance","menu-item#beer-subscription"
                         ]
                       },

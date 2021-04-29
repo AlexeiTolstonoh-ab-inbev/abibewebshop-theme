@@ -1,5 +1,12 @@
+:global(.vtex-product-summary-2-x-imageContainer) {
+    background: white;
+    position: relative;
+    width: 100%;
+}
+
 .element--product-home-wrapper{
   padding-bottom: 23px;
+margin: 0 auto;
 }
 .nameContainer{
   padding-bottom: 0;
@@ -44,7 +51,7 @@
 
 .nameContainer {
   justify-content: start;
-  padding-top: 1rem;
+  padding-top: 0;
   padding-bottom: 1rem;
 }
 
@@ -86,11 +93,11 @@
   min-width: 100%;
 }
 .imageWrapper--shelfProduct-image {
-  background: rgb(251,249,240);
+  background: white;
   max-width: 200px;
 }
 .image--shelfProduct-image{
-  background: rgb(251,249,240);
+  background: white;
   width: auto;
   height: auto;
 }

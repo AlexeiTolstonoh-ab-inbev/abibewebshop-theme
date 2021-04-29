@@ -34,8 +34,8 @@
 
     },
     "children": [
-"menu-item#promotions","menu-item#special-packs",
-"menu-item#others", "menu-item#exclusivities",
+"menu-item#promotions",
+"menu-item#Merchandising", "menu-item#exclusivities",
 "menu-item#last-chance","menu-item#beer-subscription"
     ]
   },
@@ -55,23 +55,8 @@
         }
       }
     },
-       "menu-item#special-packs": {
-         "props": {
-           "id": "menu-item-special-packs",
-           "blockClass": "top-menu-item-brand",
-           "type": "custom",
-           "iconId": null,
-           "highlight": false,
-           "itemProps": {
-             "type": "internal",
-             "href": "/beer/pack-type/special-packs?initialMap=c,c,c&initialQuery=beer/pack-type/cans&map=category-1,category-2,category-3",
-             "noFollow": false,
-             "tagTitle": "Special Packs",
-             "text": "Special Packs"
-           }
-         }
-       },
-        "menu-item#others": {
+
+        "menu-item#Merchandising": {
           "props": {
             "id": "menu-item-others",
             "blockClass": "top-menu-item-brand",
@@ -80,10 +65,10 @@
             "highlight": false,
             "itemProps": {
               "type": "internal",
-              "href": "/others",
+              "href": "/merchandising",
               "noFollow": false,
-              "tagTitle": "Others",
-              "text": "Others"
+              "tagTitle": "Merchandising",
+              "text": "Merchandising"
             }
           }
         },

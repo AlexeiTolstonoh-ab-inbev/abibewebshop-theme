@@ -1,5 +1,6 @@
 .shelfProduct-price{
   background-color: #ff4122;
+  margin: 0;
 }
 .listPrice {
   color: #727273;
@@ -97,28 +98,29 @@ display: none;
 }
 .sellingPrice--searchPrice{
   margin-top: 0;
-  color:#ff4122;
-  font-size: 1.75em;
+  color:black;
+  font-size: 16px;
+  font-weight: bold;
   margin-left: 0;
   position: relative;
 }
-.sellingPrice--searchPrice ::after{
-  content:"\276F";
-  color: #FF4122;
-  position: absolute;
-  right: 10px;
-  top: 5px;
-  width: 10px;
-  height: 10px;
-  font-size: 25px;
-}
-.sellingPrice--searchPrice ::before{
-  content:"MORE INFO";
-  color: #ff4122;
-  position: absolute;
-  right: 5px;
-  top: 10px;
-  width: 82px;
-  height: 10px;
-  font-size: 14px;
-}
+/*.sellingPrice--searchPrice ::after{*/
+/*  content:"\276F";*/
+/*  color: #FF4122;*/
+/*  position: absolute;*/
+/*  right: 10px;*/
+/*  top: 5px;*/
+/*  width: 10px;*/
+/*  height: 10px;*/
+/*  font-size: 25px;*/
+/*}*/
+/*.sellingPrice--searchPrice ::before{*/
+/*  content:"MORE INFO";*/
+/*  color: #ff4122;*/
+/*  position: absolute;*/
+/*  right: 5px;*/
+/*  top: 10px;*/
+/*  width: 82px;*/
+/*  height: 10px;*/
+/*  font-size: 14px;*/
+/*}*/

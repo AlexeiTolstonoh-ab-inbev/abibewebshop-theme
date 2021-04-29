@@ -1,82 +1,108 @@
 {
-  "flex-layout.row#collage-rowText": {
+  "flex-layout.row#features-wrapper": {
   "props": {
-    "blockClass": "collage-rowTextWrapper",
-    "horizontalAlign": "center"
+    "blockClass": "features-wrapper",
+    "horizontalAlign": "center",
+    "preventVerticalStretch": true,
+    "preserveLayoutOnMobile": true
   },
-    "children": ["flex-layout.col#collage-collumText"]
-  },
-  "flex-layout.col#collage-collumText": {
-    "props": {
-    "blockClass": "collage-collumText"
-  },
-    "children": ["rich-text#brandTitle"]
-  },
-  "rich-text#brandTitle": {
-    "props": {
-      "text": "Explore Our Brands",
-      "blockClass": "brandTitle"
-    }
+    "children": ["flex-layout.col#col1", "flex-layout.col#col2", "flex-layout.col#col3", "flex-layout.col#col4"]
   },
 
-  "rich-text#brandText": {
+  "flex-layout.col#col1": {
     "props": {
-      "text": "From global giants Budweiser, Bud Light, Corona and Stella Artois, to international heroes Beck's, Leffe and Hoegaarden, and local champions Bass and Boddingtons. We're proud to brew so many of the world's leading premium beers and ciders.",
-      "blockClass": "brandText"
-    }
-  },
-
-
-  "flex-layout.row#collage-row1": {
-    "props": {
-      "blockClass": "collage-rowImagesBlock",
-      "horizontalAlign": "center",
-      "paddingTop": 6,
-      "paddingBottom": 6
+      "blockClass": "features-column",
+      "horizontalAlign": "center"
     },
-    "children": [
-      "image#collage-image1", "image#collage-image2",
-      "image#collage-image3",  "image#collage-image4"
-    ]
+    "children": ["image#collage-image1","rich-text#features-text1"]
   },
+  "flex-layout.col#col2": {
+    "props": {
+      "blockClass": "features-column",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#collage-image2","rich-text#features-text2"]
+  },
+  "flex-layout.col#col3": {
+    "props": {
+      "blockClass": "features-column",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#collage-image3","rich-text#features-text3"]
+  },
+  "flex-layout.col#col4": {
+    "props": {
+      "blockClass": "features-column",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#collage-image4","rich-text#features-text4"]
+  },
+
   "image#collage-image1": {
     "props": {
       "title":"First image",
       "min-height": "200",
-      "min-width": "400",
-      "blockClass": "collage-image",
-      "link": "/bud",
-      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/c32bd6c0-8f55-41e8-990a-fde27aeb6137___4f1786d3d76123433115941398ba24ed.png"
+      "min-width": "320",
+      "blockClass": "features-image",
+      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/8c349daf-1ae1-4593-b7ab-3d0a25e4c73e___2df78f1e631556ffd1902d93a903b49a.png"
+    }
+  },
+  "rich-text#features-text1":{
+    "props":{
+      "blockClass": "features-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Jupiler shop delivers"
     }
   },
   "image#collage-image2": {
     "props": {
       "min-height": "200",
-      "min-width": "600",
-      "blockClass": "collage-image",
-      "link": "/corona",
-      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/55b259e7-001d-4b39-8b9c-b3239f7e824a___e7806cd9035642537fda6b712b7f9a59.png"
+      "min-width": "320",
+      "blockClass": "features-image",
+      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/38ca6db4-960c-499c-beb4-90ac455a3553___cd2cd4c4efa6672550df1371d7382007.svg"
     }
     },
-
+  "rich-text#features-text2":{
+    "props":{
+      "blockClass": "features-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "all your favorite beverages"
+    }
+  },
     "image#collage-image3": {
       "props": {
         "min-height": "200",
-        "min-width": "400",
-        "blockClass": "collage-image",
-        "link": "/corona",
-        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/d59062a1-5c3e-4de0-97a9-8e7597a6b171___955f203b5895b34ae129c0c28e4ce698.png"
+        "min-width": "320",
+        "blockClass": "features-image",
+        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/683b81c6-358f-4eca-898e-1d0eb52690e3___2ac15123b87a3dbe1abd6a257207a333.png"
       }
     },
+  "rich-text#features-text3":{
+    "props":{
+      "blockClass": "features-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "and merchandising"
+    }
+  },
     "image#collage-image4": {
       "props": {
         "min-height": "200",
-        "min-width": "400",
-        "blockClass": "collage-image",
-        "$ref": "/corona",
-        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/7db72f2d-dcfa-4e5c-a2c9-91112b22c113___af759994797a870e662a403c5c58c8a0.png",
+        "min-width": "320",
+        "blockClass": "features-image",
+        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e604fdba-7825-454c-8c10-2fe84a09612e___8edaf9768d1cfc7b08d3edec1d792d9e.svg",
         "title": "brand image"
       }
+    },
+  "rich-text#features-text4":{
+    "props":{
+      "blockClass": "features-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "in 3 to 5 work days to your dor"
     }
   }
+}
 

@@ -12,9 +12,11 @@
          "textAlignment": "CENTER",
          "blockClass": "bottom-banner-custom-text",
           "textPosition": "CENTER",
-          "text": "[Danny delivers beer at your door](/jupiler)"
+          "text": "WE DELIVER [JUPILER](/beer/jupiler) TO YOUR DOOR \n [START SHOPPING](/beer/jupiler)"
           }
           },
+
+
 "flex-layout.row#bottom-banner-custom2":{
   "props": {
   "fullWidth": true,
@@ -26,9 +28,9 @@
   "rich-text#bottomText2":{
     "props":{
          "textAlignment": "CENTER",
-         "blockClass": "bottom-banner-custom-text2",
+         "blockClass": "bottom-banner-custom-text",
           "textPosition": "CENTER",
-          "text": "[Danny delivers water to your door](/other-drinks/water)"
+          "text": "WE DELIVER [STELLA ARTOIS](/beer/stella-artois) TO YOUR DOOR  \n [START SHOPPING](/beer/stella-artois)"
           }
           },
      "flex-layout.row#bottom-banner-custom3":{
@@ -42,9 +44,9 @@
        "rich-text#bottomText3":{
          "props":{
               "textAlignment": "CENTER",
-              "blockClass": "bottom-banner-custom-text3",
+              "blockClass": "bottom-banner-custom-text",
                "textPosition": "CENTER",
-               "text": "[Danny delivers soft drinks to your door](/other-drinks/soft-drinks)"
+               "text": "WE DELIVER [WINE AND SPIRITS](/other-drinks/wine-and-more) TO YOUR DOOR \n [START SHOPPING](/other-drinks/wine-and-more)"
                }
                },
        "flex-layout.row#bottom-banner-custom4":{
@@ -58,9 +60,9 @@
          "rich-text#bottomText4":{
            "props":{
                 "textAlignment": "CENTER",
-                "blockClass": "bottom-banner-custom-text4",
+                "blockClass": "bottom-banner-custom-text",
                  "textPosition": "CENTER",
-                 "text": "[Danny delivers spirits to your door](/other-drinks/spirits)"
+                 "text": "WE DELIVER [SPIRITS](/other-drinks/spirits) TO YOUR DOOR [START SHOPPING](/other-drinks/spirits)"
                  }
                  },
         "flex-layout.row#bottom-banner-custom5":{
@@ -74,11 +76,28 @@
           "rich-text#bottomText5":{
             "props":{
                  "textAlignment": "CENTER",
-                 "blockClass": "bottom-banner-custom-text5",
+                 "blockClass": "bottom-banner-custom-text",
                   "textPosition": "CENTER",
-                  "text": "[Danny delivers wine to your door](/other-drinks/wine-and-more)"
+                  "text": "WE DELIVER [JUICE](/other-drinks/spirits) TO YOUR DOOR [START SHOPPING](/other-drinks/juices)"
                   }
                   },
+                  "flex-layout.row#bottom-banner-custom7":{
+                            "props": {
+                            "fullWidth": true,
+                            "blockClass": "bannerWrapper7",
+                            "marginTop":5
+                            },
+                            "children":["rich-text#bottomText7"]
+                          },
+                            "rich-text#bottomText7":{
+                              "props":{
+                                   "textAlignment": "CENTER",
+                                   "blockClass": "bottom-banner-custom-text",
+                                    "textPosition": "CENTER",
+                                    "text": "WE DELIVER [SOFT DRINKS](/other-drinks/soft-drinks) TO YOUR DOOR [START SHOPPING](/other-drinks/soft-drinks)"
+                                    }
+                                    },
+
          "flex-layout.row#bottom-banner-custom6":{
             "props": {
             "fullWidth": true,
@@ -87,14 +106,15 @@
             },
             "children":["rich-text#bottomText6"]
           },
-            "rich-text#bottomText6":{
-              "props":{
-                   "textAlignment": "CENTER",
-                   "blockClass": "bottom-banner-custom-text6",
-                    "textPosition": "CENTER",
-                    "text": "[Free delivery for all drinks](/bathtub-gin/chaudfontaine/coca-cola/corona/croix-d-or/jupiler/la-laia-nuria/leffe/lipton/minute-maid/red-bull/rumbullion-/schweppes/smirnoff/stella-artois/tripel-karmeliet/victoria/william-lawson-s?__bindingAddress=danny.delivery/en&initialMap=b&initialQuery=jupiler&map=brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand)"
-                    }
-                    },
+
+  "rich-text#bottomText6":{
+    "props":{
+         "textAlignment": "CENTER",
+         "blockClass": "bottom-banner-custom-text",
+          "textPosition": "CENTER",
+          "text": "[FREE](/) DELIVERY FOR ALL DRINKS \n [START SHOPPING](/)"
+          }
+          },
 
 
   "slider-layout#text-test": {
@@ -108,6 +128,6 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carouselText"
     },
-    "children": ["flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom4","flex-layout.row#bottom-banner-custom5"]
+    "children": ["flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom7"]
   }
 }

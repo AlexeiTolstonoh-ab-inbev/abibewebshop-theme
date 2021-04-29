@@ -1,11 +1,19 @@
+.wrapper--features-text{
+  width: 75%;
+  margin: 0 auto;
+}
+.paragraph--features-text{
+  margin-top: 0;
+  width: auto;
+}
 .paragraph--bottom-banner-custom-text-shelf{
   position: absolute;
-  background-color: rgb(58,3,45);
+  background-color: #d90026;
   text-align: center;
   vertical-align: middle;
   width: 50%;
   padding: 8px;
-  border-radius: 18px;
+
   color: white;
   top: -8px;
   right: 0;
@@ -17,14 +25,96 @@
 
 }
 .paragraph--bottom-banner-custom-text{
+  position: relative;
   text-align: center;
-  /*margin-left: 30px;*/
-  width: 287px;
-}
-.link--bottom-banner-custom-text{
   color: white;
-  font-size: 35px;
+  font-size: 25px;
+  line-height: 1.1;
+  margin-top: 0;
+  /*margin-left: 30px;*/
+  width: 90%;
+}
+
+.link--bottom-banner-custom-text{
+  position: absolute;
+  bottom: -70px;
+  right: 10px;
+  color: white;
+  font-size: 25px;
+  line-height: 1.1;
   text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  background-color: black;
+  margin-top: 10px;
+}
+.link--bottom-banner-custom-text:first-child{
+  position: relative;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  color: black;
+  font-size: 25px;
+  padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper) .link--bottom-banner-custom-text{
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper)  .paragraph--bottom-banner-custom-text{
+  color: black;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrappe2) .link--bottom-banner-custom-text{
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper2)  .paragraph--bottom-banner-custom-text{
+  color: black;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper2)  .link--bottom-banner-custom-text:first-child{
+  color: #d90026;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrappe3) .link--bottom-banner-custom-text{
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper3)  .paragraph--bottom-banner-custom-text{
+  color: black;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper3)  .link--bottom-banner-custom-text:first-child{
+  color: white;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrappe4) .link--bottom-banner-custom-text{
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper4)  .paragraph--bottom-banner-custom-text{
+  color: #d90026;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper4)  .link--bottom-banner-custom-text:first-child{
+  color: black;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrappe5) .link--bottom-banner-custom-text{
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper5)  .paragraph--bottom-banner-custom-text{
+  color: black;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper5)  .link--bottom-banner-custom-text:first-child{
+  color: white;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrappe7) .link--bottom-banner-custom-text{
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper7)  .paragraph--bottom-banner-custom-text{
+  color: #d90026;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper7)  .link--bottom-banner-custom-text:first-child{
+  color: black;
 }
 .container--bottom-banner-custom-text2{
   justify-content: center;
@@ -36,7 +126,7 @@
   width: 287px;
 }
 .link--bottom-banner-custom-text2{
-  color: white;
+  color: black;
   font-size: 35px;
   text-decoration: none;
 }
@@ -50,7 +140,7 @@
   width: 287px;
 }
 .link--bottom-banner-custom-text3{
-  color: #ff4122;
+  color: black;
   font-size: 35px;
   text-decoration: none;
 }
@@ -64,7 +154,7 @@
   width: 287px;
 }
 .link--bottom-banner-custom-text4{
-  color: white;
+  color: black;
   font-size: 35px;
   text-decoration: none;
 }
@@ -78,23 +168,8 @@
   width: 287px;
 }
 .link--bottom-banner-custom-text5{
-  color: white;
+  color: black;
   font-size: 35px;
-  text-decoration: none;
-}
-.wrapper--bottom-banner-custom-text6{
-  /*margin-left: 30px;*/
-
-}
-.paragraph--bottom-banner-custom-text6{
-  text-align: center;
-  /*margin-left: 30px;*/
-  width: 287px;
-}
-.link--bottom-banner-custom-text6{
-  color: white;
-  font-size: 35px;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -115,26 +190,27 @@
 .paragraph--news-header{
   text-align: center;
   font-size: 20px;
-  color: #ff4122;
+  color: black;
 }
 .paragraph--footerSocialHeader{
   margin: 0;
   color: white;
 }
 .paragraph--question-text{
-  color: #FF4122;
+  color: black;
 }
 .container--faq-category-header{
-  background: #FF4122;
+  background: #D90026;
   color: white;
   padding-left: 10px;
 }
 .container--question-text{
   position: relative;
+  background: #EFEFEF;
 }
 .container--question-text::after{
   transform: rotate(90deg);
-  color: #FFC600;
+  color: black;
   content: "\27A4";
   display: block;
   float: right;
@@ -251,9 +327,9 @@
   text-transform: uppercase;
 }
 .paragraph--aboutus-headerInfoText{
-  color: #FF4122;
+  color: black;
   text-align: center;
-  font-size: 23px;
+  font-size: 21px;
   min-height: 65px;
 }
 .paragraph--aboutus-infoText{
@@ -265,84 +341,31 @@
   color: white;
   text-align: center;
   font-size: 16px;
-  border: 1px solid #FF4122;
-  text-decoration: underline;
-  border-radius: 25px;
+  border: 1px solid #000000;
+  text-decoration: none;
   padding: 16px 10px;
-  background: #FF4122;
+  background: #000000;
 }
+.paragraph--puerbm-title{
+  font-size: 34px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
 @media screen and (min-width: 610px){
   .container--bottom-banner-custom-text{
-    justify-content: flex-start;
+    justify-content: center;
 
   }
   .paragraph--bottom-banner-custom-text{
-    text-align: left;
-    margin-left: 30px;
-    width: 287px;
-  }
-  .link--bottom-banner-custom-text{
-    font-size: 45px;
-  }
-  .container--bottom-banner-custom-text2{
-    justify-content: flex-start;
-
-  }
-  .paragraph--bottom-banner-custom-text2{
-    text-align: left;
-    margin-left: 30px;
-    width: 287px;
-  }
-  .link--bottom-banner-custom-text2{
-    font-size: 45px;
-  }
-  .container--bottom-banner-custom-text3{
-    justify-content: flex-start;
-
-  }
-  .paragraph--bottom-banner-custom-text3{
-    text-align: left;
-    margin-left: 30px;
-    width: 287px;
-  }
-  .link--bottom-banner-custom-text3{
-    font-size: 45px;
-  }
-  .container--bottom-banner-custom-text4{
-    justify-content: flex-start;
-
-  }
-  .paragraph--bottom-banner-custom-text4{
-    text-align: left;
-    margin-left: 30px;
-    width: 287px;
-  }
-  .link--bottom-banner-custom-text4{
-    font-size: 45px;
-  }
-  .container--bottom-banner-custom-text5{
-    justify-content: flex-start;
-
-  }
-  .paragraph--bottom-banner-custom-text5{
-    text-align: left;
-    margin-left: 30px;
-    width: 287px;
-  }
-  .link--bottom-banner-custom-text5{
-    font-size: 45px;
-  }
-  .wrapper--bottom-banner-custom-text6{
-    margin: 0 auto;
-  }
-  .paragraph--bottom-banner-custom-text6{
     text-align: center;
-    margin: 0 auto;
-    width: auto;
+    color: white;
+    margin-left: 30px;
+    font-size: 35px;
   }
-  .link--bottom-banner-custom-text6{
-    font-size: 45px;
-    text-transform: uppercase;
+  .link--bottom-banner-custom-text:first-child{
+    font-size: 35px;
   }
 }
 
@@ -366,83 +389,44 @@
   .link--bottomlinkctext{
     font-size: 16px;
   }
+
+  @media screen and (min-width: 768px){
+    .container--bottom-banner-custom-text{
+      justify-content: flex-start;
+    }
+    .paragraph--bottom-banner-custom-text{
+      text-align: center;
+      width: 92%;
+    }
+  }
   @media screen and (min-width: 944px){
     .container--bottom-banner-custom-text{
       justify-content: flex-start;
-
     }
     .paragraph--bottom-banner-custom-text{
       text-align: left;
       margin-left: 50px;
-      width: 400px;
+      width: 92%;
+      font-size: 50px;
+      line-height: 1.3;
+      color: white;
+    }
+    .link--bottom-banner-custom-text:first-child{
+     font-size: 50px;
     }
     .link--bottom-banner-custom-text{
-      font-size: 61px;
+      font-size: 32px;
+      bottom: -58px;
       line-height: 1.3;
     }
-    .container--bottom-banner-custom-text2{
-      justify-content: flex-start;
 
-    }
-    .paragraph--bottom-banner-custom-text2{
-      text-align: left;
-      margin-left: 50px;
-      width: 400px;
-    }
-    .link--bottom-banner-custom-text2{
-      font-size: 61px;
+  }
+  @media screen and (min-width: 1024px){
+    .link--bottom-banner-custom-text{
+      font-size: 32px;
+      bottom: -75px;
+      right: 0;
       line-height: 1.3;
-    }
-    .container--bottom-banner-custom-text3{
-      justify-content: flex-start;
-
-    }
-    .paragraph--bottom-banner-custom-text3{
-      text-align: left;
-      margin-left: 50px;
-      width: 400px;
-    }
-    .link--bottom-banner-custom-text3{
-      font-size: 61px;
-      line-height: 1.1;
-    }
-    .container--bottom-banner-custom-text4{
-      justify-content: flex-start;
-
-    }
-    .paragraph--bottom-banner-custom-text4{
-      text-align: left;
-      margin-left: 50px;
-      width: 400px;
-    }
-    .link--bottom-banner-custom-text4{
-      font-size: 61px;
-      line-height: 1.1;
-    }
-    .container--bottom-banner-custom-text5{
-      justify-content: flex-start;
-
-    }
-    .paragraph--bottom-banner-custom-text5{
-      text-align: left;
-      margin-left: 50px;
-      width: 400px;
-    }
-    .link--bottom-banner-custom-text5{
-      font-size: 61px;
-      line-height: 1.3;
-    }
-    .wrapper--bottom-banner-custom-text6{
-      margin: 0 auto;
-    }
-    .paragraph--bottom-banner-custom-text6{
-      text-align: center;
-      margin: 0 auto;
-      width: auto;
-    }
-    .link--bottom-banner-custom-text6{
-      font-size: 61px;
-      text-transform: uppercase;
     }
   }
 }

@@ -3,9 +3,23 @@
   "props":{
   "fullWidth": true
   },
-  "children": ["list-context.product-list#producthome"]
+  "children": ["flex-layout.col#home-shelf-col"]
 
   },
+  "flex-layout.col#home-shelf-col":{
+  "props":{
+  "width": "100%"
+  },
+  "children":["rich-text#toptext-shelf","list-context.product-list#producthome"]
+  },
+  "rich-text#toptext-shelf":{
+      "props":{
+      "blockClass": "puerbm-title",
+           "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Our top pics"
+            }
+            },
    "list-context.product-list#producthome": {
      "blocks": ["product-summary.shelf#producthome"],
      "children": ["slider-layout#home"],
@@ -33,6 +47,7 @@
   "blockClass":"product-home-wrapper"
   },
     "children": [
+
     "flex-layout.col#image-container-producthome",
     "flex-layout.row#topContainer",
    //   "product-summary-quantity#test",
@@ -45,7 +60,7 @@
   "verticalAlign": "center",
   "verticalAlign": "middle"
   },
-  "children": ["product-summary-image#producthome"]
+  "children": ["flex-layout.row#shelf-specification-container-productCount","product-summary-image#producthome"]
   },
   "flex-layout.row#empty":{
   "props":{
@@ -116,5 +131,31 @@
                          "buyButtonText": "Buy now",
                          "blockClass": "shelfProduct-button"
                        }
-                   }
+                   },
+
+                    "flex-layout.row#shelf-specification-container-productCount":{
+                       "props":{
+                         "fullWidth": true,
+                         "blockClass": "shelfSpecificationContainerProductCount"
+                       },
+                       "children": ["flex-layout.col#shelfSpecificationValueProductCount"]
+                       },
+                       "flex-layout.col#shelfSpecificationValueProductCount":{
+                       "props":{
+                       "width": "100%",
+                       "blockClass":"shelfSpecificationProductCount"
+                       },
+                         "children":["product-specification-badges#value-shelfProductCount"]
+                       },
+
+                         "product-specification-badges#value-shelfProductCount": {
+                             "props": {
+                             "blockClass": "shelfSpecificationValueProductCount",
+                               "specificationGroupName": "productPerPuck",
+                               "specificationsOptions": [{
+                                 "specificationName": "productPerPuck",
+                                 "displayValue": "SPECIFICATION_VALUE"
+                               }]
+                             }
+                           }
 }

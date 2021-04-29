@@ -34,8 +34,8 @@
         "type": "internal",
         "href": "/about-us",
         "noFollow": false,
-        "tagTitle": "About Danny",
-        "text": "About Danny"
+        "tagTitle": "About Us",
+        "text": "About Us"
       }
     }
   },
@@ -45,7 +45,7 @@
       "id": "website-contact-us",
       "type": "custom",
       "blockClass": "footer-link",
-      "href": "https://contactus.ab-inbev.com/en?redirect_url=https://Danny.delivery",
+      "href": "https://contactus.ab-inbev.com/en?redirect_url=https://jupilershop.be/&country=",
       "target": "_blank",
       "label": "Contact us"
     }

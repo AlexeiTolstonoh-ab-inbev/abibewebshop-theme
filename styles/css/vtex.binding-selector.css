@@ -30,17 +30,23 @@
   border: none;
 }
 .buttonText{
-  color: transparent;
+  position: absolute;
+  left: -30px;
+  color: white;
   font-size: 20px;
   text-transform: uppercase;
 }
+.list{
+  position: absolute;
+  left: -34px;
+}
 .listElement{
-  background: #ff4122;
+  background: #D90026;
   top: 23px;
   color: white;
 }
 .listElement:hover{
-  background: #ff4122;
+  background: #D90026;
   color: white;
 }
 

@@ -1,5 +1,10 @@
+.sliderLayoutContainer--shelfProduct-container{
+width: 100%;
+  justify-content: initial !important;
+  align-items: initial !important;
+}
 .slideChildrenContainer--carousel-image{
- background-color: #FBF9F0;
+ background-color: white;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -8,7 +13,7 @@
   justify-content: center;
 }
 .sliderLayoutContainer--carousel {
-  background-color: #F0F0F0;
+  background-color: white;
 }
 
 .sliderTrackContainer {
@@ -32,12 +37,15 @@
   padding-right: .5rem;
 }
 .slideChildrenContainer--shelfProduct-container{
-  background: rgb(251,249,240);
+  background:white;
   padding: 0;
   height: auto;
 }
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelfProduct-container){
   padding: 10px 0;
+  width: 100%;
+  justify-content: initial !important;
+  align-items: initial !important;
 }
 .imageElement--carousel-image{
   width: 100%;

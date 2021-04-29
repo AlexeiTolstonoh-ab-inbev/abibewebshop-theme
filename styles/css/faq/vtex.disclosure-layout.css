@@ -4,7 +4,10 @@
   cursor: pointer;
   outline: none;
 }
-
+.trigger--hidden, .trigger--visible{
+  background: #EFEFEF;
+  border-bottom: 1px solid black;
+}
 .trigger--question :global(.vtex-rich-text-0-x-paragraph) {
   font-weight: bold;
 }

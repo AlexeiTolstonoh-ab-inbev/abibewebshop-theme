@@ -3,10 +3,10 @@
     "blocks": [
     //  "list-context.image-list#demo",
       "slider-layout#text-test",
+      "flex-layout.row#features-wrapper",
+      //"list-context.image-list#bottom-banner",
 "flex-layout.row#producthome",
-"flex-layout.row#puerbm-container",
-"list-context.image-list#bottom-banner"
-
+"flex-layout.row#puerbm-container"
     ]
   },
 

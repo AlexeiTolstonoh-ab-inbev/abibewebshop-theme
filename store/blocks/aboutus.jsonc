@@ -1,44 +1,15 @@
 {
 "flex-layout.row#aboutus":{
-   "props": {
-    "fullWidth":true,
-    "horizontalAlign": "center",
-    "paddingBottom": 5
-    },
-"children":["flex-layout.col#aboutus-container"]
-},
-"flex-layout.col#aboutus-container":{
-   "props": {
-    "fullWidth":true,
-    "horizontalAlign": "center"
-    },
-"children":["flex-layout.row#aboutus-header-container", "flex-layout.row#aboutus-info-container"]
-},
-  "flex-layout.row#aboutus-header-container":{
-     "props": {
-      "fullWidth":true,
-      "horizontalAlign": "center"
-      },
-  "children":["rich-text#aboutus-header"]
-  },
-    "flex-layout.row#aboutus-info-container":{
        "props": {
         "fullWidth":true,
-        "horizontalAlign": "center"
+        "horizontalAlign": "center",
+        "blockClass": "aboutus-info-container-wrapper"
         },
     "children":["flex-layout.col#aboutus-clo1", "flex-layout.col#aboutus-clo2", "flex-layout.col#aboutus-clo3", "flex-layout.col#aboutus-clo4"]
     },
 
-
-  "rich-text#aboutus-header": {
-    "props": {
-      "text": "About Danny",
-      "blockClass": "aboutus-headerText"
-    }
-  },
   "flex-layout.col#aboutus-clo1":{
   "props":{
-  "borderColor": "red",
   "border": ["top", "right", "bottom", "left"],
   "borderWidth": 2,
   "paddingLeft": 5,
@@ -54,7 +25,7 @@
 
     "rich-text#info-header-first": {
       "props": {
-        "text": "WHO IS DANNY ?",
+        "text": "WHAT IS THE JUPILER SHOP ?",
         "blockClass": "aboutus-headerInfoText"
       }
     },
@@ -66,12 +37,12 @@
 "maxHeight": "200",
 "maxWidth": "100%",
 "blockClass": "about-image",
-"src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e0c81147-23e4-4e3f-a90c-e4d55f198150___61a377568e2234e5ac28a8f5efe9f393.png"
+ "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/8c349daf-1ae1-4593-b7ab-3d0a25e4c73e___2df78f1e631556ffd1902d93a903b49a.png"
     }
  },
     "rich-text#info-text-first": {
       "props": {
-        "text": "Danny is everyone's friend, the guy that comes in handy, the guy that is always happy and ready to help!",
+        "text": "The jupiler shop is about jupiler, the brand everyone loves of course... but not only ! this shop will offer you much more than only beer...",
         "blockClass": "aboutus-infoText"
       }
     },
@@ -79,7 +50,6 @@
 
     "flex-layout.col#aboutus-clo2":{
         "props":{
-          "borderColor": "red",
           "border": ["top", "right", "bottom", "left"],
           "borderWidth": 2,
         "paddingLeft": 5,
@@ -94,7 +64,7 @@
     },
         "rich-text#info-header-second": {
           "props": {
-            "text": "WHAT DOES HE DO?",
+            "text": "WHAT DOES IT DO FOR YOU ?",
             "blockClass": "aboutus-headerInfoText"
           }
         },
@@ -106,12 +76,12 @@
         "maxHeight": "200",
         "maxWidth": "100%",
         "blockClass": "about-image",
-        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f0dd70f1-17e4-4c51-a190-892dcd78db82___1c02d0aab421cd4d30293353e9cd42b9.png"
+        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/96f6a65c-17bf-4cb2-9fce-523a7ff23366___ba270992531adf1a10567b69b14bab00.png"
             }
          },
         "rich-text#info-text-second": {
           "props": {
-            "text": "Danny delivers drinks! Never have to worry about that heavy lifting again when going to the supermarket: Danny will deliver your drinks to your door in 3 to 5 working days. ",
+            "text": "The jupiler shop delivers drinks ! \n Never have to worry about that heavy lifting again when going to the supermarket : we will deliver your drinks where you want in 3 to 5 working days",
             "blockClass": "aboutus-infoText"
           }
         },
@@ -120,7 +90,6 @@
 
     "flex-layout.col#aboutus-clo3":{
         "props":{
-          "borderColor": "red",
           "border": ["top", "right", "bottom", "left"],
           "borderWidth": 2,
         "paddingLeft": 5,
@@ -135,7 +104,7 @@
     },
             "rich-text#info-header-third": {
               "props": {
-                "text": "WHY DO WE LIKE HIM ?",
+                "text": "WHY DO WE LIKE IT ?",
                 "blockClass": "aboutus-headerInfoText"
               }
             },
@@ -147,12 +116,12 @@
             "maxHeight": "200",
             "maxWidth": "100%",
             "blockClass": "about-image",
-            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/b92cc510-83f8-4831-bb27-8f06dcfeff1a___da91d3a1554821aa83d58b335cfdf315.png"
+            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/afdf2c0b-c88f-4463-b7c6-b891ed6489ba___f6e95ec9d71953e9207cef185983fc6f.png"
                 }
              },
             "rich-text#info-text-third": {
               "props": {
-                "text": "We like Danny because Danny makes our life easy! From now on let's only focus on what matters: have a drink with friends, enjoy a nice cocktail or a beer. Danny makes sure you have what you need! ",
+                "text": "We like the shop because it makes our life easy ! \n From now on let’s only focus on what matters : have a drink with friends, enjoy a nice cocktail or a beer : we will provide \n What you need !",
                 "blockClass": "aboutus-infoText"
               }
             },
@@ -161,7 +130,6 @@
 
     "flex-layout.col#aboutus-clo4":{
         "props":{
-          "borderColor": "red",
           "border": ["top", "right", "bottom", "left"],
           "borderWidth": 2,
         "paddingLeft": 5,
@@ -177,7 +145,7 @@
 
             "rich-text#info-header-fourth": {
               "props": {
-                "text": "WHERE CAN HE HELP YOU ?",
+                "text": "WHAT IS MORE ?",
                 "blockClass": "aboutus-headerInfoText"
               }
             },
@@ -189,12 +157,12 @@
             "maxHeight": "200",
             "maxWidth": "100%",
             "blockClass": "about-image",
-            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e40e2ccc-5ddb-4a26-b165-6bf4da8cec6f___fa09f66b09373a60985963f31150a3de.png"
+      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/44e0a214-1eb8-4616-8879-d8141160d682___7597022a8ec59678733b2f3474b5a569.png"
                 }
              },
             "rich-text#info-text-fourth": {
               "props": {
-                "text": "Danny delivers drinks, now you get that. Well, there is even more! Danny will also help you find merchandising, glasses and even experience related to your favorite beer brands! ",
+                "text": "We deliver drinks, now you get that.\n Well, there’s even more ! \n We will also help you find merchandising, glasses and even experience related to your favorite beer brands ! ",
                 "blockClass": "aboutus-infoText"
               }
             }

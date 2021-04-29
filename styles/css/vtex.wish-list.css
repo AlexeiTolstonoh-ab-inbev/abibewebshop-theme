@@ -8,18 +8,20 @@
    background: transparent;
   position: absolute;
   border: none;
-  width: 85px;
-  height: 31px;
-  top: -36px;
-  right: 0px;
+  width: 45px;
+  height: 52px;
+  top: -20px;
+  right: 32px;
   background-size: contain;
   background-repeat: no-repeat;
   color: transparent;
+  z-index: 5;
 }
 :global(.vtex-wish-list-1-x-wishlistIconContainer--productpageWish){
   width: 100%;
   position: relative;
 }
+
 :global(.vtex-wish-list-1-x-wishlistIconContainer--productpageWish) :global(.vtex-button){
   background-image: none;
   background: transparent;
@@ -34,3 +36,25 @@
   background-repeat: no-repeat;
   color: transparent;
 }
+
+:global(.vtex-wish-list-1-x-outline){
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 40px;
+  min-width: 40px;
+  background-image: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ec7b1c18-0d52-4583-9e66-5c61393fbca5___3befaa5b4b4332a8498ad9ef146d5cbe.png");
+}
+
+:global(.vtex-wish-list-1-x-fill){
+  min-height: 40px;
+  min-width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6fa931ce-fc19-4943-b695-4214c432fdb3___5de76facb3003224ec9eec7988115c95.png");
+}
+:global(.vtex-wish-list-1-x-iconSize) {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+

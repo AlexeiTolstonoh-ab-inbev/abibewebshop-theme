@@ -1,7 +1,7 @@
 {
   "my-account-link.wishlist-link": {
     "props": {
-      "label": "My Wishlist"
+      "label": "Favorite products"
     }
   },
   "my-account-page.wishlist-page": {
@@ -22,7 +22,7 @@
   },
   "rich-text#title": {
     "props": {
-      "text": "### Wishlist"
+      "text": "### Favorite products"
     }
   },
   "list-context.wishlist": {

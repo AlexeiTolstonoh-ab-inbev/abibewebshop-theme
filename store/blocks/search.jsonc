@@ -264,14 +264,14 @@
     "props":{
     "height": 200,
     "blockClass": "notfound-image",
-    "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/16a3545e-7600-469d-b905-9fd03c07ccbc___bbbea4dc27cc461e22bb6ff4b39bcd8e.png"
+    "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/8c349daf-1ae1-4593-b7ab-3d0a25e4c73e___2df78f1e631556ffd1902d93a903b49a.png"
     }
   },
   "rich-text#notfound":{
     "props":{
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
-        "text": "Coming soon, Danny is working on it!",
+        "text": "Coming soon, we are working on it!",
       "blockClass": "notfound-text"
       }
   },
@@ -289,7 +289,7 @@
   "props":{
   "blockClass":"search-page-containe"},
       "children": [
-       "product-summary-image#searchProduct","add-to-list-btn","product-summary-name#serchName","flex-layout.row#search-specification-container","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
+       "add-to-list-btn","product-summary-image#searchProduct","product-summary-name#serchName","flex-layout.row#search-specification-container-productCount","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
        "availability-subscriber#searchPage"
       ]
   },
@@ -360,6 +360,34 @@
 
 
 
+ "flex-layout.row#search-specification-container-productCount":{
+    "props":{
+      "blockClass": "specificationContainerProductCount"
+    },
+      "children":["product-specification-badges#name-productCount","product-specification-badges#value-productCount"]
+},
+
+      "product-specification-badges#value-productCount": {
+          "props": {
+          "blockClass": "specificationValueProductCount",
+            "specificationGroupName": "productPerPuck",
+            "specificationsOptions": [{
+              "specificationName": "Order per",
+              "displayValue": "SPECIFICATION_VALUE"
+            }]
+          }
+        },
+
+   "product-specification-badges#name-productCount": {
+          "props": {
+          "blockClass": "specificationNameProductCount",
+            "specificationGroupName": "productPerPuck",
+            "specificationsOptions": [{
+              "specificationName": "Order per",
+              "displayValue": "SPECIFICATION_NAME"
+            }]
+          }
+        },
 
 
 

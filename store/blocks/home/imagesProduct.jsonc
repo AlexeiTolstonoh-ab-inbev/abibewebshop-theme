@@ -9,8 +9,22 @@
 "children":["flex-layout.col#puerbm-wrapper"]
 },
 "flex-layout.col#puerbm-wrapper":{
-  "children":["flex-layout.row#bottomimgrow","flex-layout.row#bottomlinkrow"]
+  "children":["rich-text#toptext","flex-layout.row#bottomimgrow","flex-layout.row#bottomlinkrow"]
 },
+
+
+  "rich-text#toptext":{
+    "props":{
+    "blockClass": "puerbm-title",
+         "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Our brands"
+          }
+          },
+
+
+
+
 "flex-layout.row#bottomimgrow":{
   "props":{
   "fullWidth": true,
@@ -51,7 +65,7 @@
       "blockClass": "bottomlinkctext",
          "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "text": "[FIND ALL OUR BRANDS HERE](/bathtub-gin/chaudfontaine/coca-cola/corona/croix-d-or/jupiler/la-laia-nuria/leffe/lipton/minute-maid/red-bull/rumbullion-/schweppes/smirnoff/stella-artois/tripel-karmeliet/victoria/william-lawson-s?__bindingAddress=danny.delivery/en&initialMap=b&initialQuery=jupiler&map=brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand)"
+          "text": "[START SHOPPING](/bathtub-gin/chaudfontaine/coca-cola/corona/croix-d-or/jupiler/la-laia-nuria/leffe/lipton/minute-maid/red-bull/rumbullion-/schweppes/smirnoff/stella-artois/tripel-karmeliet/victoria/william-lawson-s?__bindingAddress=danny.delivery/en&initialMap=b&initialQuery=jupiler&map=brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand,brand)"
           }
           },
   "flex-layout.col#img1":{

@@ -1,5 +1,15 @@
+.imageElement--about-image{
+  max-width: 172px !important;
+}
+.imageElement--features-image{
+  width: 140px;
+}
+
+:global(.vtex-store-components-3-x-logoContainer--logo-mobile){
+  padding: 0;
+}
 :global(.vtex-store-components-3-x-searchBarInnerContainer--opened) :global(.vtex-store-components-3-x-searchBarInnerContainer--filled){
-  background: red;
+  background: #D90026;
 }
 .imageElement--payment-method-img{
   width: 58px;
@@ -146,7 +156,7 @@
     padding: 140px;
   }
   .logoImage{
-    width: 231px;
+    width: 174px;
   }
 
   .label {

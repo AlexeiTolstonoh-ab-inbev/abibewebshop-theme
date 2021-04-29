@@ -85,10 +85,10 @@
   }
 }
 .headerRowContainer--main-header{
-  background: #ff4122;
+  background: #D90026;
 }
 .headerRowContainer--main-header-category{
-  background: #FFC600;
+  background: #000000;
   display: flex;
   justify-content: space-around;
 

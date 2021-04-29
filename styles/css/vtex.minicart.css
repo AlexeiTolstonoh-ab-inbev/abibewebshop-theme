@@ -1,27 +1,27 @@
-.minicartSummary{
-display: none;
-}
-.minicartContentContainer .price{
-  display: none;
-}
+
+
 .cartIcon{
   color: transparent;
   width: 25px;
   height: 25px;
 }
 .minicartContainer :hover{
-  background-color: #ff4122;
+  background-color: #D90026;
 }
 .minicartQuantityBadge{
-  background-color: #ff4122;
+  background-color: #D90026;
 }
 .minicartCheckoutButton{
-  background-color: #FFC600;
+  background-color: #D90026;
   padding-left: 0;
   padding-right: 0;
 }
+.minicartCheckoutButton :global(.vtex-button){
+  background: #D90026;
+  border: #D90026;
+}
 :global(.vtex-minicart-2-x-overlay--visible){
-  background-color: #FFC600;
+  background-color: white;
 }
 .openIconContainer{
   position: relative;

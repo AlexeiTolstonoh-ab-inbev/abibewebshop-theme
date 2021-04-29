@@ -1,8 +1,8 @@
 .drawerContent{
-  background-color: #FF4122;
+  background: #D90026;
 }
 .closeIconContainer{
-  background-color: #FF4122;
+  background: #D90026;
   height: 30px;
 }
 .openIconContainer{
@@ -15,5 +15,5 @@
   color: white;
 }
 .drawer{
-  background-color: #ff4122;
+  background: #D90026;
 }

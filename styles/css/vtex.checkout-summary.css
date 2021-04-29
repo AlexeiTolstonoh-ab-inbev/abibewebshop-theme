@@ -1,0 +1,20 @@
+
+.summaryItemContainer{
+  display: none;
+}
+.summaryItemContainer:first-child{
+  position: relative;
+  display: flex;
+}
+.summaryItemContainer:first-child::after{
+  position: absolute;
+  content: "(Shipping/deposit calculated on checkout)";
+  width: 223px;
+  height: 30px;
+  top: 17px;
+  left: 0;
+  font-size: 10px;
+}
+.summarySmallDisclaimer{
+  display: none;
+}

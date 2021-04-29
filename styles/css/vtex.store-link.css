@@ -1,3 +1,16 @@
+.label--bottom-link-custom-text6{
+  color: #D90026;
+  width: 130px;
+  background: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+.link--bottom-link-custom-text6{
+  text-decoration: none;
+}
+
+
 
 .label--image-link {
   color: white;

@@ -362,7 +362,8 @@
 
  "flex-layout.row#search-specification-container-productCount":{
     "props":{
-      "blockClass": "specificationContainerProductCount"
+      "blockClass": "specificationContainerProductCount",
+      "preserveLayoutOnMobile": true
     },
       "children":["product-specification-badges#name-productCount","product-specification-badges#value-productCount"]
 },

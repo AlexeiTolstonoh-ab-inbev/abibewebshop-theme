@@ -1,7 +1,7 @@
 {
   "vendor": "abibewebshop",
   "name": "abibewebshop-store-theme",
-  "version": "0.0.17",
+  "version": "1.0.1",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -67,7 +67,7 @@
     "vtex.product-price": "1.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.condition-layout": "2.x",
-    "vtex.builder-hub": "0.277.3"
+    "vtex.builder-hub": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

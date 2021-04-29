@@ -20,33 +20,16 @@
 }
 .badgeText--specificationValueProductCount{
   color: black;
-  background: #EFEFEF;
+  background: transparent;
   text-align: left;
 }
 .badgeContainer--order-per{
   color: black;
-  background: #EFEFEF;
+  background: transparent;
   text-align: left;
 }
-.badgeText--shelfSpecificationValueProductCount{
-  position: absolute;
-  top: 32px;
-  left: 20%;
-  padding: 8px;
-  border-radius: 25px;
-  width: 20px;
-  height: 20px;
-  background-color: #d90026;
-  font-size: 16px;
-  color: white;
-  z-index: 6;
-}
 
-.element--product-home-wrapper .badgeText--specificationValueProductCount{
-  top: 0;
-  left: 0;
-}
 
 :global(.vtex-flex-layout-0-x-flexRow--specificationContainerProductCount) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-  width: 30% !important;
+  width: 64px !important;
 }

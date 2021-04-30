@@ -1,3 +1,5 @@
+
+
 .label--bottom-link-custom-text6{
   color: #D90026;
   width: 130px;
@@ -30,8 +32,8 @@
   top: 0px;
 }
 .label--footer-link{
-  font-size: 22px;
-  text-transform: capitalize;
+  font-size: 16px;
+  text-transform: none;
   color: white;
   padding-left: 0;
   text-decoration: none;
@@ -40,8 +42,8 @@
 }
 .link--footer-link{
   text-decoration: none;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .label--news-links{
@@ -60,8 +62,8 @@
 }
 @media screen and (min-width: 678px){
   .label--footer-link{
-    font-size: 22px;
-    text-transform: capitalize;
+    font-size: 16px;
+    text-transform: none;
     color: white;
     text-decoration: none;
     padding-top: 5px;

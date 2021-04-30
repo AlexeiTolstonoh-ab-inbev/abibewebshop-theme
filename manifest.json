@@ -1,7 +1,7 @@
 {
   "vendor": "abibewebshop",
   "name": "abibewebshop-store-theme",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",

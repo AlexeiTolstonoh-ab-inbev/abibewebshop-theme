@@ -337,6 +337,7 @@
     "flex-layout.row#search-specification-container-deposite":{
     "props":{
       "fullWidth": true,
+      "preserveLayoutOnMobile": true,
       "blockClass": "specificationContainer"
     },
     "children": ["flex-layout.col#specificationNameDeposite"]
@@ -353,7 +354,7 @@
             "specificationGroupName": "drinks",
             "specificationsOptions": [{
               "specificationName": "bottle deposit €4.5 excluded",
-              "displayValue": "SPECIFICATION_NAME"
+              "displayValue": "deposit €4.5 excluded"
             }]
           }
         },

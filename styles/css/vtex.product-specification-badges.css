@@ -3,13 +3,18 @@
   font-size: 12px;
   margin: 0;
 }
+
+:global(.vtex-product-specification-badges-0-x-badgeContainer--bottle-deposit-euro45-excluded){
+  background-color: transparent !important;
+}
 .badgeContainer--price-per-unit{
-  background-color: #EFEFEF;
+  background-color: transparent;
   padding: 0;
 }
+
 .badgeText--bottle-deposit-euro45-excluded{
   color: black;
-  background: #EFEFEF;
+  background: transparent;
   text-align: left;
 }
 .groupContainer {

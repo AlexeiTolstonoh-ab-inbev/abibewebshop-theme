@@ -1,3 +1,6 @@
+.styledLinkContent--footer-link{
+  text-transform: initial !important;
+}
 .menuContainer--footerMenu{
   align-items: center;
   font-size: 22px;
@@ -110,14 +113,14 @@ display: flex;
 }
 .styledLinkContent--footer-link{
   color: white;
-  font-size: 22px;
+  font-size: 16px;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 
 }
 .styledLinkContent--footer-link:hover{
   color: white;
-  font-size: 22px;
+  font-size: 16px;
 }
 @media only screen and (min-width: 640px) {
   .menuContainer--footerMenu {

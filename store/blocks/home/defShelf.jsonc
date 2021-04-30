@@ -17,7 +17,7 @@
       "blockClass": "puerbm-title",
            "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "Our top pics"
+            "text": "Top picks"
             }
             },
    "list-context.product-list#producthome": {
@@ -51,6 +51,7 @@
     "flex-layout.col#image-container-producthome",
     "flex-layout.row#topContainer",
    //   "product-summary-quantity#test",
+   "flex-layout.row#search-specification-container-deposite",
 "flex-layout.row#search-specification-container-productCount",
 "flex-layout.row#empty"
     ]

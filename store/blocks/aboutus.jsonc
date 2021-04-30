@@ -5,7 +5,7 @@
         "horizontalAlign": "center",
         "blockClass": "aboutus-info-container-wrapper"
         },
-    "children":["flex-layout.col#aboutus-clo1", "flex-layout.col#aboutus-clo2", "flex-layout.col#aboutus-clo3", "flex-layout.col#aboutus-clo4"]
+    "children":["flex-layout.col#aboutus-clo1", "flex-layout.col#aboutus-clo3", "flex-layout.col#aboutus-clo4", "flex-layout.col#aboutus-clo2"]
     },
 
   "flex-layout.col#aboutus-clo1":{
@@ -42,7 +42,7 @@
  },
     "rich-text#info-text-first": {
       "props": {
-        "text": "The jupiler shop is about jupiler, the brand everyone loves of course... but not only ! this shop will offer you much more than only beer...",
+        "text": "The Jupiler Shop is about jupiler, the brand everyone loves of course... but not only ! this shop will offer you much more than only beer...",
         "blockClass": "aboutus-infoText"
       }
     },
@@ -76,12 +76,12 @@
         "maxHeight": "200",
         "maxWidth": "100%",
         "blockClass": "about-image",
-        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/96f6a65c-17bf-4cb2-9fce-523a7ff23366___ba270992531adf1a10567b69b14bab00.png"
+        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e604fdba-7825-454c-8c10-2fe84a09612e___8edaf9768d1cfc7b08d3edec1d792d9e.svg"
             }
          },
         "rich-text#info-text-second": {
           "props": {
-            "text": "The jupiler shop delivers drinks ! \n Never have to worry about that heavy lifting again when going to the supermarket : we will deliver your drinks where you want in 3 to 5 working days",
+            "text": "The Jupiler Shop delivers drinks ! \n Never have to worry about that heavy lifting again when going to the supermarket : we will deliver your drinks where you want in 3 to 5 working days",
             "blockClass": "aboutus-infoText"
           }
         },
@@ -116,7 +116,7 @@
             "maxHeight": "200",
             "maxWidth": "100%",
             "blockClass": "about-image",
-            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/afdf2c0b-c88f-4463-b7c6-b891ed6489ba___f6e95ec9d71953e9207cef185983fc6f.png"
+            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/38ca6db4-960c-499c-beb4-90ac455a3553___cd2cd4c4efa6672550df1371d7382007.svg"
                 }
              },
             "rich-text#info-text-third": {
@@ -157,7 +157,7 @@
             "maxHeight": "200",
             "maxWidth": "100%",
             "blockClass": "about-image",
-      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/44e0a214-1eb8-4616-8879-d8141160d682___7597022a8ec59678733b2f3474b5a569.png"
+            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/805b033c-709b-417f-810c-c7ba7d9f8f65___99e5047c7b296cb88e37279f49c47c24.svg"
                 }
              },
             "rich-text#info-text-fourth": {

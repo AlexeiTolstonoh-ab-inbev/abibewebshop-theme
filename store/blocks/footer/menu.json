@@ -16,16 +16,16 @@
       "blockClass": "footerMenu"
     },
     "children": [
-      "menu-item#website-about-danny",
+      "menu-item#website-about-us",
       "link#contactUsLink",
       "link#FAQLink",
       "menu-item#terms-conditions",
       "menu-item#website-Privacy-policy"
     ]
   },
-  "menu-item#website-about-danny": {
+  "menu-item#website-about-us": {
     "props": {
-      "id": "website-about-danny",
+      "id": "website-about-us",
       "blockClass": "footer-link",
       "type": "custom",
       "iconId": null,
@@ -34,8 +34,8 @@
         "type": "internal",
         "href": "/about-us",
         "noFollow": false,
-        "tagTitle": "About Us",
-        "text": "About Us"
+        "tagTitle": "About us",
+        "text": "About us"
       }
     }
   },
@@ -57,7 +57,7 @@
       "blockClass": "footer-link",
       "href": "/faq",
       "target": "_blank",
-      "label": "FAQ"
+      "label": "Faq"
     }
   },
   "menu-item#website-Privacy-policy": {
@@ -71,8 +71,8 @@
         "type": "internal",
         "href": "/privacy-policy/",
         "noFollow": false,
-        "tagTitle": "Privacy & Cookies",
-        "text": "Privacy & Cookies"
+        "tagTitle": "Privacy & cookies",
+        "text": "Privacy & cookies"
       }
     }
   },
@@ -87,8 +87,8 @@
         "type": "internal",
         "href": "/terms-and-conditions",
         "noFollow": false,
-        "tagTitle": "Terms & Conditions Website and Sale",
-        "text": "Terms & Conditions"
+        "tagTitle": "Terms & conditions website and sale",
+        "text": "Terms & conditions"
       }
     }
   }

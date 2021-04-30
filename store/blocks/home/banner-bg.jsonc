@@ -12,7 +12,7 @@
          "textAlignment": "CENTER",
          "blockClass": "bottom-banner-custom-text",
           "textPosition": "CENTER",
-          "text": "WE DELIVER [JUPILER](/beer/jupiler) TO YOUR DOOR \n [START SHOPPING](/beer/jupiler)"
+          "text": "WE DELIVER [JUPILER](/jupiler) TO YOUR DOOR \n [START SHOPPING](/jupiler)"
           }
           },
 
@@ -30,7 +30,7 @@
          "textAlignment": "CENTER",
          "blockClass": "bottom-banner-custom-text",
           "textPosition": "CENTER",
-          "text": "WE DELIVER [STELLA ARTOIS](/beer/stella-artois) TO YOUR DOOR  \n [START SHOPPING](/beer/stella-artois)"
+          "text": "WE DELIVER [STELLA ARTOIS](/stella-artois) TO YOUR DOOR  \n [START SHOPPING](/stella-artois)"
           }
           },
      "flex-layout.row#bottom-banner-custom3":{
@@ -46,7 +46,7 @@
               "textAlignment": "CENTER",
               "blockClass": "bottom-banner-custom-text",
                "textPosition": "CENTER",
-               "text": "WE DELIVER [WINE AND SPIRITS](/other-drinks/wine-and-more) TO YOUR DOOR \n [START SHOPPING](/other-drinks/wine-and-more)"
+               "text": "WE DELIVER [WINE AND SPIRITS](/bathtub-gin/croix-d-or/la-laia-nuria/smirnoff/william-lawson-s?__bindingAddress=www.jupilershop.be/en&initialMap=b&initialQuery=smirnoff&map=brand,brand,brand,brand,brand) TO YOUR DOOR \n [START SHOPPING](/bathtub-gin/croix-d-or/la-laia-nuria/smirnoff/william-lawson-s?__bindingAddress=www.jupilershop.be/en&initialMap=b&initialQuery=smirnoff&map=brand,brand,brand,brand,brand)"
                }
                },
        "flex-layout.row#bottom-banner-custom4":{
@@ -62,7 +62,7 @@
                 "textAlignment": "CENTER",
                 "blockClass": "bottom-banner-custom-text",
                  "textPosition": "CENTER",
-                 "text": "WE DELIVER [SPIRITS](/other-drinks/spirits) TO YOUR DOOR [START SHOPPING](/other-drinks/spirits)"
+                 "text": "WE DELIVER [SPIRITS](/other-drinks/juices) TO YOUR DOOR [START SHOPPING](/other-drinks/juices)"
                  }
                  },
         "flex-layout.row#bottom-banner-custom5":{
@@ -78,7 +78,7 @@
                  "textAlignment": "CENTER",
                  "blockClass": "bottom-banner-custom-text",
                   "textPosition": "CENTER",
-                  "text": "WE DELIVER [JUICE](/other-drinks/spirits) TO YOUR DOOR [START SHOPPING](/other-drinks/juices)"
+                  "text": "WE DELIVER [JUICE](/other-drinks/juices) TO YOUR DOOR [START SHOPPING](/other-drinks/juices)"
                   }
                   },
                   "flex-layout.row#bottom-banner-custom7":{
@@ -112,7 +112,7 @@
          "textAlignment": "CENTER",
          "blockClass": "bottom-banner-custom-text",
           "textPosition": "CENTER",
-          "text": "[FREE](/) DELIVERY FOR ALL DRINKS \n [START SHOPPING](/)"
+          "text": "[FREE](/beer) DELIVERY FOR ALL DRINKS \n [START SHOPPING](/beer)"
           }
           },
 

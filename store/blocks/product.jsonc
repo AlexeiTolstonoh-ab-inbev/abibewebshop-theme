@@ -46,11 +46,13 @@
       "vtex.store-components:product-name",
       //"product-rating-summary",
       "product-selling-price#product-details-inc-vat",
-    "product-specification-group#product",
+      //  "product-specifications#product",
+    //"product-specification-group#product",
       "product-separator",
       "product-quantity",
    //   "product-identifier.product",
       //"sku-selector",
+
       "product-description",
 
       "flex-layout.row#buy-button"
@@ -123,5 +125,14 @@
         "Pinterest": true
       }
     }
-  }
+  },
+
+
+     "product-specifications#product": {
+       "props": {
+         "shoudCollapseOnTabChange": true,
+         "collapsible": "desktopOnly",
+         "visibleSpecifications": ["bottle deposit €4.5 excluded"]
+       }
+     }
 }

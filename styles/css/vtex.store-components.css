@@ -1,5 +1,6 @@
 .imageElement--about-image{
-  max-width: 172px !important;
+  width: 172px !important;
+
 }
 .imageElement--features-image{
   width: 140px;

@@ -195,6 +195,7 @@
 .paragraph--footerSocialHeader{
   margin: 0;
   color: white;
+  font-size: 16px;
 }
 .paragraph--question-text{
   color: black;

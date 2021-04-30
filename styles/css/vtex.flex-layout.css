@@ -1,5 +1,4 @@
 
-
 .flexRow--aboutus-info-container-wrapper{
   margin-bottom: 20px;
 }
@@ -98,7 +97,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  min-height: 50px;
+  min-height: 38px;
 }
 
 .flexCol--col-container{
@@ -132,6 +131,7 @@
 :global(.vtex-flex-layout-0-x-flexRow--buy-button-pseudo){
   position: relative;
   height: 20px;
+  margin: 11px;
 }
 /*:global(.vtex-flex-layout-0-x-flexRow--buy-button-pseudo) ::before {*/
 /*  position: absolute;*/

@@ -1,8 +1,8 @@
 {
-  "minicart.v2": {
+ /* "minicart.v2": {
     "props": {
       "quantityDisplay":"always"
     },
     "children": ["minicart-base-content"]
-  }
+  }*/
 }

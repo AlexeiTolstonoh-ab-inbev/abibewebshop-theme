@@ -28,7 +28,7 @@
   background: transparent;
   text-align: left;
 }
-.badgeContainer--order-per{
+.badgeContainer--order-per,.badgeContainer--commande-par,.badgeContainer--bestel-per{
   color: black;
   background: transparent;
   text-align: left;
@@ -36,5 +36,5 @@
 
 
 :global(.vtex-flex-layout-0-x-flexRow--specificationContainerProductCount) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-  width: 64px !important;
+  width: auto !important;
 }

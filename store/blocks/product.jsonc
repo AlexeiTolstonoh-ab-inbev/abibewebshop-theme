@@ -51,7 +51,7 @@
       "product-separator",
       "product-quantity",
    //   "product-identifier.product",
-      //"sku-selector",
+      "sku-selector",
 
       "product-description",
 
@@ -100,7 +100,8 @@
 
   "sku-selector":{
   "props":{
-  "showValueForVariation":"all"
+  "showValueForVariation":"all",
+  "visibility":"more-than-one"
   }
   },
   "flex-layout.row#buy-button": {

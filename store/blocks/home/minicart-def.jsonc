@@ -32,6 +32,7 @@
   },
 "rich-text#minicart-descr": {
     "props": {
+    "blockClass": "minicart-descr",
       "text": "(Shipping/deposit calculated on checkout)"
     }
   },

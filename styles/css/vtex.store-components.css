@@ -1,3 +1,17 @@
+.skuSelectorNameContainer{
+  display: flex;
+  margin: 0;
+  position: relative;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorContainer){
+  margin: 0 !important;
+}
+:global(.vtex-store-components-3-x-frameAround){
+  border-color: grey!important;
+}
+
+
 .imageElement--about-image{
   width: 172px !important;
 

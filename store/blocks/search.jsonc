@@ -66,7 +66,6 @@
 
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#image",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -172,7 +171,6 @@
 
   "search-result-layout.mobile": {
     "children": [
-    "flex-layout.row#image",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
@@ -289,10 +287,17 @@
   "props":{
   "blockClass":"search-page-containe"},
       "children": [
-       "add-to-list-btn","product-summary-image#searchProduct","product-summary-name#serchName","flex-layout.row#search-specification-container-productCount","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
+       "add-to-list-btn","product-summary-image#searchProduct","product-summary-sku-selector#search","product-summary-name#serchName","flex-layout.row#search-specification-container-productCount","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
        "availability-subscriber#searchPage"
       ]
   },
+"product-summary-sku-selector#search":{
+  "props":{
+  "blockClass": "sku-search",
+  "showValueForVariation":"all",
+  "visibility":"more-than-one"
+  }
+},
 "flex-layout.row#search-specification-container":{
 "props":{
   "fullWidth": true,
@@ -373,21 +378,43 @@
           "props": {
           "blockClass": "specificationValueProductCount",
             "specificationGroupName": "productPerPuck",
-            "specificationsOptions": [{
-              "specificationName": "Order per",
-              "displayValue": "SPECIFICATION_VALUE"
-            }]
+                  "specificationsOptions": [
+                    {
+                      "specificationName": "Order per",
+                      "displayValue": "SPECIFICATION_VALUE"
+                    },
+                    {
+                      "specificationName": "Commande par",
+                      "displayValue": "SPECIFICATION_VALUE"
+                    },
+                    {
+                      "specificationName": "Bestel per",
+                      "displayValue": "SPECIFICATION_VALUE"
+                    }
+                  ]
           }
         },
+
+
 
    "product-specification-badges#name-productCount": {
           "props": {
           "blockClass": "specificationNameProductCount",
             "specificationGroupName": "productPerPuck",
-            "specificationsOptions": [{
-              "specificationName": "Order per",
-              "displayValue": "SPECIFICATION_NAME"
-            }]
+                  "specificationsOptions": [
+                    {
+                      "specificationName": "Order per",
+                      "displayValue": "SPECIFICATION_NAME"
+                    },
+                    {
+                      "specificationName": "Commande par",
+                      "displayValue": "SPECIFICATION_NAME"
+                    },
+                    {
+                      "specificationName": "Bestel per",
+                      "displayValue": "SPECIFICATION_NAME"
+                    }
+                  ]
           }
         },
 

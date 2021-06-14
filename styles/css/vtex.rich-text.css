@@ -35,6 +35,32 @@
   width: 90%;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper8) .link--bottom-banner-custom-text{
+  position: absolute;
+  bottom: -70px;
+  right: 10px;
+  color: #d90026;
+  font-size: 25px;
+  line-height: 1.1;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 40px;
+  background-color: white;
+  margin-top: 10px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper9) .link--bottom-banner-custom-text{
+  position: absolute;
+  bottom: -70px;
+  right: 10px;
+  color: #d90026;
+  font-size: 25px;
+  line-height: 1.1;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 40px;
+  background-color: white;
+  margin-top: 10px;
+}
 .link--bottom-banner-custom-text{
   position: absolute;
   bottom: -70px;
@@ -116,6 +142,27 @@
 :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper7)  .link--bottom-banner-custom-text:first-child{
   color: black;
 }
+
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrappe8) .link--bottom-banner-custom-text{
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper8)  .paragraph--bottom-banner-custom-text{
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper8)  .link--bottom-banner-custom-text:first-child{
+  color: white;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrappe9) .link--bottom-banner-custom-text{
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper9)  .paragraph--bottom-banner-custom-text{
+  color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper9)  .link--bottom-banner-custom-text:first-child{
+  color: white;
+}
+
 .container--bottom-banner-custom-text2{
   justify-content: center;
 

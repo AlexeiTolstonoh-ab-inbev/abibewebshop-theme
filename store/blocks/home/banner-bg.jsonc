@@ -106,7 +106,49 @@
             },
             "children":["rich-text#bottomText6"]
           },
+                  "flex-layout.row#bottom-banner-custom8":{
+                            "props": {
+                            "fullWidth": true,
+                            "blockClass": "bannerWrapper8",
+                            "marginTop":5
+                            },
+                            "children":["rich-text#bottomText8"]
+                          },
+                            "rich-text#bottomText8":{
+                              "props":{
+                                   "textAlignment": "CENTER",
+                                   "blockClass": "bottom-banner-custom-text",
+                                    "textPosition": "CENTER",
+                                    "text":"DISCOVER YOUR EXCLUSIVE [EUROCUP BOXES](/jupiler/merchandising?initialMap=c&initialQuery=merchandising&map=brand,category-1) [HERE](/jupiler/merchandising?initialMap=c&initialQuery=merchandising&map=brand,category-1)"
+                                    }
+                                    },
 
+   "flex-layout.row#bottom-banner-custom9":{
+                               "props": {
+                               "fullWidth": true,
+                               "blockClass": "bannerWrapper9",
+                               "marginTop":5
+                               },
+                               "children":["rich-text#bottomText9"]
+                             },
+                               "rich-text#bottomText9":{
+                                 "props":{
+                                      "textAlignment": "CENTER",
+                                      "blockClass": "bottom-banner-custom-text",
+                                       "textPosition": "CENTER",
+                                       "text":"[BUY YOUR EXCLUSIVE EUROCUP PRIVATE VIEWING EVENT](/all-products/eventshome) [HERE](/all-products/eventshome)"
+                                       }
+                                       },
+
+
+         "flex-layout.row#bottom-banner-custom6":{
+            "props": {
+            "fullWidth": true,
+            "blockClass": "bannerWrapper6",
+            "marginTop":5
+            },
+            "children":["rich-text#bottomText6"]
+          },
   "rich-text#bottomText6":{
     "props":{
          "textAlignment": "CENTER",
@@ -128,6 +170,6 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carouselText"
     },
-    "children": ["flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom7"]
+    "children": ["flex-layout.row#bottom-banner-custom9","flex-layout.row#bottom-banner-custom8","flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom7"]
   }
 }

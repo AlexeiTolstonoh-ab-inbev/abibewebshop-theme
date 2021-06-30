@@ -287,7 +287,7 @@
   "props":{
   "blockClass":"search-page-containe"},
       "children": [
-       "add-to-list-btn","product-summary-image#searchProduct","product-summary-sku-selector#search","product-summary-name#serchName","flex-layout.row#search-specification-container-productCount","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
+       "add-to-list-btn","product-summary-image#searchProduct","product-summary-sku-selector#search","product-summary-name#serchName","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
        "availability-subscriber#searchPage"
       ]
   },

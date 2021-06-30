@@ -52,7 +52,7 @@
     "flex-layout.row#topContainer",
    //   "product-summary-quantity#test",
    "flex-layout.row#search-specification-container-deposite",
-"flex-layout.row#search-specification-container-productCount",
+//"flex-layout.row#search-specification-container-productCount",
 "flex-layout.row#empty"
     ]
   },

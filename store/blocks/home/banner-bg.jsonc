@@ -168,7 +168,16 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carouselText"
+      "blockClass": "carouselText",
+      "slideTransition":{
+      "speed": 700,
+      "delay": 500,
+      "timing": "ease-in"
+      },
+      "autoplay":{
+      "timeout": 3000,
+      "stopOnHover":true
+      }
     },
     "children": ["flex-layout.row#bottom-banner-custom9","flex-layout.row#bottom-banner-custom8","flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom7"]
   }

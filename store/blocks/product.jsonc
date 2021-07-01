@@ -52,7 +52,6 @@
       "product-quantity",
    //   "product-identifier.product",
       "sku-selector",
-
       "product-description",
 
       "flex-layout.row#buy-button"

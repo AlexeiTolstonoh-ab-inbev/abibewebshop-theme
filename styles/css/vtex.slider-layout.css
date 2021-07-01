@@ -50,6 +50,9 @@ width: 100%;
 .imageElement--carousel-image{
   width: 100%;
 }
+:global(.vtex-slider-layout-0-x-sliderArrows--shelfProduct-container){
+  top: 50%;
+}
 @media only screen and (min-width: 768px){
   .imageElement--carousel-image{
     width:100%;

@@ -104,6 +104,9 @@
       "flex-layout.row#terms-and-conditions"
     ]
   },
+   "store.custom#search":{
+   "blocks":["flex-layout.row#search-custom"]
+   },
 
     "store.custom#privacy-policy": {
       "blocks": [

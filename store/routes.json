@@ -13,5 +13,8 @@
   },
   "store.custom#newsLatter": {
     "path": "/news"
+  },
+  "store.custom#search": {
+    "path": "/promotions"
   }
 }

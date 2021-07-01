@@ -1,10 +1,11 @@
 
 .summaryItemContainer{
-  display: none;
+  display: flex;
 }
+
 .summaryItemContainer:first-child{
   position: relative;
-  display: flex;
+  display: none;
 }
 /*.summaryItemContainer:first-child::after{*/
 /*  position: absolute;*/

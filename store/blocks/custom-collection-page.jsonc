@@ -1,0 +1,22 @@
+{
+"flex-layout.row#search-custom":{
+"children":["search-result-layout.customQuery#collection"]
+},
+	"search-result-layout.customQuery#collection":{
+	  	"props": {
+    			"querySchema": {
+    				"orderByField": "OrderByReleaseDateDESC",
+    				"hideUnavailableItems": true,
+    				"maxItemsPerPage": 50,
+    				"query": "140",
+    				"mapField":"productClusterIds",
+    				"skusFilter": "FIRST_AVAILABLE"
+    			}
+    		},
+  "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+    }
+}

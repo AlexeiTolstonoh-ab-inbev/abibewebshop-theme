@@ -31,20 +31,20 @@
 	margin-bottom: 0;
 }
 
-.noticesList {
-	background: transparent;
-    line-height: 1;
-    text-align: left;
-    padding-bottom: 1rem;
-}
+/*.noticesList {*/
+/*	background: transparent;*/
+/*    line-height: 1;*/
+/*    text-align: left;*/
+/*    padding-bottom: 1rem;*/
+/*}*/
 
-.noticeListItem {
-	border: none;
-	padding: 0 .2rem 0 0;
-    font-size: .75rem;
-    display: inline;
-    line-height: 1;
-}
+/*.noticeListItem {*/
+/*	border: none;*/
+/*	padding: 0 .2rem 0 0;*/
+/*    font-size: .75rem;*/
+/*    display: inline;*/
+/*    line-height: 1;*/
+/*}*/
 
 .section--pickupPackages {
 	border: none;

@@ -1,0 +1,11 @@
+{
+  "shelf.relatedProducts#new": {
+  "blocks":["product-summary.shelf#producthome"],
+      "props": {
+          "recommendation": "similars",
+          "productList": {
+              "titleText": "Buy together"
+          }
+      }
+  }
+}

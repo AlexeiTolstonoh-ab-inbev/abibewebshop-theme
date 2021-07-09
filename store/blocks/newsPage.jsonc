@@ -8,6 +8,8 @@
   },
  "children": ["flex-layout.col#newsWrapper"]
 },
+
+
 "flex-layout.col#newsWrapper":{
   "props":{
   "blockClass": "newsWrapper",

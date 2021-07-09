@@ -1,7 +1,7 @@
 {
   "vtex.product-highlights@2.x:product-highlights#shelf": {
   "props":{
-     "type": "collection",
+     "type": "teaser",
      "showHighlight": true
   },
     "children": ["product-highlight-text"]

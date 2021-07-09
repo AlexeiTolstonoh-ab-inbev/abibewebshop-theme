@@ -119,7 +119,7 @@
                                    "textAlignment": "CENTER",
                                    "blockClass": "bottom-banner-custom-text",
                                     "textPosition": "CENTER",
-                                    "text":"DISCOVER YOUR EXCLUSIVE [EUROCUP BOXES](/jupiler/merchandising?initialMap=c&initialQuery=merchandising&map=brand,category-1) [HERE](/jupiler/merchandising?initialMap=c&initialQuery=merchandising&map=brand,category-1)"
+                                    "text":"BUY 3 PACKS JUPILER RED BEER PACKS AND GET 1 [TOMORROWLAND DIGITAL TICKET](/) FOR FREE [HERE](/)"
                                     }
                                     },
 
@@ -168,17 +168,8 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carouselText",
-      "slideTransition":{
-      "speed": 700,
-      "delay": 500,
-      "timing": "ease-in"
-      },
-      "autoplay":{
-      "timeout": 3000,
-      "stopOnHover":true
-      }
+      "blockClass": "carouselText"
     },
-    "children": ["flex-layout.row#bottom-banner-custom9","flex-layout.row#bottom-banner-custom8","flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom7"]
+    "children": ["flex-layout.row#bottom-banner-custom8","flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom7"]
   }
 }

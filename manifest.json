@@ -1,7 +1,7 @@
 {
   "vendor": "abibewebshop",
   "name": "abibewebshop-store-theme",
-  "version": "1.0.9",
+  "version": "1.0.16",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -14,6 +14,9 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.product-summary": "2.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.recommendation-shelf": "1.x",
     "vtex.search": "2.x",
     "vtex.admin-search": "1.x",
     "vtex.search-resolver": "1.x",
@@ -25,7 +28,6 @@
     "abibewebshop.be-agegate": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
-    "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
     "vtex.store-components": "3.x",
     "vtex.styleguide": "9.x",
@@ -53,12 +55,11 @@
     "vtex.product-review-interfaces": "1.x",
     "vtex.reviews-and-ratings": "1.x",
     "vtex.telemarketing": "2.x",
-    "vtex.order-placed": "1.x",
+    "vtex.order-placed": "2.x",
     "vtex.checkout-summary": "0.x",
     "vtex.product-list": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.product-bookmark-interfaces": "1.x",
-    "vtex.slider-layout": "0.x",
     "vtex.store-image": "0.x",
     "vtex.store-icons": "0.x",
     "vtex.modal-layout": "0.x",

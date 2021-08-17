@@ -1,0 +1,80 @@
+{
+"flex-layout.row#benefits":{
+  "props":{
+  "blockClass": "newsContainer",
+  "horizontalAlign": "center",
+  "paddingTop":5,
+  "paddingBottom":5,
+  "fullWidth": true,
+  "preserveLayoutOnMobile":true
+  },
+  "children":["flex-layout.col#benefitsWrapperContainer"]
+},
+"flex-layout.col#benefitsWrapperContainer":{
+"props":{
+"fullWidth": true
+},
+
+"children":["flex-layout.row#benefitsForm","flex-layout.row#bentfitText"]
+},
+
+"flex-layout.row#benefitsForm":{
+"props":{
+  "fullWidth": true
+},
+ "children": ["flex-layout.col#benefitsBanner","flex-layout.col#benefitsWrapper"]
+},
+
+"flex-layout.col#benefitsBanner":{
+  "props":{
+  "blockClass": "benefitsBannerImageContainer",
+"horizontalAlign":"center",
+"verticalAlign": "middle",
+    "paddingLeft":2,
+    "paddingRight":2,
+    "width": "50%"
+  },
+ "children": ["image#benefitsBannerImage"]
+},
+"image#benefitsBannerImage": {
+    "props": {
+      "blockClass":"benefitsBannerImage",
+      "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ece03903-04b3-4401-9ca6-ebb7e4e4c340___66cad378ade1f7e67745325455d41ed6.png"
+    }
+  },
+
+"flex-layout.col#benefitsWrapper":{
+  "props":{
+  "blockClass": "newsWrapper",
+"horizontalAlign":"center",
+"verticalAlign": "middle",
+    "paddingLeft":2,
+    "paddingRight":2,
+    "width":"48%"
+  },
+ "children": ["newsLetter"]
+},
+"flex-layout.row#bentfitText":{
+"props":{
+  "fullWidth": true
+},
+"children":["flex-layout.col#benefitsTextWrapper"]
+},
+"flex-layout.col#benefitsTextWrapper":{
+"props":{
+"fullWidth": true,
+  "paddingLeft":5,
+  "paddingRight":5
+},
+"children":["rich-text#benefitsText"]
+},
+ "rich-text#benefitsText":{
+    "props":{
+         "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "benefitsBottomText",
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."
+          }
+          }
+
+}

@@ -106,6 +106,14 @@
             },
             "children":["rich-text#bottomText6"]
           },
+  "rich-text#bottomText6":{
+    "props":{
+         "textAlignment": "CENTER",
+         "blockClass": "bottom-banner-custom-text",
+          "textPosition": "CENTER",
+          "text": "[FREE](/beer) DELIVERY FOR ALL DRINKS \n [START SHOPPING](/beer)"
+          }
+          },
                   "flex-layout.row#bottom-banner-custom8":{
                             "props": {
                             "fullWidth": true,
@@ -119,7 +127,7 @@
                                    "textAlignment": "CENTER",
                                    "blockClass": "bottom-banner-custom-text",
                                     "textPosition": "CENTER",
-                                    "text":"BUY 3 PACKS JUPILER RED BEER PACKS AND GET 1 [TOMORROWLAND DIGITAL TICKET](/) FOR FREE [HERE](/)"
+                                    "text":"BUY 3 JUPILER RED BEER PACKS AND GET 1 [TOMORROWLAND DIGITAL TICKET](/) FOR FREE [HERE](/)"
                                     }
                                     },
 
@@ -140,23 +148,25 @@
                                        }
                                        },
 
+     "flex-layout.row#bottom-banner-custom10":{
+                                 "props": {
+                                 "fullWidth": true,
+                                 "blockClass": "bannerWrapper10",
+                                 "marginTop":5
+                                 },
+                                 "children":["rich-text#bottomText10"]
+                               },
+                                 "rich-text#bottomText10":{
+                                   "props":{
+                                        "textAlignment": "CENTER",
+                                        "blockClass": "bottom-banner-custom-text",
+                                         "textPosition": "CENTER",
+                                         "text":"DISCOVER YOUR EXCLUSIVE VICTORIA CYCLING OUTFITS [HERE](/).\n LIMITED STOCKS AVAILABLE ! [START SHOPPING](/)"
+                                         }
+                                         },
 
-         "flex-layout.row#bottom-banner-custom6":{
-            "props": {
-            "fullWidth": true,
-            "blockClass": "bannerWrapper6",
-            "marginTop":5
-            },
-            "children":["rich-text#bottomText6"]
-          },
-  "rich-text#bottomText6":{
-    "props":{
-         "textAlignment": "CENTER",
-         "blockClass": "bottom-banner-custom-text",
-          "textPosition": "CENTER",
-          "text": "[FREE](/beer) DELIVERY FOR ALL DRINKS \n [START SHOPPING](/beer)"
-          }
-          },
+
+
 
 
   "slider-layout#text-test": {
@@ -170,6 +180,6 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carouselText"
     },
-    "children": ["flex-layout.row#bottom-banner-custom8","flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom7"]
+    "children": ["flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom7"]
   }
 }

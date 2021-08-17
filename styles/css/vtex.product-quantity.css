@@ -9,4 +9,31 @@
 :global(.vtex-search-result-3-x-galleryItem) :global(.vtex-product-summary-2-x-container){
   background: rgb(251,249,240);
 }
+.quantitySelectorTitle{
+  display: none;
+}
+.quantitySelectorStepper{
+  width: 1em;
+  height: 1em;
+}
+:global(.vtex-numeric-stepper__minus-button),:global(.vtex-numeric-stepper__plus-button){
+  width: 1.3em!important;
+  height: 1.3em!important;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: black;
+}
+:global(.vtex-numeric-stepper__minus-button__text), :global(.vtex-numeric-stepper__plus-button__text){
+  color: white;
+}
 
+:global(.vtex-numeric-stepper__input){
+  width: 2em!important;
+  height: 2em!important;
+  border-radius: 10px;
+  border: 2px solid #D90026;
+}
+:global(.vtex-numeric-stepper__plus-button-container), :global(.vtex-numeric-stepper__minus-button-container){
+  display: flex;
+  align-items: center;
+}

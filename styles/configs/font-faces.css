@@ -4,3 +4,8 @@
   src: url(assets/fonts/GothamPro-Medium.woff2) , url(assets/fonts/GothamPro-Medium.ttf);
   font-weight: normal;
 }
+@font-face {
+  font-family: 'copperplate-Bold';
+  src: url(assets/fonts/copperplate-gothic-bold.woff2) , url(assets/fonts/copperplate-gothic-bold.ttf);
+  font-weight: normal;
+}

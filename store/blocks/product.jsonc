@@ -53,8 +53,10 @@
    //   "product-identifier.product",
       "sku-selector",
       "product-description",
-
+"availability-notify",
       "flex-layout.row#buy-button"
+      //"continue-shopping-button"
+      //
       //"shelf.relatedProducts#new"
      // "availability-subscriber",
       //"shipping-simulator",

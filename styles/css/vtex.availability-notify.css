@@ -1,0 +1,27 @@
+:global(.vtex-product-summary-2-x-containerNormal--search-page-containe) .notiferContainer{
+  background: red!important;
+  display: none!important;
+}
+:global(.vtex-product-summary-2-x-containerNormal--search-page-containe) .content{
+  display: flex!important;
+  flex-direction: column!important;
+}
+:global(.vtex-product-summary-2-x-containerNormal--search-page-containe) :global(.vtex-availability-notify-0-x-submit) :global(.vtex-button){
+  background-image: none;
+  width: 100%;
+  background-color: red;
+  position: relative;
+}
+:global(.vtex-product-summary-2-x-containerNormal--search-page-containe):hover .notiferContainer{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.4)!important;
+  display: flex!important;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  flex-direction: column!important;
+}

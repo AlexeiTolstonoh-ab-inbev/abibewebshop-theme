@@ -99,6 +99,7 @@
   "store.not-found#search": {
     "blocks": ["rich-text#not-found"]
   },
+
   "store.custom#terms-and-conditions": {
     "children": [
       "flex-layout.row#terms-and-conditions"
@@ -106,6 +107,12 @@
   },
    "store.custom#search":{
    "blocks":["flex-layout.row#search-custom"]
+   },
+   "store.custom#lastchance":{
+   "blocks":["flex-layout.row#search-custom"]
+   },
+   "store.custom#ClientInfo":{
+   "blocks":["flex-layout.row#benefits"]
    },
 
     "store.custom#privacy-policy": {

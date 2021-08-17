@@ -281,16 +281,32 @@
   },
 
   "gallery": {
-    "blocks": ["product-summary.shelf#search-page"]
+   "blocks": ["product-summary.shelf#search-page"]
+
   },
+
+
+
   "product-summary.shelf#search-page":{
   "props":{
   "blockClass":"search-page-containe"},
       "children": [
-       "add-to-list-btn","product-summary-image#searchProduct","product-summary-sku-selector#search","product-summary-name#serchName","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton",
-       "availability-subscriber#searchPage"
+       "add-to-list-btn","product-summary-image#searchProduct",
+       //"product-summary-redirect-link",
+       "product-summary-sku-selector#search","product-summary-name#serchName","flex-layout.row#search-specification-container-deposite","add-to-cart-button#searchBuyButton","flex-layout.row#bottom"
+       //"availability-notify"
       ]
   },
+
+"flex-layout.row#bottom":{
+"props":{
+"verticalAlign": "middle",
+"preserveLayoutOnMobile": true
+},
+"children":["product-selling-price#searchPrice","product-summary-quantity"]
+},
+
+
 "product-summary-sku-selector#search":{
   "props":{
   "blockClass": "sku-search",

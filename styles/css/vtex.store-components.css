@@ -1,3 +1,8 @@
+:global(.vtex-store-components-3-x-discountInsideContainer) {
+  display: none;
+}
+
+
 .skuSelectorNameContainer{
   display: flex;
   margin: 0;
@@ -150,7 +155,7 @@
 }
 :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
    height: 30px;
-   width: 30px;
+   width: fit-content;
  }
 :global(.vtex-product-summary-2-x-skuSelectorItemTextValue),
 :global(.vtex-store-components-3-x-skuSelectorItemTextValue){

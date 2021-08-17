@@ -107,6 +107,9 @@
 :global(.vtex-search-result-3-x-galleryItem--small){
   height: auto;
 }
+
+
+
 .filtersWrapper{
   background: #EFEFEF;
   padding: 10px;
@@ -173,17 +176,40 @@
 :global(.vtex-search-result-3-x-galleryItem){
   border-radius: 8px;
   padding: 6px;
-  max-height: 300px;
+  min-height: 310px;
 }
+
+
+
 .galleryItem--normal{
   background: white;
 flex-basis: 100%;
 }
+.galleryItem :global(.vtex-store-components-3-x-skuSelectorSelectorImageValue){
+  display: none;
+}
+
 
 .galleryItem :global(.vtex-product-summary-2-x-container) {
   background: #EFEFEF;
   padding: 10px;
   position: relative;
+}
+
+.galleryItem :global(.vtex-product-summary-2-x-container):hover {
+  background: #EFEFEF;
+  transition: box-shadow .5s linear;
+  box-shadow: 2px 2px 2px 2px #3f3f40;
+
+}
+.galleryItem :global(.vtex-product-summary-2-x-container):hover  :global(.vtex-product-summary-2-x-nameWrapper--serchName){
+  height: auto;
+  overflow: visible;
+  white-space: normal;
+  transition: all 1s linear;
+}
+.galleryItem :global(.vtex-product-summary-2-x-container):hover :global(.vtex-product-summary-2-x-nameContainer--serchName){
+  height: auto;
 }
 .galleryItem :global(.vtex-product-summary-2-x-image--searchProduct-image){
   background: #EFEFEF;
@@ -215,6 +241,32 @@ flex-basis: 100%;
   padding: 10px;
   max-width: 100%;
 }
+/*Change styles for disabled button- start*/
+.galleryItem :global(.vtex-button):disabled{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: darkgrey;
+  background-image: none;
+}
+.galleryItem:hover :global(.vtex-button):disabled{
+  position: absolute;
+  width: 100%;
+  height: 105%;
+  transform: translateY(-5%);
+  opacity: 0.6;
+  background-color: darkgrey;
+  background-image: none;
+  transition: opacity .5s linear;
+  padding: 0;
+}
+.galleryItem :global(.vtex-button):disabled :global(.vtex-button__label){
+  color: white;
+  font-size: 2em;
+  transform:rotate(-45deg);
+}
+/*Change styles for disabled button end*/
 
 
 .galleryItem :global(.vtex-button) {

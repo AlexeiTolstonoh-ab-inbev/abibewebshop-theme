@@ -1,0 +1,22 @@
+{
+"flex-layout.row#search-custom-chance":{
+"children":["search-result-layout.customQuery#collection-chance"]
+},
+	"search-result-layout.customQuery#collection-chance":{
+	  	"props": {
+    			"querySchema": {
+    				"orderByField": "OrderByReleaseDateDESC",
+    				"hideUnavailableItems": true,
+    				"maxItemsPerPage": 50,
+    				"query": "142",
+    				"mapField":"productClusterIds",
+    				"skusFilter": "FIRST_AVAILABLE"
+    			}
+    		},
+  "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+    }
+}

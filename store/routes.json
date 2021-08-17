@@ -16,5 +16,11 @@
   },
   "store.custom#search": {
     "path": "/promotions"
+  },
+  "store.custom#lastchance": {
+    "path": "/lastCahance"
+  },
+  "store.custom#ClientInfo": {
+    "path": "/benefits"
   }
 }

@@ -30,26 +30,22 @@
     "children": ["slider-layout#wishlist"]
   },
   "product-summary.shelf#wishlist": {
-    "children": [
-      "add-to-list-btn",
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-space",
-      "product-summary-price",
-      "add-to-cart-button"
-    ]
+   "children": [
+        "product-summary-image#searchProduct","product-summary-sku-selector#search","product-summary-name#serchName","flex-layout.row#search-specification-container-deposite","product-selling-price#searchPrice","add-to-cart-button#searchBuyButton"
+
+       ]
   },
   "slider-layout#wishlist": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
+        "desktop": 4,
+        "tablet": 2,
         "phone": 1
       },
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "always",
       "infinite": false,
-      "fullWidth": true,
+      "fullWidth": false,
       "blockClass": "shelf"
     }
   }

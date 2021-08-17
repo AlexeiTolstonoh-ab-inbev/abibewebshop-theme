@@ -1,3 +1,7 @@
+.paragraph--benefitsBottomText{
+font-size: 14px;
+  padding-top: 15px;
+}
 .wrapper--features-text{
   width: 75%;
   margin: 0 auto;
@@ -84,6 +88,8 @@
   padding: 0;
 }
 
+
+
 :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper) .link--bottom-banner-custom-text{
   color: white;
 }
@@ -155,12 +161,32 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--bannerWrappe9) .link--bottom-banner-custom-text{
   color: white;
+
 }
 :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper9)  .paragraph--bottom-banner-custom-text{
   color: white;
 }
 :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper9)  .link--bottom-banner-custom-text:first-child{
   color: white;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10) .link--bottom-banner-custom-text{
+  color: #1D252D;
+  background: white;
+  font-family: "copperplate-Bold", sans-serif!important;
+  font-size: 22px;
+  bottom: -50px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10)  .paragraph--bottom-banner-custom-text{
+  color: #1D252D;
+  font-family: "copperplate-Bold", sans-serif!important;
+  text-align: center;
+  font-size: 22px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10)  .link--bottom-banner-custom-text:first-child{
+  color: #1D252D;
+  font-family: "copperplate-Bold", sans-serif!important;
+  background: transparent;
+  font-size: 22px;
 }
 
 .container--bottom-banner-custom-text2{
@@ -419,7 +445,7 @@
 
 @media only screen and (min-width: 640px) {
   .container--question .strong {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 3rem;
   }
   .paragraph--news-header{
@@ -445,7 +471,24 @@
     .paragraph--bottom-banner-custom-text{
       text-align: left;
       color: white;
-      width: 92%;
+      width: 82%;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10) .link--bottom-banner-custom-text{
+      color: #1D252D;
+      font-size: 22px;
+      bottom: -70px;
+      right: -40px;
+      line-height: 1.5;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10)  .paragraph--bottom-banner-custom-text{
+      color: white;
+      font-size: 25px;
+      line-height: 1.5;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10)  .link--bottom-banner-custom-text:first-child{
+      color: white;
+      font-size: 25px;
+      line-height: 1.5;
     }
   }
   @media screen and (min-width: 944px){
@@ -455,27 +498,56 @@
     .paragraph--bottom-banner-custom-text{
       text-align: left;
       margin-left: 8px;
-      width: 86%;
+      width: 82%;
       font-size: 41px;
       line-height: 1.3;
       color: white;
     }
+
     .link--bottom-banner-custom-text:first-child{
      font-size: 41px;
     }
     .link--bottom-banner-custom-text{
-      font-size: 32px;
+      font-size: 41px;
       bottom: -58px;
       line-height: 1.3;
     }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10) .link--bottom-banner-custom-text{
+      color: #1D252D;
+      font-size: 24px;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10)  .paragraph--bottom-banner-custom-text{
+      color: white;
+      font-size: 24px;
+      text-align: left;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10)  .link--bottom-banner-custom-text:first-child{
+      color: white;
+      font-size: 24px;
+    }
+
+
 
   }
   @media screen and (min-width: 1024px){
     .link--bottom-banner-custom-text{
-      font-size: 32px;
+      font-size: 35px;
       bottom: -75px;
       right: 0;
       line-height: 1.3;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10) .link--bottom-banner-custom-text{
+      color: #1D252D;
+      font-size: 27px;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10)  .paragraph--bottom-banner-custom-text{
+      color: white;
+      font-size: 30px;
+      text-align: left;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10)  .link--bottom-banner-custom-text:first-child{
+      color: white;
+      font-size: 30px;
     }
   }
 }

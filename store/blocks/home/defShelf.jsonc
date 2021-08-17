@@ -68,8 +68,10 @@
     "product-summary-image#producthome",
 //"vtex.product-highlights@2.x:product-highlights#shelf",
     "flex-layout.row#topContainer",
+    //"availability-notify",
    //   "product-summary-quantity#test",
    "flex-layout.row#search-specification-container-deposite",
+
 //"flex-layout.row#search-specification-container-productCount",
 "flex-layout.row#empty"
     ]

@@ -290,6 +290,13 @@
         "textTransform": "capitalize",
         "letterSpacing": "0"
       },
+      "t-heading-7":{
+  "fontFamily": "Gotham-Medium",
+  "fontWeight": "normal",
+  "fontSize": "0.75rem",
+  "textTransform": "initial",
+  "letterSpacing": "0"
+},
       "body": {
         "fontFamily": "Gotham-Medium",
         "fontWeight": "normal",

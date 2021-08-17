@@ -1,7 +1,7 @@
 {
   "vendor": "abibewebshop",
   "name": "abibewebshop-store-theme",
-  "version": "1.0.16",
+  "version": "2.0.23",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
@@ -14,6 +14,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "abibewebshop.be-news": "0.x",
     "vtex.product-summary": "2.x",
     "vtex.slider-layout": "0.x",
     "vtex.recommendation-shelf": "1.x",
@@ -72,7 +73,8 @@
     "vtex.product-highlights": "2.x"
   },
   "peerDependencies": {
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "vtex.availability-notify": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

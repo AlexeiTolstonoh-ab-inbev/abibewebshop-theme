@@ -1,4 +1,6 @@
 
+
+
 .flexRow--aboutus-info-container-wrapper{
   margin-bottom: 20px;
 }
@@ -91,6 +93,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10){
+  min-height: 450px;
+  background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6596b4c9-b950-4a28-88fc-1d63b020dd9b___686b16b2a8fb1ce7d19f04f4a45221c5.png")no-repeat 24% 90%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10589c8f-e81a-44a7-99b5-f86e9aba15f2___90b454e01d1abcabfa216804dbc58e73.png")no-repeat 75% 90%,#F8F1E0;
+  background-size: auto,76px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
 }
 :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
   min-height: 450px;
@@ -223,6 +235,7 @@
   background: transparent !important;
 }
 @media screen and (min-width: 500px) {
+
   :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper){
     min-height: 450px;
     background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/87fc8175-f67e-4a42-bc42-60d56537e8bb___a4d1e5085f96b11cd0cb5567a980d4eb.png") no-repeat center 100%, #D90026;
@@ -267,6 +280,15 @@
     align-items: center;
     justify-content: center;
   }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10){
+    min-height: 450px;
+    background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6596b4c9-b950-4a28-88fc-1d63b020dd9b___686b16b2a8fb1ce7d19f04f4a45221c5.png")no-repeat 11% 95%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10589c8f-e81a-44a7-99b5-f86e9aba15f2___90b454e01d1abcabfa216804dbc58e73.png")no-repeat 55% 95%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2148f2ae-50ac-4c4d-9304-149f13c7cadf___b6a569c7cbb3074564ceccc2a7bf2719.png")no-repeat 58% 49%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10152dc0-a9c1-4ea4-a8dd-dea344e32fe6___dca96bd5a9d926ee5758a984bdb9971c.png")no-repeat 91% 95%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/43571751-77da-4368-86c6-ad1c937edb3d___d1adfd9b7abed4002a75f26abc7e993f.png")no-repeat 40% 71%,#F8F1E0;
+    background-size: auto,auto,450px auto,155px,73px,1520px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 610px){
   :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
@@ -276,8 +298,30 @@
     display: flex;
     justify-content: center;
   }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10){
+    min-height: 450px;
+    background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6596b4c9-b950-4a28-88fc-1d63b020dd9b___686b16b2a8fb1ce7d19f04f4a45221c5.png")no-repeat 22% 98%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10589c8f-e81a-44a7-99b5-f86e9aba15f2___90b454e01d1abcabfa216804dbc58e73.png")no-repeat 53% 95%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2148f2ae-50ac-4c4d-9304-149f13c7cadf___b6a569c7cbb3074564ceccc2a7bf2719.png")no-repeat 58% 49%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10152dc0-a9c1-4ea4-a8dd-dea344e32fe6___dca96bd5a9d926ee5758a984bdb9971c.png")no-repeat 79% 97%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/43571751-77da-4368-86c6-ad1c937edb3d___d1adfd9b7abed4002a75f26abc7e993f.png")no-repeat 42% 71%,#F8F1E0;
+    background-size: auto,auto,450px auto,155px,73px,1520px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 768px) {
+  .flexCol--benefitsBannerImageContainer{
+    display: flex;
+  }
+  .flexRowContent--newsContainer{
+    width: 100% !important;
+  }
+  .flexCol--newsWrapper{
+    width: 100% !important;
+  }
+  /*.flexRowContent--newsContainer :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{*/
+  /*  width: 60%!important;*/
+  /*  display: flex;*/
+  /*}*/
   .flexRowContent--features-wrapper :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     width: 25% !important;
   }
@@ -359,6 +403,16 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
     align-items: center;
     justify-content: flex-start;
   }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10){
+    background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6596b4c9-b950-4a28-88fc-1d63b020dd9b___686b16b2a8fb1ce7d19f04f4a45221c5.png")no-repeat 61% 75%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10589c8f-e81a-44a7-99b5-f86e9aba15f2___90b454e01d1abcabfa216804dbc58e73.png")no-repeat 77% 79%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2148f2ae-50ac-4c4d-9304-149f13c7cadf___b6a569c7cbb3074564ceccc2a7bf2719.png")no-repeat 101% 19%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10152dc0-a9c1-4ea4-a8dd-dea344e32fe6___dca96bd5a9d926ee5758a984bdb9971c.png")no-repeat 99% 78%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/43571751-77da-4368-86c6-ad1c937edb3d___d1adfd9b7abed4002a75f26abc7e993f.png")no-repeat 72% 50%,linear-gradient(90deg,#1D252D 26%, #FFFFFF 26%);
+    background-size: 119px,auto,48% 23%,145px,51px,1520px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
   :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
     background:  url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6f504021-5bc5-4a4c-83ed-890503dc4732___eb406dd0dcb2dd904a3d452f24b6d279.jpg") no-repeat 100%,#d90026 ;
     background-size: auto 100%, contain;
@@ -396,6 +450,9 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
   .flexRowContent--bannerWrapper9{
     width: 53%;
   }
+  .flexRowContent--bannerWrapper10{
+    width: 46%;
+  }
   .flexCol--bottom-banner-col-custom-col6{
     justify-content: flex-start;
     width: 53%!important;
@@ -408,7 +465,19 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
     justify-content: flex-start;
   }
 }
+@media screen and (min-width: 847px) {
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10){
+    background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6596b4c9-b950-4a28-88fc-1d63b020dd9b___686b16b2a8fb1ce7d19f04f4a45221c5.png")no-repeat 61% 75%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10589c8f-e81a-44a7-99b5-f86e9aba15f2___90b454e01d1abcabfa216804dbc58e73.png")no-repeat 77% 79%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2148f2ae-50ac-4c4d-9304-149f13c7cadf___b6a569c7cbb3074564ceccc2a7bf2719.png")no-repeat 101% 19%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10152dc0-a9c1-4ea4-a8dd-dea344e32fe6___dca96bd5a9d926ee5758a984bdb9971c.png")no-repeat 99% 78%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/43571751-77da-4368-86c6-ad1c937edb3d___d1adfd9b7abed4002a75f26abc7e993f.png")no-repeat 72% 50%,linear-gradient(90deg,#1D252D 29%, #FFFFFF 26%);
+    background-size: 119px,auto,48% 23%,145px,51px,1520px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
 
+
+}
   @media screen and (min-width: 40em) {
     .flexRowContent--menu-link,
     .flexRowContent--main-header {
@@ -493,7 +562,7 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
     }
     :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper8){
       /*background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/30776d71-2bb9-4894-baf2-5fd13df74efa___844911a18a877a3666e83cc53c44a23d.png") no-repeat 90% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/09d6021f-17bc-4675-a47c-e0761ee78fae___43d36c0af405919aa8d88b25cc8cb129.png") no-repeat 85% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ff1d3451-43de-400f-815c-1ca0856cd941___67a755d26446f036633b17dc2dff8c67.png")no-repeat 85% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/84c79446-dcfa-4ade-b9b9-2d3087602929___dfede4ad1fd03942222c4f2356176fce.png")no-repeat 80% center,linear-gradient(90deg,#FFFFFF 54%,#D90026 46%) no-repeat;*/
-      background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/baeeb117-58eb-4efb-aee4-ea84e335eb92___8d504f9971f4963e54436e025494af26.png")no-repeat 67%, center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/88808b93-344c-4d3a-ad1f-bc326f4c1418___d00ddeaced116dc902532a415b3002aa.jpg")no-repeat right center,#191B2D;
+      background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/c9ab5a1a-dc26-4863-98f6-fbb35d6e9be6___50d62ce509b76e9ee71fdcb15cbf9be7.png")no-repeat 67%, center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/88808b93-344c-4d3a-ad1f-bc326f4c1418___d00ddeaced116dc902532a415b3002aa.jpg")no-repeat right center,#191B2D;
       background-size: 285px,auto,auto;
       width: 100%;
       min-height: 400px;
@@ -511,6 +580,18 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
       align-items: center;
       justify-content: flex-start;
     }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10){
+     /*background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6596b4c9-b950-4a28-88fc-1d63b020dd9b___686b16b2a8fb1ce7d19f04f4a45221c5.png")no-repeat 61% 75%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10589c8f-e81a-44a7-99b5-f86e9aba15f2___90b454e01d1abcabfa216804dbc58e73.png")no-repeat 77% 79%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2148f2ae-50ac-4c4d-9304-149f13c7cadf___b6a569c7cbb3074564ceccc2a7bf2719.png")no-repeat 101% 19%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/10152dc0-a9c1-4ea4-a8dd-dea344e32fe6___dca96bd5a9d926ee5758a984bdb9971c.png")no-repeat 99% 78%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/43571751-77da-4368-86c6-ad1c937edb3d___d1adfd9b7abed4002a75f26abc7e993f.png")no-repeat 72% 50%,linear-gradient(90deg,#1D252D 35%, #FFFFFF 35%);*/
+    /*background-size: 119px,auto,48% 23%,145px,51px,1520px;*/
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f1d657b9-8244-4ef6-87f5-6095c4be5ea0___75c3be8a6329ad4a64f36c58a36dce67.png")no-repeat right 90%, linear-gradient(90deg,#1D252D 35%, #FFFFFF 35%);
+      background-size:auto 400px,1520px;
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
     :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
       background:  url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6f504021-5bc5-4a4c-83ed-890503dc4732___eb406dd0dcb2dd904a3d452f24b6d279.jpg") no-repeat 100%,#d90026 ;
       background-size: auto 100%, 100%;
@@ -544,6 +625,9 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
     }
     .flexRowContent--bannerWrapper8{
       width: 53%;
+    }
+    .flexRowContent--bannerWrapper8{
+      width: 46%;
     }
     .flexCol--bottom-banner-col-custom-col6{
       justify-content: flex-start;
@@ -682,5 +766,14 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
 
     :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-flexRowContent--deals-container) {
       background: #252424;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper10){
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f1d657b9-8244-4ef6-87f5-6095c4be5ea0___75c3be8a6329ad4a64f36c58a36dce67.png")no-repeat right 90%, linear-gradient(90deg,#1D252D 41%, #FFFFFF 35%);
+      background-size:auto 400px,1520px;
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
     }
   }
